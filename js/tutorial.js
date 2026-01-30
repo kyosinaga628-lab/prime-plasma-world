@@ -22,43 +22,43 @@ window.initTutorial = function () {
             {
                 element: '.header-overlay',
                 popover: {
-                    title: 'SISMIC JPへようこそ',
-                    description: '日本周辺の地震活動を可視化するインタラクティブマップです。<br>このガイドでは主な機能を紹介します。'
+                    title: 'SISMIC WORLDへようこそ',
+                    description: '世界の地震活動を可視化するインタラクティブマップです。<br>このガイドでは主な機能を紹介します。'
                 }
             },
             {
                 element: '#map',
                 popover: {
                     title: 'マップ表示エリア',
-                    description: 'ここに地震が円として描画されます。<br>・<span style="color:#00a8cc">青</span>: M2.5-5 (小規模)<br>・<span style="color:#ff9900">黄</span>: M5-6 (中規模)<br>・<span style="color:#e51c23">赤</span>: M6+ (大規模)'
+                    description: '世界中で発生した地震が円として描画されます。<br>・<span style="color:#00a8cc">青</span>: M4.5-5 (中規模)<br>・<span style="color:#ff9900">黄</span>: M5-6 (強震)<br>・<span style="color:#e51c23">赤</span>: M6+ (大地震)'
                 }
             },
             {
                 element: '.year-tabs-overlay',
                 popover: {
                     title: 'データの切り替え',
-                    description: '「直近1年」や過去の年代（2011年〜）を選択してデータを切り替えます。<br>まずは気になる年代を選んでみましょう。'
+                    description: '「直近1年」や過去の年代（2011年〜）を選択してデータを切り替えます。<br>データ量が多い年代は読み込みに時間がかかる場合があります。'
                 }
             },
             {
                 element: '.controls-overlay',
                 popover: {
                     title: '再生コントロール',
-                    description: '再生ボタン▶でアニメーションを開始します。<br>スライダーを動かすことで、任意の時点にジャンプできます。'
+                    description: '再生ボタン▶で時系列アニメーションを開始します。<br>スライダーを動かすことで、任意の時点にジャンプできます。'
                 }
             },
             {
                 element: '.stats-container',
                 popover: {
                     title: '統計データ',
-                    description: '選択された期間内の地震総数と、その中の最大マグニチュードが表示されます。'
+                    description: '表示中の期間内の地震総数と、最大マグニチュードが表示されます。'
                 }
             },
             {
                 element: '#relief-toggle',
                 popover: {
-                    title: '地形図モード',
-                    description: 'このボタンで地形図（陰影起伏図）のオン/オフができます。<br>海溝や山脈などの地形と地震の関係を見るのに便利です。'
+                    title: 'プレート境界の表示',
+                    description: 'このボタンで世界のプレート境界（海溝など）を表示できます。<br>地震の発生場所とプレートの関係性を確認してみましょう。'
                 }
             },
             {

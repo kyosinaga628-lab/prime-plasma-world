@@ -27,11 +27,7 @@ def fetch_year_data(year):
         "format": "geojson",
         "starttime": start_str,
         "endtime": end_str,
-        "minlatitude": 20,
-        "maxlatitude": 50,
-        "minlongitude": 120,
-        "maxlongitude": 155,
-        "minmagnitude": 2.5,
+        "minmagnitude": 4.5,
         "orderby": "time"
     }
     
