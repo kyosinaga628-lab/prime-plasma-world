@@ -54,13 +54,7 @@ window.initTutorial = function () {
                     description: '表示中の期間内の地震総数と、最大マグニチュードが表示されます。'
                 }
             },
-            {
-                element: '#relief-toggle',
-                popover: {
-                    title: 'プレート境界の表示',
-                    description: 'このボタンで世界のプレート境界（海溝など）を表示できます。<br>地震の発生場所とプレートの関係性を確認してみましょう。'
-                }
-            },
+
             {
                 element: '#tutorial-toggle',
                 popover: {

@@ -28,8 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
         infoClose: document.getElementById('info-close'),
         yearTabs: document.querySelectorAll('.year-tab'),
         loadingOverlay: document.getElementById('loading-overlay'),
-        tutorialToggle: document.getElementById('tutorial-toggle'),
-        reliefToggle: document.getElementById('relief-toggle')
+        tutorialToggle: document.getElementById('tutorial-toggle')
     };
 
     // Info Panel Toggle
@@ -47,45 +46,6 @@ document.addEventListener('DOMContentLoaded', () => {
         els.tutorialToggle.addEventListener('click', () => {
             if (window.startTutorial) window.startTutorial();
         });
-    }
-
-    // Plate Layer Toggle
-    let plateLayer = null;
-    let isPlateLayerVisible = false;
-
-    if (els.reliefToggle) {
-        els.reliefToggle.addEventListener('click', togglePlateLayer);
-    }
-
-    function togglePlateLayer() {
-        if (isPlateLayerVisible) {
-            if (plateLayer) map.removeLayer(plateLayer);
-            els.reliefToggle.classList.remove('active');
-            isPlateLayerVisible = false;
-        } else {
-            if (!plateLayer) {
-                // Fetch and create layer
-                fetch('data/plates.geojson')
-                    .then(res => res.json())
-                    .then(data => {
-                        plateLayer = L.geoJSON(data, {
-                            style: {
-                                color: '#ff5722', // Orange-ish
-                                weight: 2,
-                                opacity: 0.6
-                            }
-                        });
-                        map.addLayer(plateLayer);
-                        els.reliefToggle.classList.add('active');
-                        isPlateLayerVisible = true;
-                    })
-                    .catch(err => console.error('Failed to load plates:', err));
-            } else {
-                map.addLayer(plateLayer);
-                els.reliefToggle.classList.add('active');
-                isPlateLayerVisible = true;
-            }
-        }
     }
 
     // Initialize Map (Center on World)
