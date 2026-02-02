@@ -28,7 +28,8 @@ document.addEventListener('DOMContentLoaded', () => {
         infoClose: document.getElementById('info-close'),
         yearTabs: document.querySelectorAll('.year-tab'),
         loadingOverlay: document.getElementById('loading-overlay'),
-        tutorialToggle: document.getElementById('tutorial-toggle')
+        tutorialToggle: document.getElementById('tutorial-toggle'),
+        speedSelect: document.getElementById('speed-select')
     };
 
     // Info Panel Toggle
@@ -160,6 +161,7 @@ document.addEventListener('DOMContentLoaded', () => {
         state.currentYear = year;
         state.isPlaying = false;
         state.playbackSpeed = 1.0;
+        if (els.speedSelect) els.speedSelect.value = "1.0";
         updateControls();
 
         clearAllMarkers();
@@ -235,6 +237,12 @@ document.addEventListener('DOMContentLoaded', () => {
             els.yearTabs.forEach(tab => {
                 tab.addEventListener('click', handleYearTabClick);
             });
+
+            if (els.speedSelect) {
+                els.speedSelect.addEventListener('change', (e) => {
+                    state.playbackSpeed = parseFloat(e.target.value);
+                });
+            }
 
             requestAnimationFrame(animate);
 

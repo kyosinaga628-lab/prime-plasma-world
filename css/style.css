@@ -925,3 +925,34 @@ input[type=range]::-webkit-slider-thumb {
     gap: 12px !important;
     display: flex !important;
 }
+
+/* Speed Select */
+.speed-select {
+    background: transparent;
+    border: 1px solid var(--text-secondary);
+    color: var(--text-primary);
+    padding: 0 4px;
+    height: 40px;
+    border-radius: 6px;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.8rem;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.2s ease;
+    margin-left: 5px;
+}
+
+.speed-select:hover {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+    background: rgba(0, 153, 204, 0.1);
+}
+
+.speed-select:focus {
+    border-color: var(--accent-color);
+}
+
+.speed-select option {
+    background: var(--bg-color);
+    color: var(--text-primary);
+}
