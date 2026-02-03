@@ -1,4 +1,4 @@
-# Sismic JP - Dynamic Earthquake Visualization
+# Seismic JP - Dynamic Earthquake Visualization
 
 A dynamic, interactive visualization of earthquake activity around Japan. This project visualizes seismic events with time-series animations, audio feedback, and an extensive data archive ranging from 2011 to the present.
 
@@ -40,7 +40,7 @@ A dynamic, interactive visualization of earthquake activity around Japan. This p
 
 ---
 
-# Sismic JP - 日本列島地震活動ビジュアライゼーション
+# Seismic JP - 日本列島地震活動ビジュアライゼーション
 
 日本周辺の地震活動を動的に可視化するWebアプリケーションです。時系列アニメーション、音声フィードバック、および2011年から現在までのアーカイブデータ閲覧機能を備えています。
 

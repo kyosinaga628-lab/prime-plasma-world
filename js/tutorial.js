@@ -22,7 +22,7 @@ window.initTutorial = function () {
             {
                 element: '.header-overlay',
                 popover: {
-                    title: 'SISMIC WORLDへようこそ',
+                    title: 'SEISMIC WORLDへようこそ',
                     description: '世界の地震活動を可視化するインタラクティブマップです。<br>このガイドでは主な機能を紹介します。'
                 }
             },
@@ -76,12 +76,12 @@ window.startTutorial = function () {
 };
 
 window.checkFirstVisit = function () {
-    const hasSeenTutorial = localStorage.getItem('sismic_tutorial_seen');
+    const hasSeenTutorial = localStorage.getItem('seismic_tutorial_seen');
     if (!hasSeenTutorial) {
         // Delay slightly to ensure map is loaded
         setTimeout(() => {
             window.startTutorial();
-            localStorage.setItem('sismic_tutorial_seen', 'true');
+            localStorage.setItem('seismic_tutorial_seen', 'true');
         }, 1500);
     }
 };
