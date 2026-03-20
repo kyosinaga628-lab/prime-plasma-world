@@ -23,18 +23,22 @@ def fetch_1month_data():
     }
     
     print(f"Fetching global earthquakes from {start_date.strftime('%Y-%m-%d')} to {end_date.strftime('%Y-%m-%d')}...")
-    response = requests.get(url, params=params, timeout=120)
-    response.raise_for_status()
-    data = response.json()
-    
-    count = len(data.get("features", []))
-    print(f"  Found {count} earthquakes")
-    
-    with open("data/earthquakes_1month.json", "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False)
-    
-    print("Saved to data/earthquakes_1month.json")
-    return count
+    try:
+        response = requests.get(url, params=params, timeout=120)
+        response.raise_for_status()
+        data = response.json()
+        
+        count = len(data.get("features", []))
+        print(f"  Found {count} earthquakes")
+        
+        with open("data/earthquakes_1month.json", "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False)
+        
+        print("Saved to data/earthquakes_1month.json")
+        return count
+    except requests.exceptions.RequestException as e:
+        print(f"Error fetching 1 month data: {e}")
+        return 0
 
 if __name__ == "__main__":
     fetch_1month_data()
