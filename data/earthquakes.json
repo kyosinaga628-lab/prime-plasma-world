@@ -1,14 +1,454 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1777689972000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-05-02T02%3A46%3A10&endtime=2026-05-02T02%3A46%3A10&minmagnitude=4.5&orderby=time",
+    "generated": 1777778464000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-05-03T03%3A21%3A02&endtime=2026-05-03T03%3A21%3A02&minmagnitude=4.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.4.0",
-    "count": 8495
+    "count": 8450
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "9 km WNW of Hicks Bay, New Zealand",
+        "time": 1777756753344,
+        "updated": 1777765805659,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000shut",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000shut&format=geojson",
+        "felt": 7,
+        "cdi": 3.1,
+        "mmi": 4.255,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 402,
+        "net": "us",
+        "code": "7000shut",
+        "ids": ",us7000shut,usauto7000shut,",
+        "sources": ",us,usauto,",
+        "types": ",dyfi,internal-moment-tensor,losspager,origin,phase-data,shakemap,",
+        "nst": 32,
+        "dmin": 1.427,
+        "rms": 1.44,
+        "gap": 197,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.1 - 9 km WNW of Hicks Bay, New Zealand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.2023,
+          -37.5613,
+          35
+        ]
+      },
+      "id": "us7000shut"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "245 km SSW of Cilacap, Indonesia",
+        "time": 1777734032178,
+        "updated": 1777740633040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000shtq",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000shtq&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000shtq",
+        "ids": ",us7000shtq,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 2.251,
+        "rms": 0.76,
+        "gap": 121,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 245 km SSW of Cilacap, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.9939,
+          -9.7023,
+          10
+        ]
+      },
+      "id": "us7000shtq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "55 km E of Kokopo, Papua New Guinea",
+        "time": 1777731334556,
+        "updated": 1777734622040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000shti",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000shti&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000shti",
+        "ids": ",us7000shti,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 38,
+        "dmin": 0.601,
+        "rms": 0.63,
+        "gap": 93,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 55 km E of Kokopo, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.7606,
+          -4.2751,
+          61.973
+        ]
+      },
+      "id": "us7000shti"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "153 km WNW of Neiafu, Tonga",
+        "time": 1777721449471,
+        "updated": 1777722756066,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000shsr",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000shsr&format=geojson",
+        "felt": 1,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 370,
+        "net": "us",
+        "code": "7000shsr",
+        "ids": ",us7000shsr,usauto7000shsr,",
+        "sources": ",us,usauto,",
+        "types": ",dyfi,internal-moment-tensor,origin,phase-data,",
+        "nst": 62,
+        "dmin": 4.699,
+        "rms": 1.45,
+        "gap": 48,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 153 km WNW of Neiafu, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -175.3583,
+          -18.2088,
+          246.82
+        ]
+      },
+      "id": "us7000shsr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "South Sandwich Islands region",
+        "time": 1777717900811,
+        "updated": 1777718879040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000shsi",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000shsi&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000shsi",
+        "ids": ",us7000shsi,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 8.028,
+        "rms": 0.74,
+        "gap": 98,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - South Sandwich Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -25.0767,
+          -59.3027,
+          10
+        ]
+      },
+      "id": "us7000shsi"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "217 km W of Tual, Indonesia",
+        "time": 1777717627609,
+        "updated": 1777718520040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000shsh",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000shsh&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 416,
+        "net": "us",
+        "code": "7000shsh",
+        "ids": ",us7000shsh,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 42,
+        "dmin": 1.694,
+        "rms": 0.69,
+        "gap": 82,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.2 - 217 km W of Tual, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.8204,
+          -5.9589,
+          130.863
+        ]
+      },
+      "id": "us7000shsh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.7,
+        "place": "17 km SW of Kōya, Japan",
+        "time": 1777714120989,
+        "updated": 1777773306588,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000shs2",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000shs2&format=geojson",
+        "felt": 31,
+        "cdi": 4.6,
+        "mmi": 4.85,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 514,
+        "net": "us",
+        "code": "7000shs2",
+        "ids": ",us7000shs2,usauto7000shs2,",
+        "sources": ",us,usauto,",
+        "types": ",dyfi,ground-failure,internal-moment-tensor,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 66,
+        "dmin": 1.39,
+        "rms": 0.76,
+        "gap": 95,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.7 - 17 km SW of Kōya, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4857,
+          34.107,
+          59.087
+        ]
+      },
+      "id": "us7000shs2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "Izu Islands, Japan region",
+        "time": 1777710993795,
+        "updated": 1777711989040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000shrs",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000shrs&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000shrs",
+        "ids": ",us7000shrs,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 105,
+        "dmin": 4.398,
+        "rms": 0.68,
+        "gap": 71,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.502,
+          31.117,
+          396.223
+        ]
+      },
+      "id": "us7000shrs"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "79 km N of Calama, Chile",
+        "time": 1777702962852,
+        "updated": 1777704100040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000shqp",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000shqp&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000shqp",
+        "ids": ",us7000shqp,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 58,
+        "dmin": 0.437,
+        "rms": 1.41,
+        "gap": 37,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 79 km N of Calama, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.7738,
+          -21.7539,
+          115.882
+        ]
+      },
+      "id": "us7000shqp"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "43 km NNW of Chamical, Argentina",
+        "time": 1777698296485,
+        "updated": 1777763115371,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000shps",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000shps&format=geojson",
+        "felt": 3,
+        "cdi": 3.9,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 386,
+        "net": "us",
+        "code": "7000shps",
+        "ids": ",us7000shps,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 81,
+        "dmin": 2.407,
+        "rms": 0.74,
+        "gap": 48,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 43 km NNW of Chamical, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.5123,
+          -30.0095,
+          10
+        ]
+      },
+      "id": "us7000shps"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "111 km W of San Antonio de los Cobres, Argentina",
+        "time": 1777694220734,
+        "updated": 1777696581040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000shpb",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000shpb&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000shpb",
+        "ids": ",us7000shpb,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 1.541,
+        "rms": 0.35,
+        "gap": 77,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 111 km W of San Antonio de los Cobres, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.4096,
+          -24.3288,
+          211.368
+        ]
+      },
+      "id": "us7000shpb"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -175,17 +615,17 @@
         "mag": 5.8,
         "place": "29 km ENE of Yilan, Taiwan",
         "time": 1777639195578,
-        "updated": 1777678462735,
+        "updated": 1777742125738,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000shjp",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000shjp&format=geojson",
-        "felt": 43,
+        "felt": 45,
         "cdi": 4.3,
         "mmi": 3.844,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 536,
+        "sig": 537,
         "net": "us",
         "code": "7000shjp",
         "ids": ",us7000shjp,usauto7000shjp,",
@@ -295,13 +735,13 @@
         "mag": 5.17,
         "place": "19 km SE of Silver Springs, Nevada",
         "time": 1777623439870,
-        "updated": 1777689847514,
+        "updated": 1777777013188,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00916980",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00916980&format=geojson",
-        "felt": 1819,
+        "felt": 1864,
         "cdi": 5.5,
-        "mmi": 5.878,
+        "mmi": 5.938,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -1892,6 +2332,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "101 km E of Hihifo, Tonga",
+        "time": 1777354649910,
+        "updated": 1777701535040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000shqe",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000shqe&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000shqe",
+        "ids": ",us7000shqe,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 2.222,
+        "rms": 0.85,
+        "gap": 110,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 101 km E of Hihifo, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -172.8462,
+          -15.8894,
+          10
+        ]
+      },
+      "id": "us7000shqe"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.8,
         "place": "0 km SE of San Ignacio, Costa Rica",
         "time": 1777348187824,
@@ -3055,7 +3535,7 @@
         "mag": 5.4,
         "place": "83 km SE of Akutan, Alaska",
         "time": 1777104356204,
-        "updated": 1777623357695,
+        "updated": 1777709759238,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sssg",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sssg&format=geojson",
@@ -4568,6 +5048,46 @@
         ]
       },
       "id": "us6000ss8a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "South Sandwich Islands region",
+        "time": 1776904275471,
+        "updated": 1777696574040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sh9b",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000sh9b&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000sh9b",
+        "ids": ",us7000sh9b,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 6.64,
+        "rms": 0.4,
+        "gap": 96,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - South Sandwich Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -26.0619,
+          -57.3763,
+          63.8
+        ]
+      },
+      "id": "us7000sh9b"
     },
     {
       "type": "Feature",
@@ -6732,6 +7252,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.8,
+        "place": "south of the Kermadec Islands",
+        "time": 1776628447952,
+        "updated": 1777737525040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sgqg",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000sgqg&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000sgqg",
+        "ids": ",us7000sgqg,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 3.128,
+        "rms": 0.61,
+        "gap": 176,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - south of the Kermadec Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.1302,
+          -32.3786,
+          10
+        ]
+      },
+      "id": "us7000sgqg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.7,
         "place": "south of the Kermadec Islands",
         "time": 1776625271844,
@@ -7173,9 +7733,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "20 km SSE of Ierápetra, Greece",
-        "time": 1776582278681,
-        "updated": 1776584304040,
+        "place": "15 km SE of Ierápetra, Greece",
+        "time": 1776582278896,
+        "updated": 1777720835040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sr9u",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sr9u&format=geojson",
@@ -7191,19 +7751,19 @@
         "ids": ",us6000sr9u,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 59,
-        "dmin": 0.905,
-        "rms": 0.9,
+        "nst": 62,
+        "dmin": 0.872,
+        "rms": 0.87,
         "gap": 96,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 20 km SSE of Ierápetra, Greece"
+        "title": "M 4.8 - 15 km SE of Ierápetra, Greece"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.8633,
-          34.861,
+          25.8415,
+          34.8978,
           10
         ]
       },
@@ -7453,15 +8013,15 @@
       "type": "Feature",
       "properties": {
         "mag": 5.7,
-        "place": "45 km W of Gunungsitoli, Indonesia",
-        "time": 1776542811170,
-        "updated": 1776630988931,
+        "place": "72 km WSW of Gunungsitoli, Indonesia",
+        "time": 1776542810008,
+        "updated": 1777750296282,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sr5z",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sr5z&format=geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 5.635,
+        "mmi": 4.89,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -7471,19 +8031,19 @@
         "ids": ",us6000sr5z,usauto6000sr5z,",
         "sources": ",us,usauto,",
         "types": ",ground-failure,internal-moment-tensor,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 89,
-        "dmin": 0.372,
-        "rms": 0.84,
-        "gap": 62,
+        "nst": 105,
+        "dmin": 0.621,
+        "rms": 0.64,
+        "gap": 56,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.7 - 45 km W of Gunungsitoli, Indonesia"
+        "title": "M 5.7 - 72 km WSW of Gunungsitoli, Indonesia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          97.2066,
-          1.2529,
+          96.9827,
+          1.1159,
           18
         ]
       },
@@ -7492,10 +8052,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.8,
-        "place": "126 km N of Lae, Papua New Guinea",
-        "time": 1776541612017,
-        "updated": 1776543350858,
+        "mag": 4.6,
+        "place": "121 km N of Lae, Papua New Guinea",
+        "time": 1776541613383,
+        "updated": 1777748706936,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sr5w",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sr5w&format=geojson",
@@ -7505,26 +8065,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 355,
+        "sig": 326,
         "net": "us",
         "code": "6000sr5w",
         "ids": ",us6000sr5w,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 61,
-        "dmin": 3.53,
-        "rms": 1.07,
-        "gap": 44,
+        "nst": 65,
+        "dmin": 3.574,
+        "rms": 0.93,
+        "gap": 54,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 126 km N of Lae, Papua New Guinea"
+        "title": "M 4.6 - 121 km N of Lae, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          146.9923,
-          -5.5774,
-          173.523
+          147.0495,
+          -5.6271,
+          187.285
         ]
       },
       "id": "us6000sr5w"
@@ -7573,9 +8133,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "52 km NE of Rāmhormoz, Iran",
-        "time": 1776536694608,
-        "updated": 1776537672040,
+        "place": "37 km ENE of Rāmhormoz, Iran",
+        "time": 1776536694073,
+        "updated": 1777746121040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sr5m",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sr5m&format=geojson",
@@ -7591,19 +8151,19 @@
         "ids": ",us6000sr5m,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 69,
-        "dmin": 5.046,
-        "rms": 0.9,
-        "gap": 77,
+        "nst": 86,
+        "dmin": 5.08,
+        "rms": 0.81,
+        "gap": 85,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 52 km NE of Rāmhormoz, Iran"
+        "title": "M 4.7 - 37 km ENE of Rāmhormoz, Iran"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          50.0323,
-          31.5799,
+          49.9419,
+          31.4585,
           10
         ]
       },
@@ -7735,7 +8295,7 @@
         "mag": 5,
         "place": "216 km WSW of Adak, Alaska",
         "time": 1776518109117,
-        "updated": 1777641920814,
+        "updated": 1777728311877,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sr43",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sr43&format=geojson",
@@ -8852,6 +9412,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.6,
+        "place": "northern Mid-Atlantic Ridge",
+        "time": 1776463713433,
+        "updated": 1777765509040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssm9",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000ssm9&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000ssm9",
+        "ids": ",us6000ssm9,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 21.156,
+        "rms": 0.86,
+        "gap": 160,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - northern Mid-Atlantic Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -41.7287,
+          30.9265,
+          10
+        ]
+      },
+      "id": "us6000ssm9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.1,
         "place": "99 km NE of Finschhafen, Papua New Guinea",
         "time": 1776462390836,
@@ -9612,10 +10212,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.7,
-        "place": "102 km W of San Antonio de los Cobres, Argentina",
-        "time": 1776329479222,
-        "updated": 1776351409040,
+        "mag": 4.6,
+        "place": "88 km W of San Antonio de los Cobres, Argentina",
+        "time": 1776329479275,
+        "updated": 1777717666040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqid",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sqid&format=geojson",
@@ -9625,26 +10225,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 340,
+        "sig": 326,
         "net": "us",
         "code": "6000sqid",
         "ids": ",us6000sqid,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 1.466,
-        "rms": 0.45,
-        "gap": 98,
+        "nst": 26,
+        "dmin": 1.525,
+        "rms": 0.92,
+        "gap": 62,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 102 km W of San Antonio de los Cobres, Argentina"
+        "title": "M 4.6 - 88 km W of San Antonio de los Cobres, Argentina"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -67.3302,
-          -24.2004,
-          192.947
+          -67.1893,
+          -24.183,
+          163.364
         ]
       },
       "id": "us6000sqid"
@@ -9653,9 +10253,9 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "102 km SSW of Paracas, Peru",
-        "time": 1776326942443,
-        "updated": 1776329973562,
+        "place": "96 km SSW of Paracas, Peru",
+        "time": 1776326942517,
+        "updated": 1777717346801,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sqib",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sqib&format=geojson",
@@ -9671,19 +10271,19 @@
         "ids": ",us6000sqib,usauto6000sqib,",
         "sources": ",us,usauto,",
         "types": ",dyfi,internal-moment-tensor,origin,phase-data,",
-        "nst": 59,
-        "dmin": 2.656,
-        "rms": 0.72,
-        "gap": 150,
+        "nst": 70,
+        "dmin": 2.62,
+        "rms": 0.6,
+        "gap": 137,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.2 - 102 km SSW of Paracas, Peru"
+        "title": "M 5.2 - 96 km SSW of Paracas, Peru"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -76.767,
-          -14.6589,
+          -76.7228,
+          -14.6212,
           10
         ]
       },
@@ -10575,7 +11175,7 @@
         "mag": 5.5,
         "place": "Pagan region, Northern Mariana Islands",
         "time": 1776135861202,
-        "updated": 1777518864745,
+        "updated": 1777778063004,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000spva",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000spva&format=geojson",
@@ -10655,7 +11255,7 @@
         "mag": 5.68,
         "place": "20 km ESE of Silver Springs, Nevada",
         "time": 1776130152123,
-        "updated": 1777662788690,
+        "updated": 1777772354595,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00914068",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00914068&format=geojson",
@@ -11535,7 +12135,7 @@
         "mag": 4.6,
         "place": "32 km ESE of Onagawa Chō, Japan",
         "time": 1775998843320,
-        "updated": 1776001044040,
+        "updated": 1777767401040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sphk",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sphk&format=geojson",
@@ -11550,7 +12150,7 @@
         "code": "6000sphk",
         "ids": ",us6000sphk,",
         "sources": ",us,",
-        "types": ",origin,phase-data,",
+        "types": ",moment-tensor,origin,phase-data,",
         "nst": 57,
         "dmin": 2.542,
         "rms": 0.91,
@@ -12293,9 +12893,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "67 km NNE of Tobelo, Indonesia",
-        "time": 1775848135907,
-        "updated": 1775849419040,
+        "place": "70 km NNE of Tobelo, Indonesia",
+        "time": 1775848135843,
+        "updated": 1777757124040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sp6d",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sp6d&format=geojson",
@@ -12311,20 +12911,20 @@
         "ids": ",us6000sp6d,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 138,
-        "dmin": 5.393,
-        "rms": 0.71,
-        "gap": 66,
+        "nst": 144,
+        "dmin": 5.41,
+        "rms": 0.69,
+        "gap": 40,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 67 km NNE of Tobelo, Indonesia"
+        "title": "M 4.6 - 70 km NNE of Tobelo, Indonesia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          128.1832,
-          2.3103,
-          156.992
+          128.2367,
+          2.3199,
+          155.276
         ]
       },
       "id": "us6000sp6d"
@@ -12452,10 +13052,50 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.7,
-        "place": "50 km ESE of Sonsorol Village, Palau",
-        "time": 1775826936908,
-        "updated": 1775828366040,
+        "mag": 4.6,
+        "place": "South Shetland Islands",
+        "time": 1775827018913,
+        "updated": 1777697324040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000srlv",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000srlv&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000srlv",
+        "ids": ",us6000srlv,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 10.771,
+        "rms": 1.08,
+        "gap": 112,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - South Shetland Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.5098,
+          -61.0101,
+          10
+        ]
+      },
+      "id": "us6000srlv"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "57 km ESE of Sonsorol Village, Palau",
+        "time": 1775826936162,
+        "updated": 1777696745040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000snyh",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000snyh&format=geojson",
@@ -12465,29 +13105,69 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 340,
+        "sig": 326,
         "net": "us",
         "code": "6000snyh",
         "ids": ",us6000snyh,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": 7.985,
-        "rms": 0.54,
-        "gap": 124,
+        "nst": 47,
+        "dmin": 8.018,
+        "rms": 0.55,
+        "gap": 108,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 50 km ESE of Sonsorol Village, Palau"
+        "title": "M 4.6 - 57 km ESE of Sonsorol Village, Palau"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          132.6162,
-          5.111,
-          55.027
+          132.708,
+          5.1402,
+          48.555
         ]
       },
       "id": "us6000snyh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "60 km NNE of Isangel, Vanuatu",
+        "time": 1775826190190,
+        "updated": 1777695716040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000srlw",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000srlw&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000srlw",
+        "ids": ",us6000srlw,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 4.042,
+        "rms": 0.6,
+        "gap": 85,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 60 km NNE of Isangel, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          169.4646,
+          -19.0208,
+          21.572
+        ]
+      },
+      "id": "us6000srlw"
     },
     {
       "type": "Feature",
@@ -13214,8 +13894,8 @@
       "properties": {
         "mag": 4.9,
         "place": "Volcano Islands, Japan region",
-        "time": 1775749795785,
-        "updated": 1775750801040,
+        "time": 1775749795574,
+        "updated": 1777692854040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000snpx",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000snpx&format=geojson",
@@ -13231,10 +13911,10 @@
         "ids": ",us6000snpx,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 7.159,
-        "rms": 0.65,
-        "gap": 69,
+        "nst": 44,
+        "dmin": 7.168,
+        "rms": 0.81,
+        "gap": 70,
         "magType": "mb",
         "type": "earthquake",
         "title": "M 4.9 - Volcano Islands, Japan region"
@@ -13242,9 +13922,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.0438,
-          22.4034,
-          22.087
+          145.0558,
+          22.4139,
+          19.401
         ]
       },
       "id": "us6000snpx"
@@ -13252,10 +13932,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.9,
-        "place": "193 km SSW of Merizo Village, Guam",
-        "time": 1775748313282,
-        "updated": 1775758477040,
+        "mag": 5,
+        "place": "193 km SW of Merizo Village, Guam",
+        "time": 1775748308464,
+        "updated": 1777692376586,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000snpr",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000snpr&format=geojson",
@@ -13265,26 +13945,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 369,
+        "sig": 385,
         "net": "us",
         "code": "6000snpr",
-        "ids": ",usauto6000snpr,us6000snpr,",
-        "sources": ",usauto,us,",
-        "types": ",internal-moment-tensor,origin,phase-data,",
-        "nst": 33,
-        "dmin": 3.974,
-        "rms": 0.77,
-        "gap": 85,
-        "magType": "mb",
+        "ids": ",us6000snpr,usauto6000snpr,",
+        "sources": ",us,usauto,",
+        "types": ",event-sequence,internal-moment-tensor,oaf,origin,phase-data,",
+        "nst": 58,
+        "dmin": 2.111,
+        "rms": 0.84,
+        "gap": 55,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.9 - 193 km SSW of Merizo Village, Guam"
+        "title": "M 5.0 - 193 km SW of Merizo Village, Guam"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.785,
-          11.751,
-          50.738
+          143.6419,
+          11.8401,
+          10
         ]
       },
       "id": "us6000snpr"
@@ -13293,9 +13973,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "27 km SW of Surup, Philippines",
-        "time": 1775747251432,
-        "updated": 1775749278914,
+        "place": "28 km SW of Surup, Philippines",
+        "time": 1775747251585,
+        "updated": 1777691660375,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000snpm",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000snpm&format=geojson",
@@ -13311,20 +13991,20 @@
         "ids": ",us6000snpm,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 32,
-        "dmin": 0.955,
+        "nst": 43,
+        "dmin": 0.905,
         "rms": 0.68,
         "gap": 85,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 27 km SW of Surup, Philippines"
+        "title": "M 4.7 - 28 km SW of Surup, Philippines"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          125.9827,
-          6.1968,
-          78.874
+          125.9442,
+          6.2348,
+          81.949
         ]
       },
       "id": "us6000snpm"
@@ -31134,8 +31814,8 @@
       "properties": {
         "mag": 5,
         "place": "South Sandwich Islands region",
-        "time": 1774179589678,
-        "updated": 1776158513040,
+        "time": 1774179591552,
+        "updated": 1777727764040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sifv",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sifv&format=geojson",
@@ -31152,8 +31832,8 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": 58,
-        "dmin": 7.785,
-        "rms": 0.6,
+        "dmin": 7.71,
+        "rms": 0.68,
         "gap": 91,
         "magType": "mb",
         "type": "earthquake",
@@ -31162,9 +31842,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -26.1809,
-          -59.6538,
-          108.458
+          -26.4253,
+          -59.6856,
+          122.258
         ]
       },
       "id": "us6000sifv"
@@ -75175,7 +75855,7 @@
         "mag": 5.3,
         "place": "39 km E of Adak, Alaska",
         "time": 1769289938988,
-        "updated": 1777152950440,
+        "updated": 1777757749160,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rrv2",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000rrv2&format=geojson",
@@ -105575,7 +106255,7 @@
         "mag": 5.5,
         "place": "Rat Islands, Aleutian Islands, Alaska",
         "time": 1765623060036,
-        "updated": 1777114869211,
+        "updated": 1777719664751,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rumi",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rumi&format=geojson",
@@ -111455,7 +112135,7 @@
         "mag": 7,
         "place": "2025 Hubbard Glacier Earthquake",
         "time": 1765053709288,
-        "updated": 1777150319923,
+        "updated": 1777755119450,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rsy1",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rsy1&format=geojson",
@@ -196815,7 +197495,7 @@
         "mag": 5.4,
         "place": "81 km SSW of Nikolski, Alaska",
         "time": 1757191242434,
-        "updated": 1777150256358,
+        "updated": 1777755055821,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qug7",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qug7&format=geojson",
@@ -203655,7 +204335,7 @@
         "mag": 4.8,
         "place": "51 km NE of Valmy, Nevada",
         "time": 1756580393401,
-        "updated": 1777144205628,
+        "updated": 1777749000738,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00903470",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00903470&format=geojson",
@@ -267895,7 +268575,7 @@
         "mag": 5.1,
         "place": "Rat Islands, Aleutian Islands, Alaska",
         "time": 1753571379073,
-        "updated": 1777159193666,
+        "updated": 1777763993186,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qvdz",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qvdz&format=geojson",
@@ -268535,7 +269215,7 @@
         "mag": 5.3,
         "place": "Rat Islands, Aleutian Islands, Alaska",
         "time": 1753506233539,
-        "updated": 1777094040638,
+        "updated": 1777698846550,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qv9g",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qv9g&format=geojson",
@@ -296095,7 +296775,7 @@
         "mag": 4.54,
         "place": "8 km SSE of Deep Springs, CA",
         "time": 1751164678310,
-        "updated": 1777171683094,
+        "updated": 1777776484570,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75202001",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75202001&format=geojson",
@@ -296935,7 +297615,7 @@
         "mag": 5.2,
         "place": "162 km S of Nikolski, Alaska",
         "time": 1751090899722,
-        "updated": 1777097912949,
+        "updated": 1777702704141,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q9an",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000q9an&format=geojson",
@@ -312695,7 +313375,7 @@
         "mag": 5.3,
         "place": "137 km NNW of Piti Village, Guam",
         "time": 1749343830809,
-        "updated": 1777165244751,
+        "updated": 1777770041218,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qiv6",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000qiv6&format=geojson",
@@ -337328,2486 +338008,6 @@
         ]
       },
       "id": "us7000pwu6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "215 km S of Ushuaia, Argentina",
-        "time": 1746240707259,
-        "updated": 1752337847040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pxmh",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pxmh&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000pxmh",
-        "ids": ",us7000pxmh,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 1.881,
-        "rms": 1.03,
-        "gap": 150,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 215 km S of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.4848,
-          -56.7459,
-          10
-        ]
-      },
-      "id": "us7000pxmh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "Kermadec Islands region",
-        "time": 1746240464431,
-        "updated": 1752337849040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q06b",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000q06b&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000q06b",
-        "ids": ",us7000q06b,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 1.906,
-        "rms": 0.83,
-        "gap": 138,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - Kermadec Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -176.5205,
-          -27.7922,
-          66.56
-        ]
-      },
-      "id": "us7000q06b"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "South Atlantic Ocean",
-        "time": 1746239804607,
-        "updated": 1752337843040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwti",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwti&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000pwti",
-        "ids": ",us7000pwti,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 47,
-        "dmin": 7.173,
-        "rms": 0.81,
-        "gap": 75,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - South Atlantic Ocean"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.7448,
-          -54.3373,
-          10
-        ]
-      },
-      "id": "us7000pwti"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "91 km S of Gambiran Satu, Indonesia",
-        "time": 1746238759703,
-        "updated": 1752337843040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwte",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwte&format=geojson",
-        "felt": 2,
-        "cdi": 2.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 370,
-        "net": "us",
-        "code": "7000pwte",
-        "ids": ",us7000pwte,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 79,
-        "dmin": 0.751,
-        "rms": 0.87,
-        "gap": 46,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 91 km S of Gambiran Satu, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          113.9997,
-          -9.2102,
-          65.757
-        ]
-      },
-      "id": "us7000pwte"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "178 km ESE of Kimbe, Papua New Guinea",
-        "time": 1746236672446,
-        "updated": 1752337843040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwt8",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwt8&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000pwt8",
-        "ids": ",us7000pwt8,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": 1.914,
-        "rms": 0.79,
-        "gap": 152,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 178 km ESE of Kimbe, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.6694,
-          -6.0527,
-          10
-        ]
-      },
-      "id": "us7000pwt8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "272 km SSE of Ushuaia, Argentina",
-        "time": 1746234805957,
-        "updated": 1752337843040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwt6",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwt6&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000pwt6",
-        "ids": ",us7000pwt6,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 2.239,
-        "rms": 1.09,
-        "gap": 146,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 272 km SSE of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9563,
-          -57.1338,
-          10
-        ]
-      },
-      "id": "us7000pwt6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "204 km S of Kokopo, Papua New Guinea",
-        "time": 1746232283503,
-        "updated": 1752337849040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q06a",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000q06a&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000q06a",
-        "ids": ",us7000q06a,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 1.983,
-        "rms": 1.16,
-        "gap": 155,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 204 km S of Kokopo, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          152.0997,
-          -6.1862,
-          10
-        ]
-      },
-      "id": "us7000q06a"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "6 km S of Malango, Solomon Islands",
-        "time": 1746231576416,
-        "updated": 1752337849040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000q069",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000q069&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000q069",
-        "ids": ",us7000q069,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 0.379,
-        "rms": 0.59,
-        "gap": 93,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 6 km S of Malango, Solomon Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          159.7242,
-          -9.7493,
-          29.255
-        ]
-      },
-      "id": "us7000q069"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "24 km E of Jucul, Peru",
-        "time": 1746220735588,
-        "updated": 1752337843040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pws8",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pws8&format=geojson",
-        "felt": 7,
-        "cdi": 2.8,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 327,
-        "net": "us",
-        "code": "7000pws8",
-        "ids": ",us7000pws8,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 61,
-        "dmin": 1.046,
-        "rms": 0.71,
-        "gap": 126,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 24 km E of Jucul, Peru"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.5221,
-          -10.9839,
-          99.826
-        ]
-      },
-      "id": "us7000pws8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "280 km S of Ushuaia, Argentina",
-        "time": 1746220181347,
-        "updated": 1752337842040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pws6",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pws6&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000pws6",
-        "ids": ",us7000pws6,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 3.797,
-        "rms": 0.6,
-        "gap": 148,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 280 km S of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.719,
-          -57.3035,
-          10
-        ]
-      },
-      "id": "us7000pws6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "266 km SSE of Ushuaia, Argentina",
-        "time": 1746216855352,
-        "updated": 1752337842040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwrl",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwrl&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.168,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 432,
-        "net": "us",
-        "code": "7000pwrl",
-        "ids": ",us7000pwrl,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 131,
-        "dmin": 3.76,
-        "rms": 0.54,
-        "gap": 89,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.3 - 266 km SSE of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.2677,
-          -57.1328,
-          10
-        ]
-      },
-      "id": "us7000pwrl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "299 km SSE of Ushuaia, Argentina",
-        "time": 1746215878541,
-        "updated": 1752337842040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwr3",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwr3&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000pwr3",
-        "ids": ",us7000pwr3,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 116,
-        "dmin": 4.082,
-        "rms": 0.51,
-        "gap": 102,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 299 km SSE of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.863,
-          -57.3753,
-          10
-        ]
-      },
-      "id": "us7000pwr3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "275 km SSE of Ushuaia, Argentina",
-        "time": 1746214949446,
-        "updated": 1752337842040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwqt",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwqt&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000pwqt",
-        "ids": ",us7000pwqt,",
-        "sources": ",us,",
-        "types": ",impact-text,origin,phase-data,",
-        "nst": 83,
-        "dmin": 3.857,
-        "rms": 0.63,
-        "gap": 132,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 275 km SSE of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0715,
-          -57.1819,
-          10
-        ]
-      },
-      "id": "us7000pwqt"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "295 km SSE of Ushuaia, Argentina",
-        "time": 1746214429191,
-        "updated": 1752337842040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwqr",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwqr&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000pwqr",
-        "ids": ",us7000pwqr,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 120,
-        "dmin": 4.004,
-        "rms": 0.77,
-        "gap": 95,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 295 km SSE of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.2137,
-          -57.3958,
-          10
-        ]
-      },
-      "id": "us7000pwqr"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "263 km SSE of Ushuaia, Argentina",
-        "time": 1746213462572,
-        "updated": 1752337842040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwqj",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwqj&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000pwqj",
-        "ids": ",us7000pwqj,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 3.724,
-        "rms": 0.68,
-        "gap": 144,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 263 km SSE of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.3476,
-          -57.1162,
-          10
-        ]
-      },
-      "id": "us7000pwqj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "296 km SSE of Ushuaia, Argentina",
-        "time": 1746210332326,
-        "updated": 1752337842040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwq7",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwq7&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000pwq7",
-        "ids": ",us7000pwq7,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 4.039,
-        "rms": 1.02,
-        "gap": 146,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 296 km SSE of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0119,
-          -57.3731,
-          10
-        ]
-      },
-      "id": "us7000pwq7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "296 km SSE of Ushuaia, Argentina",
-        "time": 1746210031281,
-        "updated": 1752337842040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwq4",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwq4&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000pwq4",
-        "ids": ",us7000pwq4,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 119,
-        "dmin": 4.023,
-        "rms": 0.54,
-        "gap": 95,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 296 km SSE of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.1308,
-          -57.3925,
-          10
-        ]
-      },
-      "id": "us7000pwq4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "Drake Passage",
-        "time": 1746209257385,
-        "updated": 1752337845040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000px5q",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000px5q&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000px5q",
-        "ids": ",us7000px5q,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 73,
-        "dmin": 4.07,
-        "rms": 0.5,
-        "gap": 104,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - Drake Passage"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0406,
-          -57.418,
-          10
-        ]
-      },
-      "id": "us7000px5q"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6.4,
-        "place": "289 km SSE of Ushuaia, Argentina",
-        "time": 1746208747662,
-        "updated": 1752337842040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwpu",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwpu&format=geojson",
-        "felt": 6,
-        "cdi": 5.7,
-        "mmi": 4.057,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 1,
-        "sig": 634,
-        "net": "us",
-        "code": "7000pwpu",
-        "ids": ",at00svnbao,usauto7000pwpu,us7000pwpu,pt25122002,at00svnbaq,usauto7000pwpv,",
-        "sources": ",at,usauto,us,pt,at,usauto,",
-        "types": ",associate,dyfi,impact-link,internal-moment-tensor,internal-origin,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 287,
-        "dmin": 2.402,
-        "rms": 0.57,
-        "gap": 16,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.4 - 289 km SSE of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0168,
-          -57.304,
-          8
-        ]
-      },
-      "id": "us7000pwpu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "207 km ESE of Kimbe, Papua New Guinea",
-        "time": 1746207280714,
-        "updated": 1752337849040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pzmv",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pzmv&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000pzmv",
-        "ids": ",us7000pzmv,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 1.908,
-        "rms": 0.76,
-        "gap": 113,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 207 km ESE of Kimbe, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.8876,
-          -6.2227,
-          10
-        ]
-      },
-      "id": "us7000pzmv"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "291 km SSE of Ushuaia, Argentina",
-        "time": 1746204513458,
-        "updated": 1752337842040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwp8",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwp8&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 432,
-        "net": "us",
-        "code": "7000pwp8",
-        "ids": ",us7000pwp8,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 145,
-        "dmin": 3.964,
-        "rms": 0.63,
-        "gap": 61,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.3 - 291 km SSE of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.2414,
-          -57.3577,
-          10
-        ]
-      },
-      "id": "us7000pwp8"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "256 km SSE of Ushuaia, Argentina",
-        "time": 1746204227112,
-        "updated": 1752337842040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwp6",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwp6&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000pwp6",
-        "ids": ",us7000pwp6,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": 3.719,
-        "rms": 0.72,
-        "gap": 74,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 256 km SSE of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0093,
-          -56.9967,
-          10
-        ]
-      },
-      "id": "us7000pwp6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "248 km SSE of Ushuaia, Argentina",
-        "time": 1746202383208,
-        "updated": 1752337849040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pzn4",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pzn4&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000pzn4",
-        "ids": ",us7000pzn4,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 3.619,
-        "rms": 0.69,
-        "gap": 143,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 248 km SSE of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.2579,
-          -56.9655,
-          10
-        ]
-      },
-      "id": "us7000pzn4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "270 km SSE of Ushuaia, Argentina",
-        "time": 1746200572815,
-        "updated": 1752337842040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwmq",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwmq&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000pwmq",
-        "ids": ",us7000pwmq,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 82,
-        "dmin": 3.808,
-        "rms": 0.64,
-        "gap": 98,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 270 km SSE of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.1788,
-          -57.1594,
-          10
-        ]
-      },
-      "id": "us7000pwmq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "287 km SSE of Ushuaia, Argentina",
-        "time": 1746199672532,
-        "updated": 1752337849040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pzng",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pzng&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000pzng",
-        "ids": ",us7000pzng,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 2.384,
-        "rms": 1,
-        "gap": 157,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 287 km SSE of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0282,
-          -57.2865,
-          10
-        ]
-      },
-      "id": "us7000pzng"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "272 km S of Ushuaia, Argentina",
-        "time": 1746199657935,
-        "updated": 1752337842040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwmy",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwmy&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000pwmy",
-        "ids": ",us7000pwmy,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 3.758,
-        "rms": 0.52,
-        "gap": 150,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 272 km S of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.5801,
-          -57.2227,
-          10
-        ]
-      },
-      "id": "us7000pwmy"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "274 km SSE of Ushuaia, Argentina",
-        "time": 1746199537849,
-        "updated": 1752337842040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwmu",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwmu&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000pwmu",
-        "ids": ",us7000pwmu,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 50,
-        "dmin": 3.811,
-        "rms": 0.43,
-        "gap": 123,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 274 km SSE of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.3395,
-          -57.2136,
-          10
-        ]
-      },
-      "id": "us7000pwmu"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "99 km WSW of Vallenar, Chile",
-        "time": 1746199450764,
-        "updated": 1752337842040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwml",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwml&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000pwml",
-        "ids": ",us7000pwml,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 93,
-        "dmin": 0.838,
-        "rms": 0.83,
-        "gap": 140,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 99 km WSW of Vallenar, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.657,
-          -28.9988,
-          26.015
-        ]
-      },
-      "id": "us7000pwml"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "234 km S of Ushuaia, Argentina",
-        "time": 1746199085230,
-        "updated": 1752337842040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwmk",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwmk&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000pwmk",
-        "ids": ",us7000pwmk,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 3.303,
-        "rms": 0.63,
-        "gap": 78,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 234 km S of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.3331,
-          -56.913,
-          10
-        ]
-      },
-      "id": "us7000pwmk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "240 km SSE of Ushuaia, Argentina",
-        "time": 1746198601922,
-        "updated": 1752337842040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwmh",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwmh&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000pwmh",
-        "ids": ",us7000pwmh,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 3.502,
-        "rms": 0.59,
-        "gap": 122,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 240 km SSE of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.574,
-          -56.9316,
-          10
-        ]
-      },
-      "id": "us7000pwmh"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "257 km S of Ushuaia, Argentina",
-        "time": 1746198525912,
-        "updated": 1752337842040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwmm",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwmm&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000pwmm",
-        "ids": ",us7000pwmm,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 64,
-        "dmin": 3.553,
-        "rms": 0.82,
-        "gap": 79,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 257 km S of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.0486,
-          -57.1172,
-          10
-        ]
-      },
-      "id": "us7000pwmm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "271 km S of Ushuaia, Argentina",
-        "time": 1746197331259,
-        "updated": 1752337842040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwld",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwld&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000pwld",
-        "ids": ",us7000pwld,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 46,
-        "dmin": 3.745,
-        "rms": 0.53,
-        "gap": 129,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 271 km S of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.6331,
-          -57.2225,
-          10
-        ]
-      },
-      "id": "us7000pwld"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "288 km SSE of Ushuaia, Argentina",
-        "time": 1746197113775,
-        "updated": 1752337842040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwmi",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwmi&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000pwmi",
-        "ids": ",us7000pwmi,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 2.421,
-        "rms": 0.67,
-        "gap": 148,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 288 km SSE of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.3596,
-          -57.3426,
-          10
-        ]
-      },
-      "id": "us7000pwmi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "275 km S of Ushuaia, Argentina",
-        "time": 1746197025630,
-        "updated": 1752337842040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwlb",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwlb&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000pwlb",
-        "ids": ",us7000pwlb,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 54,
-        "dmin": 3.752,
-        "rms": 0.47,
-        "gap": 123,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 275 km S of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.7447,
-          -57.2601,
-          10
-        ]
-      },
-      "id": "us7000pwlb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "254 km S of Ushuaia, Argentina",
-        "time": 1746196686272,
-        "updated": 1752337842040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwl9",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwl9&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000pwl9",
-        "ids": ",us7000pwl9,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 103,
-        "dmin": 3.612,
-        "rms": 0.54,
-        "gap": 132,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 254 km S of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.6032,
-          -57.065,
-          10
-        ]
-      },
-      "id": "us7000pwl9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "290 km S of Ushuaia, Argentina",
-        "time": 1746195277378,
-        "updated": 1752337849040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pzmq",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pzmq&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000pzmq",
-        "ids": ",us7000pzmq,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 2.497,
-        "rms": 0.51,
-        "gap": 154,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 290 km S of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.0535,
-          -57.4121,
-          10
-        ]
-      },
-      "id": "us7000pzmq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "260 km S of Ushuaia, Argentina",
-        "time": 1746195148107,
-        "updated": 1752337842040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwl7",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwl7&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000pwl7",
-        "ids": ",us7000pwl7,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": 2.195,
-        "rms": 0.51,
-        "gap": 128,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 260 km S of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.6914,
-          -57.1218,
-          10
-        ]
-      },
-      "id": "us7000pwl7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "273 km S of Ushuaia, Argentina",
-        "time": 1746194622880,
-        "updated": 1752337849040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pznf",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pznf&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000pznf",
-        "ids": ",us7000pznf,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 2.301,
-        "rms": 0.62,
-        "gap": 135,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 273 km S of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.5154,
-          -57.2262,
-          10
-        ]
-      },
-      "id": "us7000pznf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "255 km S of Ushuaia, Argentina",
-        "time": 1746194275678,
-        "updated": 1752337844040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwz7",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwz7&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000pwz7",
-        "ids": ",us7000pwz7,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 2.155,
-        "rms": 0.93,
-        "gap": 143,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 255 km S of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.7374,
-          -57.0812,
-          10
-        ]
-      },
-      "id": "us7000pwz7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "279 km S of Ushuaia, Argentina",
-        "time": 1746194102779,
-        "updated": 1752337842040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwl6",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwl6&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.132,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 432,
-        "net": "us",
-        "code": "7000pwl6",
-        "ids": ",us7000pwl6,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 91,
-        "dmin": 3.82,
-        "rms": 0.62,
-        "gap": 62,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.3 - 279 km S of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.5325,
-          -57.2793,
-          10
-        ]
-      },
-      "id": "us7000pwl6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "209 km S of Ushuaia, Argentina",
-        "time": 1746193870888,
-        "updated": 1752337845040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000px3p",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000px3p&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000px3p",
-        "ids": ",us7000px3p,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 3.149,
-        "rms": 0.46,
-        "gap": 167,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 209 km S of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.1288,
-          -56.6932,
-          10
-        ]
-      },
-      "id": "us7000px3p"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "269 km SSE of Ushuaia, Argentina",
-        "time": 1746193769850,
-        "updated": 1752337844040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000px3n",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000px3n&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000px3n",
-        "ids": ",us7000px3n,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 55,
-        "dmin": 3.783,
-        "rms": 1.17,
-        "gap": 114,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 269 km SSE of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.2617,
-          -57.1576,
-          10
-        ]
-      },
-      "id": "us7000px3n"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "258 km SSE of Ushuaia, Argentina",
-        "time": 1746192540413,
-        "updated": 1752337844040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwyz",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwyz&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000pwyz",
-        "ids": ",us7000pwyz,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 2.146,
-        "rms": 1.07,
-        "gap": 144,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 258 km SSE of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.2837,
-          -57.0638,
-          10
-        ]
-      },
-      "id": "us7000pwyz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "286 km S of Ushuaia, Argentina",
-        "time": 1746192274822,
-        "updated": 1752337844040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwyq",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwyq&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000pwyq",
-        "ids": ",us7000pwyq,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 2.419,
-        "rms": 0.73,
-        "gap": 145,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 286 km S of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.5307,
-          -57.3445,
-          10
-        ]
-      },
-      "id": "us7000pwyq"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "275 km SSE of Ushuaia, Argentina",
-        "time": 1746191851716,
-        "updated": 1752337844040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwyl",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwyl&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000pwyl",
-        "ids": ",us7000pwyl,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 2.267,
-        "rms": 0.58,
-        "gap": 132,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 275 km SSE of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.9519,
-          -57.1618,
-          10
-        ]
-      },
-      "id": "us7000pwyl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "264 km S of Ushuaia, Argentina",
-        "time": 1746191642062,
-        "updated": 1752337849040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pznd",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pznd&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000pznd",
-        "ids": ",us7000pznd,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 12,
-        "dmin": 2.28,
-        "rms": 1.43,
-        "gap": 141,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 264 km S of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.1611,
-          -57.1873,
-          10
-        ]
-      },
-      "id": "us7000pznd"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "255 km SSE of Ushuaia, Argentina",
-        "time": 1746191625299,
-        "updated": 1752337849040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pznc",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pznc&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000pznc",
-        "ids": ",us7000pznc,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 2.093,
-        "rms": 0.65,
-        "gap": 122,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 255 km SSE of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.0375,
-          -56.9938,
-          10
-        ]
-      },
-      "id": "us7000pznc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.6,
-        "place": "262 km SSE of Ushuaia, Argentina",
-        "time": 1746191408321,
-        "updated": 1752337842040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwl0",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwl0&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.518,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 482,
-        "net": "us",
-        "code": "7000pwl0",
-        "ids": ",us7000pwl0,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 76,
-        "dmin": 3.688,
-        "rms": 0.7,
-        "gap": 41,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.6 - 262 km SSE of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.4986,
-          -57.121,
-          10
-        ]
-      },
-      "id": "us7000pwl0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.7,
-        "place": "278 km SSE of Ushuaia, Argentina",
-        "time": 1746191380634,
-        "updated": 1752337842040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwkz",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwkz&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.51,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 500,
-        "net": "us",
-        "code": "7000pwkz",
-        "ids": ",us7000pwkz,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 140,
-        "dmin": 2.322,
-        "rms": 0.65,
-        "gap": 101,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.7 - 278 km SSE of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.2023,
-          -57.2358,
-          10
-        ]
-      },
-      "id": "us7000pwkz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.4,
-        "place": "228 km S of Ushuaia, Argentina",
-        "time": 1746191265852,
-        "updated": 1752337842040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwl1",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwl1&format=geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": 3.389,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 449,
-        "net": "us",
-        "code": "7000pwl1",
-        "ids": ",us7000pwl1,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
-        "nst": 94,
-        "dmin": 2.389,
-        "rms": 0.8,
-        "gap": 111,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.4 - 228 km S of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.5794,
-          -56.8541,
-          10
-        ]
-      },
-      "id": "us7000pwl1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.5,
-        "place": "256 km SSE of Ushuaia, Argentina",
-        "time": 1746190996417,
-        "updated": 1752337843040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwt4",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwt4&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.457,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 465,
-        "net": "us",
-        "code": "7000pwt4",
-        "ids": ",us7000pwt4,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 31,
-        "dmin": 2.135,
-        "rms": 0.55,
-        "gap": 170,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.5 - 256 km SSE of Ushuaia, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.3954,
-          -57.0575,
-          10
-        ]
-      },
-      "id": "us7000pwt4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 7.4,
-        "place": "2025 Drake Passage Earthquake",
-        "time": 1746190706014,
-        "updated": 1752337842040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwkn",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwkn&format=geojson",
-        "felt": 53,
-        "cdi": 8.9,
-        "mmi": 5.159,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 1,
-        "sig": 890,
-        "net": "us",
-        "code": "7000pwkn",
-        "ids": ",at00svmxdi,us7000pwkn,pt25122001,usauto7000pwkn,",
-        "sources": ",at,us,pt,usauto,",
-        "types": ",dyfi,earthquake-name,finite-fault,general-text,ground-failure,impact-link,impact-text,internal-moment-tensor,internal-origin,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 284,
-        "dmin": 1.9,
-        "rms": 0.75,
-        "gap": 20,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 7.4 - 2025 Drake Passage Earthquake"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.1019,
-          -56.8094,
-          10
-        ]
-      },
-      "id": "us7000pwkn"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.8,
-        "place": "118 km SE of Panguna, Papua New Guinea",
-        "time": 1746183559540,
-        "updated": 1752337841040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwjw",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwjw&format=geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": 4.307,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 518,
-        "net": "us",
-        "code": "7000pwjw",
-        "ids": ",us7000pwjw,usauto7000pwjw,pt25122000,",
-        "sources": ",us,usauto,pt,",
-        "types": ",dyfi,internal-moment-tensor,internal-origin,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 148,
-        "dmin": 4.395,
-        "rms": 0.54,
-        "gap": 30,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.8 - 118 km SE of Panguna, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          156.1376,
-          -7.164,
-          43
-        ]
-      },
-      "id": "us7000pwjw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "southeast Indian Ridge",
-        "time": 1746180113780,
-        "updated": 1752337841040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwjs",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwjs&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000pwjs",
-        "ids": ",us7000pwjs,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 18.805,
-        "rms": 0.27,
-        "gap": 152,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - southeast Indian Ridge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          102.7031,
-          -47.9786,
-          10
-        ]
-      },
-      "id": "us7000pwjs"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "South Sandwich Islands region",
-        "time": 1746175872798,
-        "updated": 1752337841040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwjg",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwjg&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000pwjg",
-        "ids": ",us7000pwjg,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": 16.444,
-        "rms": 0.8,
-        "gap": 69,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - South Sandwich Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -25.0982,
-          -58.0483,
-          38.584
-        ]
-      },
-      "id": "us7000pwjg"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "17 km SSE of Bukittinggi, Indonesia",
-        "time": 1746169664608,
-        "updated": 1752337841040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwj0",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwj0&format=geojson",
-        "felt": 1,
-        "cdi": 5.2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000pwj0",
-        "ids": ",us7000pwj0,",
-        "sources": ",us,",
-        "types": ",dyfi,impact-text,origin,phase-data,",
-        "nst": 42,
-        "dmin": 4.064,
-        "rms": 1.02,
-        "gap": 64,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 17 km SSE of Bukittinggi, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          100.4471,
-          -0.451,
-          10
-        ]
-      },
-      "id": "us7000pwj0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "Pagan region, Northern Mariana Islands",
-        "time": 1746165658589,
-        "updated": 1752337841040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwil",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwil&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000pwil",
-        "ids": ",us7000pwil,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 105,
-        "dmin": 3.162,
-        "rms": 0.68,
-        "gap": 114,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - Pagan region, Northern Mariana Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.2407,
-          18.3768,
-          473.501
-        ]
-      },
-      "id": "us7000pwil"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "31 km SW of Basco, Philippines",
-        "time": 1746162926779,
-        "updated": 1752337841040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwii",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwii&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000pwii",
-        "ids": ",us7000pwii,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 2.67,
-        "rms": 0.69,
-        "gap": 117,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 31 km SW of Basco, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.7964,
-          20.2189,
-          10
-        ]
-      },
-      "id": "us7000pwii"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "South Sandwich Islands region",
-        "time": 1746159162443,
-        "updated": 1752337841040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwi5",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwi5&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000pwi5",
-        "ids": ",us7000pwi5,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 41,
-        "dmin": 15.572,
-        "rms": 0.92,
-        "gap": 82,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - South Sandwich Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -25.3018,
-          -59.0665,
-          10
-        ]
-      },
-      "id": "us7000pwi5"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "northern Mid-Atlantic Ridge",
-        "time": 1746159110612,
-        "updated": 1752337841040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwi4",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwi4&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000pwi4",
-        "ids": ",usauto7000pwi4,us7000pwi4,",
-        "sources": ",usauto,us,",
-        "types": ",internal-moment-tensor,origin,phase-data,",
-        "nst": 83,
-        "dmin": 20.15,
-        "rms": 0.69,
-        "gap": 63,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.1 - northern Mid-Atlantic Ridge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -40.9258,
-          31.7558,
-          10
-        ]
-      },
-      "id": "us7000pwi4"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "192 km ESE of Kimbe, Papua New Guinea",
-        "time": 1746155623234,
-        "updated": 1752337849040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pzme",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pzme&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000pzme",
-        "ids": ",us7000pzme,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 2.095,
-        "rms": 1.05,
-        "gap": 161,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 192 km ESE of Kimbe, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.7284,
-          -6.2548,
-          10
-        ]
-      },
-      "id": "us7000pzme"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "32 km NW of Labuan Bajo, Indonesia",
-        "time": 1746154427629,
-        "updated": 1752337841040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pwi1",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000pwi1&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000pwi1",
-        "ids": ",us7000pwi1,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 1.502,
-        "rms": 0.72,
-        "gap": 148,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 32 km NW of Labuan Bajo, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          119.6796,
-          -8.2872,
-          161.149
-        ]
-      },
-      "id": "us7000pwi1"
     }
   ],
   "bbox": [
