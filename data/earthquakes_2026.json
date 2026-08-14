@@ -1,14 +1,334 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1786586395000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-08-13T01%3A59%3A54&minmagnitude=4.5&orderby=time",
+    "generated": 1786672653000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-01-01T00%3A00%3A00&endtime=2026-08-14T01%3A57%3A30&minmagnitude=4.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.7.0",
-    "count": 4541
+    "count": 4568
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "29 km SW of Balangonan, Philippines",
+        "time": 1786670093627,
+        "updated": 1786670939040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkkw",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tkkw&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000tkkw",
+        "ids": ",us6000tkkw,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 43,
+        "dmin": 1.724,
+        "rms": 0.92,
+        "gap": 95,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 29 km SW of Balangonan, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.1585,
+          5.3865,
+          92.559
+        ]
+      },
+      "id": "us6000tkkw"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.3,
+        "place": "11 km S of Sarangani, Philippines",
+        "time": 1786646371327,
+        "updated": 1786648160094,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkig",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tkig&format=geojson",
+        "felt": 1,
+        "cdi": 4.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 433,
+        "net": "us",
+        "code": "6000tkig",
+        "ids": ",us6000tkig,usauto6000tkig,",
+        "sources": ",us,usauto,",
+        "types": ",dyfi,internal-moment-tensor,origin,phase-data,",
+        "nst": 83,
+        "dmin": 1.76,
+        "rms": 1.1,
+        "gap": 72,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.3 - 11 km S of Sarangani, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.4836,
+          5.3002,
+          66.312
+        ]
+      },
+      "id": "us6000tkig"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "west of Macquarie Island",
+        "time": 1786642769650,
+        "updated": 1786645221040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tki8",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tki8&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "6000tki8",
+        "ids": ",usauto6000tki8,us6000tki8,",
+        "sources": ",usauto,us,",
+        "types": ",internal-moment-tensor,origin,phase-data,",
+        "nst": 33,
+        "dmin": 7.032,
+        "rms": 0.56,
+        "gap": 82,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.1 - west of Macquarie Island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.2281,
+          -56.8562,
+          10
+        ]
+      },
+      "id": "us6000tki8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.6,
+        "place": "Kermadec Islands region",
+        "time": 1786637505826,
+        "updated": 1786645157417,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkhm",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tkhm&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 2.749,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 482,
+        "net": "us",
+        "code": "6000tkhm",
+        "ids": ",usauto6000tkhm,us6000tkhm,",
+        "sources": ",usauto,us,",
+        "types": ",internal-moment-tensor,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 66,
+        "dmin": 1.526,
+        "rms": 1.15,
+        "gap": 56,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.6 - Kermadec Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -176.3124,
+          -28.6742,
+          10
+        ]
+      },
+      "id": "us6000tkhm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "45 km SSW of Angoram, Papua New Guinea",
+        "time": 1786625099102,
+        "updated": 1786647845911,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkgn",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tkgn&format=geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000tkgn",
+        "ids": ",us6000tkgn,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 57,
+        "dmin": 3.706,
+        "rms": 0.58,
+        "gap": 40,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 45 km SSW of Angoram, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.8885,
+          -4.4318,
+          134.025
+        ]
+      },
+      "id": "us6000tkgn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "3 km ESE of Gambiran Satu, Indonesia",
+        "time": 1786616599536,
+        "updated": 1786622915462,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkg4",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tkg4&format=geojson",
+        "felt": 1,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000tkg4",
+        "ids": ",us6000tkg4,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 39,
+        "dmin": 0.063,
+        "rms": 0.83,
+        "gap": 75,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 3 km ESE of Gambiran Satu, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1762,
+          -8.4115,
+          145.679
+        ]
+      },
+      "id": "us6000tkg4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "22 km ENE of Lapuan, Philippines",
+        "time": 1786612978999,
+        "updated": 1786647441248,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkfh",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tkfh&format=geojson",
+        "felt": 11,
+        "cdi": 4.3,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 405,
+        "net": "us",
+        "code": "6000tkfh",
+        "ids": ",us6000tkfh,usauto6000tkfh,",
+        "sources": ",us,usauto,",
+        "types": ",dyfi,internal-moment-tensor,origin,phase-data,",
+        "nst": 88,
+        "dmin": 0.869,
+        "rms": 0.99,
+        "gap": 50,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.1 - 22 km ENE of Lapuan, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.8789,
+          6.2479,
+          91.206
+        ]
+      },
+      "id": "us6000tkfh"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "222 km SSW of Severo-Kuril’sk, Russia",
+        "time": 1786604964608,
+        "updated": 1786611998040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkeb",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tkeb&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000tkeb",
+        "ids": ",us6000tkeb,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 54,
+        "dmin": 4.618,
+        "rms": 0.7,
+        "gap": 135,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 222 km SSW of Severo-Kuril’sk, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          155.3646,
+          48.738,
+          35
+        ]
+      },
+      "id": "us6000tkeb"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,17 +415,17 @@
         "mag": 5.5,
         "place": "69 km SSW of Chirilagua, El Salvador",
         "time": 1786581004840,
-        "updated": 1786585323548,
+        "updated": 1786630542806,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkcb",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tkcb&format=geojson",
-        "felt": 13,
-        "cdi": 4.1,
+        "felt": 15,
+        "cdi": 3.4,
         "mmi": 4.403,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 471,
+        "sig": 470,
         "net": "us",
         "code": "6000tkcb",
         "ids": ",us6000tkcb,usauto6000tkcb,",
@@ -252,6 +572,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "Banda Sea",
+        "time": 1786561105658,
+        "updated": 1786630235040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tk9q",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tk9q&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000tk9q",
+        "ids": ",us6000tk9q,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 85,
+        "dmin": 2.002,
+        "rms": 0.67,
+        "gap": 35,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Banda Sea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.516,
+          -6.5002,
+          178.38
+        ]
+      },
+      "id": "us6000tk9q"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.6,
         "place": "55 km SW of Champerico, Guatemala",
         "time": 1786535789774,
@@ -295,7 +655,7 @@
         "mag": 6,
         "place": "South Sandwich Islands region",
         "time": 1786535232117,
-        "updated": 1786546548041,
+        "updated": 1786622006966,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tk74",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tk74&format=geojson",
@@ -495,7 +855,7 @@
         "mag": 5.2,
         "place": "42 km ESE of Naalehu, Hawaii",
         "time": 1786506513980,
-        "updated": 1786560900126,
+        "updated": 1786593288006,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75018296",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=hv75018296&format=geojson",
@@ -1172,6 +1532,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.6,
+        "place": "Pacific-Antarctic Ridge",
+        "time": 1786416367844,
+        "updated": 1786615305040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkfr",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tkfr&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000tkfr",
+        "ids": ",us6000tkfr,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 34.019,
+        "rms": 0.81,
+        "gap": 174,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - Pacific-Antarctic Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -135.8731,
+          -54.0512,
+          10
+        ]
+      },
+      "id": "us6000tkfr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.7,
         "place": "81 km SSE of Bengkulu, Indonesia",
         "time": 1786410766205,
@@ -1295,11 +1695,11 @@
         "mag": 4.7,
         "place": "55 km NW of Shahrak-e Kūlūrī, Iran",
         "time": 1786374070127,
-        "updated": 1786378765792,
+        "updated": 1786656672866,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjmt",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tjmt&format=geojson",
-        "felt": 1,
+        "felt": 2,
         "cdi": 2,
         "mmi": null,
         "alert": null,
@@ -1415,11 +1815,11 @@
         "mag": 7.4,
         "place": "5 km S of San José del Palmar, Colombia",
         "time": 1786365268125,
-        "updated": 1786584973552,
+        "updated": 1786671703878,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjl2",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tjl2&format=geojson",
-        "felt": 1118,
+        "felt": 1135,
         "cdi": 7.9,
         "mmi": 7.999,
         "alert": "red",
@@ -2652,10 +3052,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.6,
-        "place": "77 km WSW of San Antonio de los Cobres, Argentina",
-        "time": 1786193062647,
-        "updated": 1786194206040,
+        "mag": 4.5,
+        "place": "76 km W of San Antonio de los Cobres, Argentina",
+        "time": 1786193062813,
+        "updated": 1786610263040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj96",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tj96&format=geojson",
@@ -2665,26 +3065,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 326,
+        "sig": 312,
         "net": "us",
         "code": "6000tj96",
         "ids": ",us6000tj96,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 1.764,
-        "rms": 0.83,
-        "gap": 92,
+        "nst": 21,
+        "dmin": 1.724,
+        "rms": 0.69,
+        "gap": 90,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 77 km WSW of San Antonio de los Cobres, Argentina"
+        "title": "M 4.5 - 76 km W of San Antonio de los Cobres, Argentina"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -67.0572,
-          -24.392,
-          163.582
+          -67.0608,
+          -24.3442,
+          165.5
         ]
       },
       "id": "us6000tj96"
@@ -2692,10 +3092,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.6,
+        "mag": 5.5,
         "place": "southeast of Easter Island",
-        "time": 1786189287702,
-        "updated": 1786276067959,
+        "time": 1786189287790,
+        "updated": 1786609417363,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj8t",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tj8t&format=geojson",
@@ -2705,25 +3105,25 @@
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 482,
+        "sig": 465,
         "net": "us",
         "code": "6000tj8t",
         "ids": ",usauto6000tj8t,us6000tj8t,",
         "sources": ",usauto,us,",
         "types": ",internal-moment-tensor,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 49,
-        "dmin": 12.609,
-        "rms": 0.9,
-        "gap": 148,
+        "nst": 56,
+        "dmin": 12.649,
+        "rms": 0.98,
+        "gap": 100,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.6 - southeast of Easter Island"
+        "title": "M 5.5 - southeast of Easter Island"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.0796,
-          -41.4826,
+          -90.0948,
+          -41.4078,
           10
         ]
       },
@@ -2734,8 +3134,8 @@
       "properties": {
         "mag": 4.6,
         "place": "Vanuatu region",
-        "time": 1786186566170,
-        "updated": 1786192486040,
+        "time": 1786186565537,
+        "updated": 1786608027040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj8n",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tj8n&format=geojson",
@@ -2751,9 +3151,9 @@
         "ids": ",us6000tj8n,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 4.997,
-        "rms": 0.7,
+        "nst": 24,
+        "dmin": 4.885,
+        "rms": 0.59,
         "gap": 102,
         "magType": "mb",
         "type": "earthquake",
@@ -2762,8 +3162,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          172.8279,
-          -17.3821,
+          172.9342,
+          -17.537,
           10
         ]
       },
@@ -2772,10 +3172,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.8,
-        "place": "54 km SW of Sarangani, Philippines",
-        "time": 1786184446908,
-        "updated": 1786185412040,
+        "mag": 4.9,
+        "place": "56 km SW of Sarangani, Philippines",
+        "time": 1786184447001,
+        "updated": 1786607705040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tj8e",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tj8e&format=geojson",
@@ -2785,26 +3185,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 354,
+        "sig": 369,
         "net": "us",
         "code": "6000tj8e",
         "ids": ",us6000tj8e,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 2.023,
-        "rms": 0.68,
-        "gap": 176,
+        "nst": 32,
+        "dmin": 2.034,
+        "rms": 0.61,
+        "gap": 125,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 54 km SW of Sarangani, Philippines"
+        "title": "M 4.9 - 56 km SW of Sarangani, Philippines"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          125.0834,
-          5.095,
-          10.022
+          125.0662,
+          5.088,
+          11.138
         ]
       },
       "id": "us6000tj8e"
@@ -2855,7 +3255,7 @@
         "mag": 5.6,
         "place": "57 km WNW of Skwentna, Alaska",
         "time": 1786164634985,
-        "updated": 1786510849463,
+        "updated": 1786597242869,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026powmkf",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=aka2026powmkf&format=geojson",
@@ -3935,7 +4335,7 @@
         "mag": 4.9,
         "place": "128 km WSW of Port Orford, Oregon",
         "time": 1786010140381,
-        "updated": 1786529148688,
+        "updated": 1786615555260,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tij5",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tij5&format=geojson",
@@ -4255,12 +4655,12 @@
         "mag": 5.2,
         "place": "31 km SSW of Ialibu, Papua New Guinea",
         "time": 1785959186861,
-        "updated": 1785967528930,
+        "updated": 1786648257096,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tie5",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tie5&format=geojson",
-        "felt": 1,
-        "cdi": 2.2,
+        "felt": 2,
+        "cdi": 2.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -5333,9 +5733,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "204 km SE of Severo-Kuril’sk, Russia",
-        "time": 1785793333017,
-        "updated": 1785806170040,
+        "place": "208 km SE of Severo-Kuril’sk, Russia",
+        "time": 1785793332886,
+        "updated": 1786671611040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thvj",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000thvj&format=geojson",
@@ -5351,19 +5751,19 @@
         "ids": ",us6000thvj,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 71,
-        "dmin": 3.884,
-        "rms": 0.67,
+        "nst": 78,
+        "dmin": 3.85,
+        "rms": 0.7,
         "gap": 58,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 204 km SE of Severo-Kuril’sk, Russia"
+        "title": "M 4.9 - 208 km SE of Severo-Kuril’sk, Russia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          157.8994,
-          49.2319,
+          157.9391,
+          49.2045,
           10
         ]
       },
@@ -5773,9 +6173,9 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "36 km NNE of Suez, Egypt",
-        "time": 1785715233082,
-        "updated": 1786486114684,
+        "place": "39 km NNE of Suez, Egypt",
+        "time": 1785715233174,
+        "updated": 1786668600347,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thpb",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000thpb&format=geojson",
@@ -5791,19 +6191,19 @@
         "ids": ",us6000thpb,usauto6000thpb,",
         "sources": ",us,usauto,",
         "types": ",dyfi,internal-moment-tensor,moment-tensor,origin,phase-data,",
-        "nst": 101,
-        "dmin": 4.693,
-        "rms": 0.76,
+        "nst": 106,
+        "dmin": 2.105,
+        "rms": 0.79,
         "gap": 40,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - 36 km NNE of Suez, Egypt"
+        "title": "M 5.0 - 39 km NNE of Suez, Egypt"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.6273,
-          30.2922,
+          32.6422,
+          30.3186,
           10
         ]
       },
@@ -5813,9 +6213,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "6 km W of Sarangani, Philippines",
-        "time": 1785710910461,
-        "updated": 1785725374040,
+        "place": "11 km WSW of Sarangani, Philippines",
+        "time": 1785710917577,
+        "updated": 1786667095040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000thp0",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000thp0&format=geojson",
@@ -5831,23 +6231,63 @@
         "ids": ",us6000thp0,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 1.654,
+        "nst": 41,
+        "dmin": 1.702,
         "rms": 0.67,
         "gap": 125,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 6 km W of Sarangani, Philippines"
+        "title": "M 4.5 - 11 km WSW of Sarangani, Philippines"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          125.4077,
-          5.4131,
-          8.955
+          125.3647,
+          5.37,
+          67.847
         ]
       },
       "id": "us6000thp0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "11 km SE of Hinundayan, Philippines",
+        "time": 1785709328941,
+        "updated": 1786665245040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tinr",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tinr&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000tinr",
+        "ids": ",us6000tinr,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 3.199,
+        "rms": 0.87,
+        "gap": 116,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 11 km SE of Hinundayan, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.3268,
+          10.2795,
+          10
+        ]
+      },
+      "id": "us6000tinr"
     },
     {
       "type": "Feature",
@@ -5888,6 +6328,46 @@
         ]
       },
       "id": "us6000thna"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "Kermadec Islands region",
+        "time": 1785696358631,
+        "updated": 1786651538040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tinj",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tinj&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000tinj",
+        "ids": ",us6000tinj,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 1.577,
+        "rms": 0.43,
+        "gap": 89,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Kermadec Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -176.4003,
+          -28.4122,
+          10
+        ]
+      },
+      "id": "us6000tinj"
     },
     {
       "type": "Feature",
@@ -7812,6 +8292,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "Kermadec Islands region",
+        "time": 1785520316040,
+        "updated": 1786640968040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tibz",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tibz&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000tibz",
+        "ids": ",us6000tibz,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 1.42,
+        "rms": 0.63,
+        "gap": 215,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Kermadec Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -176.5838,
+          -28.4529,
+          10
+        ]
+      },
+      "id": "us6000tibz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5,
         "place": "76 km W of Coquimbo, Chile",
         "time": 1785520025666,
@@ -7853,9 +8373,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "0 km WNW of Torre Caracciolo, Italy",
-        "time": 1785520003732,
-        "updated": 1785687066481,
+        "place": "0 km SW of Torretta-Scalzapecora, Italy",
+        "time": 1785520003912,
+        "updated": 1786634349481,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000th99",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000th99&format=geojson",
@@ -7871,19 +8391,19 @@
         "ids": ",us6000th99,",
         "sources": ",us,",
         "types": ",dyfi,ground-failure,losspager,origin,phase-data,shakemap,",
-        "nst": 65,
-        "dmin": 0.336,
-        "rms": 0.59,
+        "nst": 73,
+        "dmin": 0.356,
+        "rms": 0.44,
         "gap": 69,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.5 - 0 km WNW of Torre Caracciolo, Italy"
+        "title": "M 4.5 - 0 km SW of Torretta-Scalzapecora, Italy"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.1713,
-          40.8789,
+          14.1271,
+          40.9056,
           5
         ]
       },
@@ -8652,10 +9172,90 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "183 km W of Fakfak, Indonesia",
+        "time": 1785421416175,
+        "updated": 1786655211040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000th2i",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000th2i&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000th2i",
+        "ids": ",us6000th2i,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 1.601,
+        "rms": 1.11,
+        "gap": 86,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 183 km W of Fakfak, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.6524,
+          -3.0625,
+          10
+        ]
+      },
+      "id": "us6000th2i"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "199 km W of Abepura, Indonesia",
+        "time": 1785420014103,
+        "updated": 1786653078040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti2p",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000ti2p&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000ti2p",
+        "ids": ",us6000ti2p,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 1.873,
+        "rms": 0.96,
+        "gap": 101,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 199 km W of Abepura, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.8425,
+          -2.7447,
+          35
+        ]
+      },
+      "id": "us6000ti2p"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5,
-        "place": "2 km WNW of Uto, Japan",
-        "time": 1785419258996,
-        "updated": 1785454920870,
+        "place": "3 km NW of Uto, Japan",
+        "time": 1785419259044,
+        "updated": 1786652305839,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgy8",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tgy8&format=geojson",
@@ -8671,19 +9271,19 @@
         "ids": ",us6000tgy8,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 50,
-        "dmin": 1.186,
-        "rms": 0.62,
-        "gap": 108,
+        "nst": 59,
+        "dmin": 1.204,
+        "rms": 0.74,
+        "gap": 107,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - 2 km WNW of Uto, Japan"
+        "title": "M 5.0 - 3 km NW of Uto, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          130.642,
-          32.6877,
+          130.6356,
+          32.7068,
           10
         ]
       },
@@ -10535,7 +11135,7 @@
         "mag": 5,
         "place": "52 km E of Denali National Park, Alaska",
         "time": 1785271764979,
-        "updated": 1786550162040,
+        "updated": 1786654766492,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ovufno",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=aka2026ovufno&format=geojson",
@@ -11215,11 +11815,11 @@
         "mag": 6.8,
         "place": "The 2026 Kumamoto Region, Japan Earthquake",
         "time": 1785223635512,
-        "updated": 1786536843379,
+        "updated": 1786665203934,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgb9",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tgb9&format=geojson",
-        "felt": 91,
+        "felt": 92,
         "cdi": 8.7,
         "mmi": 9.243,
         "alert": "red",
@@ -13493,9 +14093,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "56 km SE of Tuensang, India",
-        "time": 1785020969078,
-        "updated": 1785024946040,
+        "place": "54 km SE of Tuensang, India",
+        "time": 1785020966701,
+        "updated": 1786672333040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3di",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t3di&format=geojson",
@@ -13511,20 +14111,20 @@
         "ids": ",us7000t3di,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 46,
-        "dmin": 4.765,
-        "rms": 0.79,
-        "gap": 93,
+        "nst": 45,
+        "dmin": 4.767,
+        "rms": 0.69,
+        "gap": 94,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 56 km SE of Tuensang, India"
+        "title": "M 4.5 - 54 km SE of Tuensang, India"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          95.294,
-          25.9804,
-          92.961
+          95.2638,
+          25.9839,
+          69.714
         ]
       },
       "id": "us7000t3di"
@@ -13534,8 +14134,8 @@
       "properties": {
         "mag": 4.9,
         "place": "Kermadec Islands, New Zealand",
-        "time": 1785015541620,
-        "updated": 1785016876040,
+        "time": 1785015541899,
+        "updated": 1786672088040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3d9",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t3d9&format=geojson",
@@ -13551,10 +14151,10 @@
         "ids": ",us7000t3d9,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 0.402,
-        "rms": 0.76,
-        "gap": 138,
+        "nst": 28,
+        "dmin": 0.352,
+        "rms": 0.74,
+        "gap": 134,
         "magType": "mb",
         "type": "earthquake",
         "title": "M 4.9 - Kermadec Islands, New Zealand"
@@ -13562,9 +14162,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -177.5595,
-          -29.4861,
-          55.602
+          -177.6144,
+          -29.4664,
+          56.081
         ]
       },
       "id": "us7000t3d9"
@@ -13728,6 +14328,46 @@
         ]
       },
       "id": "us7000t3a0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "Kermadec Islands region",
+        "time": 1784941376117,
+        "updated": 1786594833040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgyj",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tgyj&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000tgyj",
+        "ids": ",us6000tgyj,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 0.973,
+        "rms": 1.39,
+        "gap": 199,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - Kermadec Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -176.9419,
+          -29.7004,
+          10
+        ]
+      },
+      "id": "us6000tgyj"
     },
     {
       "type": "Feature",
@@ -16092,10 +16732,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "62 km E of Tomioka, Japan",
+        "time": 1784718691968,
+        "updated": 1786630126040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2fy",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t2fy&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000t2fy",
+        "ids": ",us7000t2fy,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 50,
+        "dmin": 2.903,
+        "rms": 1.07,
+        "gap": 134,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 62 km E of Tomioka, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.7199,
+          37.2552,
+          38.874
+        ]
+      },
+      "id": "us7000t2fy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.7,
-        "place": "89 km NW of Finschhafen, Papua New Guinea",
-        "time": 1784717912056,
-        "updated": 1784719288040,
+        "place": "83 km NW of Finschhafen, Papua New Guinea",
+        "time": 1784717911890,
+        "updated": 1786630589040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2fu",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t2fu&format=geojson",
@@ -16111,20 +16791,20 @@
         "ids": ",us7000t2fu,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 3.476,
-        "rms": 0.61,
-        "gap": 70,
+        "nst": 59,
+        "dmin": 3.435,
+        "rms": 0.63,
+        "gap": 44,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 89 km NW of Finschhafen, Papua New Guinea"
+        "title": "M 4.7 - 83 km NW of Finschhafen, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          147.3646,
-          -5.912,
-          106.527
+          147.3913,
+          -5.9552,
+          105.698
         ]
       },
       "id": "us7000t2fu"
@@ -16172,10 +16852,50 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.9,
-        "place": "11 km NW of Sugal, Philippines",
-        "time": 1784713640059,
-        "updated": 1784715709657,
+        "mag": 4.5,
+        "place": "154 km NNE of Caluula, Somalia",
+        "time": 1784714611773,
+        "updated": 1786645656040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tgdt",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tgdt&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000tgdt",
+        "ids": ",us6000tgdt,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 8.292,
+        "rms": 0.39,
+        "gap": 91,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 154 km NNE of Caluula, Somalia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.1402,
+          13.3114,
+          10
+        ]
+      },
+      "id": "us6000tgdt"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "4 km NNE of Balangonan, Philippines",
+        "time": 1784713639801,
+        "updated": 1786621999299,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2fj",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t2fj&format=geojson",
@@ -16185,26 +16905,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 370,
+        "sig": 386,
         "net": "us",
         "code": "7000t2fj",
         "ids": ",us7000t2fj,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 59,
-        "dmin": 1.341,
-        "rms": 1.13,
-        "gap": 89,
+        "nst": 131,
+        "dmin": 1.463,
+        "rms": 0.57,
+        "gap": 46,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 11 km NW of Sugal, Philippines"
+        "title": "M 5.0 - 4 km NNE of Balangonan, Philippines"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          125.3902,
-          5.733,
-          64.477
+          125.3679,
+          5.6126,
+          64.111
         ]
       },
       "id": "us7000t2fj"
@@ -16853,9 +17573,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "18 km SSE of Talisay, Philippines",
-        "time": 1784641686868,
-        "updated": 1784645335040,
+        "place": "20 km WSW of San Rafael, Philippines",
+        "time": 1784641686857,
+        "updated": 1786657856040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t26k",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t26k&format=geojson",
@@ -16871,19 +17591,19 @@
         "ids": ",us7000t26k,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 64,
-        "dmin": 9.862,
-        "rms": 0.95,
+        "nst": 66,
+        "dmin": 9.888,
+        "rms": 0.71,
         "gap": 60,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 18 km SSE of Talisay, Philippines"
+        "title": "M 4.6 - 20 km WSW of San Rafael, Philippines"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          122.6735,
-          13.0193,
+          122.7932,
+          13.0116,
           10
         ]
       },
@@ -16894,8 +17614,8 @@
       "properties": {
         "mag": 4.7,
         "place": "195 km W of Abepura, Indonesia",
-        "time": 1784641632433,
-        "updated": 1784644247040,
+        "time": 1784641636506,
+        "updated": 1786657454040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t26j",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t26j&format=geojson",
@@ -16911,8 +17631,8 @@
         "ids": ",us7000t26j,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 63,
-        "dmin": 1.829,
+        "nst": 68,
+        "dmin": 1.832,
         "rms": 0.55,
         "gap": 46,
         "magType": "mb",
@@ -16922,9 +17642,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          138.8732,
-          -2.5778,
-          7.875
+          138.8709,
+          -2.5995,
+          35
         ]
       },
       "id": "us7000t26j"
@@ -16932,10 +17652,130 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "116 km ENE of Santa Cruz das Flores, Portugal",
+        "time": 1784641636293,
+        "updated": 1786657654040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tg46",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tg46&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000tg46",
+        "ids": ",us6000tg46,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 30,
+        "dmin": 1.009,
+        "rms": 0.47,
+        "gap": 114,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 116 km ENE of Santa Cruz das Flores, Portugal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -29.812,
+          39.7107,
+          10
+        ]
+      },
+      "id": "us6000tg46"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "131 km E of Santa Cruz das Flores, Portugal",
+        "time": 1784640969979,
+        "updated": 1786656830040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tg45",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tg45&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000tg45",
+        "ids": ",us6000tg45,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 1.172,
+        "rms": 0.63,
+        "gap": 144,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 131 km E of Santa Cruz das Flores, Portugal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -29.6111,
+          39.5605,
+          10
+        ]
+      },
+      "id": "us6000tg45"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "179 km NNW of Santa Cruz da Graciosa, Portugal",
+        "time": 1784639744795,
+        "updated": 1786652770040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tg4u",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tg4u&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "6000tg4u",
+        "ids": ",us6000tg4u,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 3.808,
+        "rms": 1.23,
+        "gap": 66,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 179 km NNW of Santa Cruz da Graciosa, Portugal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -28.8505,
+          40.5645,
+          10
+        ]
+      },
+      "id": "us6000tg4u"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.3,
         "place": "138 km ENE of Santa Cruz das Flores, Portugal",
-        "time": 1784639591316,
-        "updated": 1784739599040,
+        "time": 1784639591293,
+        "updated": 1786651834040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t26b",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t26b&format=geojson",
@@ -16951,10 +17791,10 @@
         "ids": ",usauto7000t26b,us7000t26b,",
         "sources": ",usauto,us,",
         "types": ",internal-moment-tensor,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 229,
-        "dmin": 3.851,
-        "rms": 0.46,
-        "gap": 38,
+        "nst": 236,
+        "dmin": 1.174,
+        "rms": 0.45,
+        "gap": 20,
         "magType": "mww",
         "type": "earthquake",
         "title": "M 5.3 - 138 km ENE of Santa Cruz das Flores, Portugal"
@@ -16962,8 +17802,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -29.6202,
-          39.9124,
+          -29.621,
+          39.9061,
           10
         ]
       },
@@ -16972,16 +17812,56 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.7,
+        "place": "Kermadec Islands region",
+        "time": 1784637703257,
+        "updated": 1786614718040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tg40",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tg40&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000tg40",
+        "ids": ",us6000tg40,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 1.083,
+        "rms": 0.6,
+        "gap": 150,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - Kermadec Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -176.7916,
+          -28.818,
+          35.391
+        ]
+      },
+      "id": "us6000tg40"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.6,
         "place": "Kermadec Islands region",
-        "time": 1784636073338,
-        "updated": 1784722863478,
+        "time": 1784636075347,
+        "updated": 1786633676237,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t25y",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t25y&format=geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 3.466,
+        "mmi": 3.429,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -16991,10 +17871,10 @@
         "ids": ",usauto7000t25y,us7000t25y,",
         "sources": ",usauto,us,",
         "types": ",internal-moment-tensor,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 63,
-        "dmin": 0.857,
-        "rms": 1.11,
-        "gap": 77,
+        "nst": 143,
+        "dmin": 0.849,
+        "rms": 0.37,
+        "gap": 69,
         "magType": "mww",
         "type": "earthquake",
         "title": "M 5.6 - Kermadec Islands region"
@@ -17002,9 +17882,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -176.9951,
-          -29.5116,
-          10
+          -176.9584,
+          -29.2885,
+          19.704
         ]
       },
       "id": "us7000t25y"
@@ -17013,9 +17893,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "137 km NNE of Maumere, Indonesia",
-        "time": 1784634435816,
-        "updated": 1784637832040,
+        "place": "142 km NNE of Maumere, Indonesia",
+        "time": 1784634435663,
+        "updated": 1786618394040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t25t",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t25t&format=geojson",
@@ -17031,20 +17911,20 @@
         "ids": ",us7000t25t,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 59,
-        "dmin": 2.627,
-        "rms": 0.95,
+        "nst": 80,
+        "dmin": 2.634,
+        "rms": 0.64,
         "gap": 67,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 137 km NNE of Maumere, Indonesia"
+        "title": "M 4.5 - 142 km NNE of Maumere, Indonesia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          122.8227,
-          -7.5366,
-          550.12
+          122.8627,
+          -7.5026,
+          539.829
         ]
       },
       "id": "us7000t25t"
@@ -17052,10 +17932,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.9,
-        "place": "78 km NE of Simao, China",
-        "time": 1784634188411,
-        "updated": 1784635973040,
+        "mag": 5,
+        "place": "61 km NE of Simao, China",
+        "time": 1784634187526,
+        "updated": 1786617559040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t25s",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t25s&format=geojson",
@@ -17065,25 +17945,25 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 369,
+        "sig": 385,
         "net": "us",
         "code": "7000t25s",
-        "ids": ",usauto7000t25s,us7000t25s,",
-        "sources": ",usauto,us,",
-        "types": ",internal-moment-tensor,origin,phase-data,",
-        "nst": 63,
-        "dmin": 3.215,
-        "rms": 0.9,
-        "gap": 64,
+        "ids": ",us7000t25s,usauto7000t25s,",
+        "sources": ",us,usauto,",
+        "types": ",impact-text,internal-moment-tensor,origin,phase-data,",
+        "nst": 117,
+        "dmin": 3.067,
+        "rms": 0.5,
+        "gap": 23,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 78 km NE of Simao, China"
+        "title": "M 5.0 - 61 km NE of Simao, China"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          101.5395,
-          23.2707,
+          101.4361,
+          23.1468,
           10
         ]
       },
@@ -17092,10 +17972,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5,
-        "place": "58 km SSW of Merizo Village, Guam",
-        "time": 1784632185478,
-        "updated": 1786533594216,
+        "mag": 4.9,
+        "place": "69 km SW of Merizo Village, Guam",
+        "time": 1784632185483,
+        "updated": 1786628941418,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t25j",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t25j&format=geojson",
@@ -17105,26 +17985,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 386,
+        "sig": 371,
         "net": "us",
         "code": "7000t25j",
         "ids": ",us7000t25j,",
         "sources": ",us,",
         "types": ",dyfi,event-sequence,oaf,origin,phase-data,",
-        "nst": 38,
-        "dmin": 2.761,
-        "rms": 0.96,
-        "gap": 71,
+        "nst": 60,
+        "dmin": 0.995,
+        "rms": 0.45,
+        "gap": 85,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - 58 km SSW of Merizo Village, Guam"
+        "title": "M 4.9 - 69 km SW of Merizo Village, Guam"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          144.3814,
-          12.8216,
-          12.164
+          144.2202,
+          12.8161,
+          12.946
         ]
       },
       "id": "us7000t25j"
@@ -18333,15 +19213,15 @@
       "type": "Feature",
       "properties": {
         "mag": 5.6,
-        "place": "208 km SW of Port McNeill, Canada",
-        "time": 1784529690614,
-        "updated": 1784662075465,
+        "place": "214 km SW of Port McNeill, Canada",
+        "time": 1784529689602,
+        "updated": 1786637103649,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1w2",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t1w2&format=geojson",
         "felt": 23,
         "cdi": 3.8,
-        "mmi": 3.504,
+        "mmi": 3.348,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -18351,19 +19231,19 @@
         "ids": ",us7000t1w2,usauto7000t1w2,",
         "sources": ",us,usauto,",
         "types": ",dyfi,internal-moment-tensor,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 91,
-        "dmin": 1.46,
-        "rms": 1.27,
-        "gap": 123,
+        "nst": 168,
+        "dmin": 1.468,
+        "rms": 0.54,
+        "gap": 78,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.6 - 208 km SW of Port McNeill, Canada"
+        "title": "M 5.6 - 214 km SW of Port McNeill, Canada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -129.342,
-          49.4076,
+          -129.5616,
+          49.4982,
           10
         ]
       },
@@ -19772,10 +20652,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.8,
+        "mag": 4.7,
         "place": "South Sandwich Islands region",
-        "time": 1784393854133,
-        "updated": 1784397416040,
+        "time": 1784393853942,
+        "updated": 1786647545040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1n0",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t1n0&format=geojson",
@@ -19785,26 +20665,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 354,
+        "sig": 340,
         "net": "us",
         "code": "7000t1n0",
         "ids": ",us7000t1n0,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 79,
+        "nst": 81,
         "dmin": 7.625,
-        "rms": 0.67,
+        "rms": 0.7,
         "gap": 65,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - South Sandwich Islands region"
+        "title": "M 4.7 - South Sandwich Islands region"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -26.2427,
-          -59.4387,
-          122.006
+          -26.2144,
+          -59.4203,
+          120.923
         ]
       },
       "id": "us7000t1n0"
@@ -19813,9 +20693,9 @@
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "155 km S of George Town, Cayman Islands",
-        "time": 1784390923933,
-        "updated": 1785247194482,
+        "place": "153 km S of George Town, Cayman Islands",
+        "time": 1784390923972,
+        "updated": 1786647180407,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1mu",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t1mu&format=geojson",
@@ -19831,23 +20711,103 @@
         "ids": ",us7000t1mu,usauto7000t1mu,",
         "sources": ",us,usauto,",
         "types": ",dyfi,internal-moment-tensor,moment-tensor,origin,phase-data,",
-        "nst": 268,
-        "dmin": 3.843,
-        "rms": 0.57,
+        "nst": 269,
+        "dmin": 3.827,
+        "rms": 0.61,
         "gap": 28,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.1 - 155 km S of George Town, Cayman Islands"
+        "title": "M 5.1 - 153 km S of George Town, Cayman Islands"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -81.559,
-          17.8906,
+          -81.5445,
+          17.9135,
           10
         ]
       },
       "id": "us7000t1mu"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "59 km S of Koshima, Japan",
+        "time": 1784389867831,
+        "updated": 1786646977040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2yy",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t2yy&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000t2yy",
+        "ids": ",us7000t2yy,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 22,
+        "dmin": 1.807,
+        "rms": 0.78,
+        "gap": 128,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 59 km S of Koshima, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.519,
+          29.6973,
+          45.516
+        ]
+      },
+      "id": "us7000t2yy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "75 km SSE of Gorontalo, Indonesia",
+        "time": 1784382329962,
+        "updated": 1786639315040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2ys",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t2ys&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000t2ys",
+        "ids": ",us7000t2ys,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 47,
+        "dmin": 6.102,
+        "rms": 0.79,
+        "gap": 79,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 75 km SSE of Gorontalo, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3785,
+          -0.0708,
+          137.184
+        ]
+      },
+      "id": "us7000t2ys"
     },
     {
       "type": "Feature",
@@ -23895,7 +24855,7 @@
         "mag": 5.2,
         "place": "122 km SE of McCarthy, Alaska",
         "time": 1784201841034,
-        "updated": 1786365531656,
+        "updated": 1786621654943,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nyxoap",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=aka2026nyxoap&format=geojson",
@@ -23928,6 +24888,46 @@
         ]
       },
       "id": "aka2026nyxoap"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "228 km SW of Tual, Indonesia",
+        "time": 1784201419266,
+        "updated": 1786622539040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0y9",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t0y9&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000t0y9",
+        "ids": ",us7000t0y9,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 18,
+        "dmin": 2.572,
+        "rms": 0.9,
+        "gap": 104,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 228 km SW of Tual, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.0765,
+          -6.8299,
+          35
+        ]
+      },
+      "id": "us7000t0y9"
     },
     {
       "type": "Feature",
@@ -23975,13 +24975,13 @@
         "mag": 5.9,
         "place": "44 km NNW of Te Anau, New Zealand",
         "time": 1784193293985,
-        "updated": 1786361667173,
+        "updated": 1786599100458,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0xb",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t0xb&format=geojson",
         "felt": 36,
         "cdi": 4.4,
-        "mmi": 4.853,
+        "mmi": 5.002,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -23990,7 +24990,7 @@
         "code": "7000t0xb",
         "ids": ",us7000t0xb,usauto7000t0xb,",
         "sources": ",us,usauto,",
-        "types": ",dyfi,internal-moment-tensor,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "types": ",dyfi,impact-text,internal-moment-tensor,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 92,
         "dmin": 0.45,
         "rms": 1.16,
@@ -27132,10 +28132,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.6,
-        "place": "26 km E of Hanmer Springs, New Zealand",
-        "time": 1783873867960,
-        "updated": 1784470240911,
+        "mag": 4.5,
+        "place": "54 km E of Hanmer Springs, New Zealand",
+        "time": 1783873868710,
+        "updated": 1786631738040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szwc",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000szwc&format=geojson",
@@ -27145,26 +28145,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 326,
+        "sig": 312,
         "net": "us",
         "code": "7000szwc",
         "ids": ",us7000szwc,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 26,
-        "dmin": 0.308,
-        "rms": 0.69,
-        "gap": 100,
+        "nst": 31,
+        "dmin": 0.157,
+        "rms": 0.81,
+        "gap": 143,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 26 km E of Hanmer Springs, New Zealand"
+        "title": "M 4.5 - 54 km E of Hanmer Springs, New Zealand"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          173.1301,
-          -42.4746,
-          10
+          173.4789,
+          -42.5664,
+          29.271
         ]
       },
       "id": "us7000szwc"
@@ -27174,8 +28174,8 @@
       "properties": {
         "mag": 4.6,
         "place": "South Sandwich Islands region",
-        "time": 1783869351520,
-        "updated": 1784465618040,
+        "time": 1783869352800,
+        "updated": 1786629931040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szw8",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000szw8&format=geojson",
@@ -27192,8 +28192,8 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": 29,
-        "dmin": 5.731,
-        "rms": 0.87,
+        "dmin": 5.564,
+        "rms": 1.17,
         "gap": 75,
         "magType": "mb",
         "type": "earthquake",
@@ -27202,8 +28202,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -26.8896,
-          -55.8328,
+          -27.1285,
+          -55.6539,
           10
         ]
       },
@@ -27733,9 +28733,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "241 km SE of Vilyuchinsk, Russia",
-        "time": 1783807434986,
-        "updated": 1785116017040,
+        "place": "237 km SSE of Vilyuchinsk, Russia",
+        "time": 1783807436119,
+        "updated": 1786658203040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t12i",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t12i&format=geojson",
@@ -27751,19 +28751,19 @@
         "ids": ",us7000t12i,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 15,
-        "dmin": 2.168,
-        "rms": 0.81,
+        "nst": 11,
+        "dmin": 2.138,
+        "rms": 0.74,
         "gap": 131,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 241 km SE of Vilyuchinsk, Russia"
+        "title": "M 4.5 - 237 km SSE of Vilyuchinsk, Russia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          160.5013,
-          51.1831,
+          160.287,
+          51.1419,
           10
         ]
       },
@@ -28533,9 +29533,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "1 km SE of Batiano, Philippines",
-        "time": 1783730860315,
-        "updated": 1784867745040,
+        "place": "14 km SW of Batiano, Philippines",
+        "time": 1783730860015,
+        "updated": 1786660610040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szlw",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000szlw&format=geojson",
@@ -28551,19 +29551,19 @@
         "ids": ",us7000szlw,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": 1.027,
-        "rms": 0.58,
+        "nst": 46,
+        "dmin": 0.898,
+        "rms": 0.93,
         "gap": 95,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 1 km SE of Batiano, Philippines"
+        "title": "M 4.7 - 14 km SW of Batiano, Philippines"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          126.5011,
-          7.5397,
+          126.3912,
+          7.47,
           10
         ]
       },
@@ -28573,9 +29573,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "206 km NE of Santa Cruz das Flores, Portugal",
-        "time": 1783730694259,
-        "updated": 1785038892040,
+        "place": "212 km NNW of Santa Cruz da Graciosa, Portugal",
+        "time": 1783730694336,
+        "updated": 1786658578040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t11n",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t11n&format=geojson",
@@ -28591,19 +29591,19 @@
         "ids": ",us7000t11n,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 4.171,
-        "rms": 0.74,
-        "gap": 87,
+        "nst": 23,
+        "dmin": 4.148,
+        "rms": 0.92,
+        "gap": 86,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 206 km NE of Santa Cruz das Flores, Portugal"
+        "title": "M 4.5 - 212 km NNW of Santa Cruz da Graciosa, Portugal"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -29.3373,
-          40.7066,
+          -29.2555,
+          40.7383,
           10
         ]
       },
@@ -28774,8 +29774,8 @@
       "properties": {
         "mag": 5,
         "place": "west of Macquarie Island",
-        "time": 1783708004494,
-        "updated": 1784920916040,
+        "time": 1783708004308,
+        "updated": 1786633998040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szim",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000szim&format=geojson",
@@ -28791,10 +29791,10 @@
         "ids": ",usauto7000szim,us7000szim,",
         "sources": ",usauto,us,",
         "types": ",internal-moment-tensor,origin,phase-data,",
-        "nst": 28,
-        "dmin": 11.024,
-        "rms": 0.71,
-        "gap": 102,
+        "nst": 58,
+        "dmin": 11.051,
+        "rms": 0.66,
+        "gap": 62,
         "magType": "mww",
         "type": "earthquake",
         "title": "M 5.0 - west of Macquarie Island"
@@ -28802,8 +29802,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          140.415,
-          -53.183,
+          140.3525,
+          -53.224,
           10
         ]
       },
@@ -28814,8 +29814,8 @@
       "properties": {
         "mag": 4.8,
         "place": "central Mid-Atlantic Ridge",
-        "time": 1783697815335,
-        "updated": 1784406857040,
+        "time": 1783697815645,
+        "updated": 1786628782040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000szhy",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000szhy&format=geojson",
@@ -28832,8 +29832,8 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": 43,
-        "dmin": 9.156,
-        "rms": 0.8,
+        "dmin": 9.172,
+        "rms": 0.66,
         "gap": 90,
         "magType": "mb",
         "type": "earthquake",
@@ -28842,8 +29842,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -30.6435,
-          1.7239,
+          -30.6973,
+          1.7818,
           10
         ]
       },
@@ -30692,6 +31692,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.6,
+        "place": "south of the Kermadec Islands",
+        "time": 1783494097278,
+        "updated": 1786625425040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tavr",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tavr&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "6000tavr",
+        "ids": ",us6000tavr,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 17,
+        "dmin": 5.059,
+        "rms": 1.34,
+        "gap": 250,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - south of the Kermadec Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.7552,
+          -33.0995,
+          10
+        ]
+      },
+      "id": "us6000tavr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.7,
         "place": "28 km NNE of Santa Rosa, Peru",
         "time": 1783486832426,
@@ -31413,9 +32453,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "24 km N of Yaguaraparo, Venezuela",
-        "time": 1783413698174,
-        "updated": 1785304640274,
+        "place": "20 km NNE of Yaguaraparo, Venezuela",
+        "time": 1783413696983,
+        "updated": 1786629123040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000talr",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000talr&format=geojson",
@@ -31431,20 +32471,20 @@
         "ids": ",us6000talr,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 60,
-        "dmin": 1.879,
-        "rms": 1,
+        "nst": 66,
+        "dmin": 0.188,
+        "rms": 0.87,
         "gap": 83,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 24 km N of Yaguaraparo, Venezuela"
+        "title": "M 4.5 - 20 km NNE of Yaguaraparo, Venezuela"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -62.7846,
-          10.7833,
-          126.309
+          -62.7299,
+          10.7315,
+          117.121
         ]
       },
       "id": "us6000talr"
@@ -32932,39 +33972,39 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.8,
-        "place": "268 km SE of Levuka, Fiji",
-        "time": 1783261345736,
-        "updated": 1786031722040,
+        "mag": 5.7,
+        "place": "265 km SE of Levuka, Fiji",
+        "time": 1783261345469,
+        "updated": 1786627257491,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ta9m",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000ta9m&format=geojson",
         "felt": null,
         "cdi": null,
-        "mmi": 1.595,
+        "mmi": 1.391,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 518,
+        "sig": 500,
         "net": "us",
         "code": "6000ta9m",
         "ids": ",usauto6000ta9m,us6000ta9m,",
         "sources": ",usauto,us,",
         "types": ",internal-moment-tensor,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 85,
-        "dmin": 3.491,
-        "rms": 0.73,
+        "dmin": 3.475,
+        "rms": 0.83,
         "gap": 37,
-        "magType": "mww",
+        "magType": "mwb",
         "type": "earthquake",
-        "title": "M 5.8 - 268 km SE of Levuka, Fiji"
+        "title": "M 5.7 - 265 km SE of Levuka, Fiji"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -179.072,
-          -19.9418,
-          676.469
+          -179.0757,
+          -19.92,
+          670.304
         ]
       },
       "id": "us6000ta9m"
@@ -35613,9 +36653,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "66 km WNW of Catuday, Philippines",
-        "time": 1782991478386,
-        "updated": 1785411081040,
+        "place": "65 km WNW of Catuday, Philippines",
+        "time": 1782991476875,
+        "updated": 1786628064040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9m4",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000t9m4&format=geojson",
@@ -35632,19 +36672,19 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": 52,
-        "dmin": 6.597,
-        "rms": 0.71,
+        "dmin": 6.561,
+        "rms": 1.01,
         "gap": 100,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 66 km WNW of Catuday, Philippines"
+        "title": "M 4.6 - 65 km WNW of Catuday, Philippines"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.2025,
-          16.4289,
-          20.158
+          119.2201,
+          16.4611,
+          10
         ]
       },
       "id": "us6000t9m4"
@@ -35688,6 +36728,46 @@
         ]
       },
       "id": "us6000t9lz"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "75 km WNW of Catuday, Philippines",
+        "time": 1782989914472,
+        "updated": 1786624923040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000taz8",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000taz8&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000taz8",
+        "ids": ",us6000taz8,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 6.62,
+        "rms": 0.7,
+        "gap": 119,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 75 km WNW of Catuday, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.1109,
+          16.429,
+          10
+        ]
+      },
+      "id": "us6000taz8"
     },
     {
       "type": "Feature",
@@ -41375,11 +42455,11 @@
         "mag": 5.59,
         "place": "11 km N of Redwood Valley, CA",
         "time": 1782313840760,
-        "updated": 1786548051812,
+        "updated": 1786638532304,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75382936",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75382936&format=geojson",
-        "felt": 5307,
+        "felt": 5308,
         "cdi": 6.8,
         "mmi": 7.376,
         "alert": "yellow",
@@ -46455,7 +47535,7 @@
         "mag": 5,
         "place": "212 km WSW of Adak, Alaska",
         "time": 1781791107164,
-        "updated": 1786025310936,
+        "updated": 1786630122610,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000subg",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000subg&format=geojson",
@@ -59535,17 +60615,17 @@
         "mag": 7.8,
         "place": "25 km SW of Kablalan, Philippines",
         "time": 1780875461970,
-        "updated": 1786545253624,
+        "updated": 1786638965879,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srb1",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000srb1&format=geojson",
-        "felt": 603,
+        "felt": 605,
         "cdi": 9.1,
         "mmi": 8.53,
         "alert": "orange",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 1549,
+        "sig": 1551,
         "net": "us",
         "code": "7000srb1",
         "ids": ",us7000srb1,usauto7000srb1,",
@@ -89695,7 +90775,7 @@
         "mag": 5,
         "place": "46 km N of Yigo Village, Guam",
         "time": 1776986552250,
-        "updated": 1786059157550,
+        "updated": 1786663963425,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssgf",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000ssgf&format=geojson",
@@ -109495,7 +110575,7 @@
         "mag": 4.59,
         "place": "1 km SE of Boulder Creek, CA",
         "time": 1775119285520,
-        "updated": 1786006296320,
+        "updated": 1786611100918,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75337442",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75337442&format=geojson",
@@ -109815,7 +110895,7 @@
         "mag": 5.2,
         "place": "Pagan region, Northern Mariana Islands",
         "time": 1775110424700,
-        "updated": 1785997435854,
+        "updated": 1786602227080,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sly3",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sly3&format=geojson",
@@ -133655,7 +134735,7 @@
         "mag": 5.5,
         "place": "92 km S of Nikolski, Alaska",
         "time": 1772738707317,
-        "updated": 1786044914979,
+        "updated": 1786649718245,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s2bn",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000s2bn&format=geojson",
@@ -133855,7 +134935,7 @@
         "mag": 4.9,
         "place": "2026 Red River Parish, Louisiana Earthquake",
         "time": 1772710208102,
-        "updated": 1786016421404,
+        "updated": 1786621217602,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s27e",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000s27e&format=geojson",
@@ -150055,7 +151135,7 @@
         "mag": 5.4,
         "place": "45 km NNW of Yigo Village, Guam",
         "time": 1770892215628,
-        "updated": 1786012820700,
+        "updated": 1786617627772,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s8gh",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s8gh&format=geojson",
@@ -154495,7 +155575,7 @@
         "mag": 4.68,
         "place": "107 km W of Petrolia, CA",
         "time": 1770295770330,
-        "updated": 1786021180786,
+        "updated": 1786625977893,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75308927",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75308927&format=geojson",
@@ -164815,7 +165895,7 @@
         "mag": 4.65,
         "place": "40 km S of Evanston, Wyoming",
         "time": 1769093360850,
-        "updated": 1786028374953,
+        "updated": 1786633171114,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80127891",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80127891&format=geojson",
@@ -171055,7 +172135,7 @@
         "mag": 5.9,
         "place": "280 km ESE of Attu Station, Alaska",
         "time": 1768467163219,
-        "updated": 1786006978676,
+        "updated": 1786611766282,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rptl",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000rptl&format=geojson",
@@ -181656,6 +182736,6 @@
     2.283,
     179.9882,
     83.8521,
-    676.469
+    670.304
   ]
 }
