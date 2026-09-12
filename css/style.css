@@ -957,3 +957,34 @@ input[type=range]::-webkit-slider-thumb {
     background: var(--bg-color);
     color: var(--text-primary);
 }
+
+/* Map Tile Attribution (Leaflet) */
+.leaflet-control-attribution {
+    background: var(--glass-bg) !important;
+    border: 1px solid var(--glass-border);
+    border-radius: 8px;
+    padding: 3px 8px !important;
+    margin: 0 0 12px 20px !important;
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.6rem;
+    line-height: 1.5;
+    color: var(--text-secondary);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.leaflet-control-attribution a {
+    color: var(--text-secondary);
+    text-decoration: none;
+}
+
+.leaflet-control-attribution a:hover {
+    color: var(--accent-color);
+}
+
+/* Hidden on narrow screens (overlaps the bottom controls); credit stays in the info panel */
+@media (max-width: 768px) {
+    .leaflet-control-attribution {
+        display: none;
+    }
+}

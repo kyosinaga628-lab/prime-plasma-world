@@ -26,11 +26,50 @@ document.addEventListener('DOMContentLoaded', () => {
         infoToggle: document.getElementById('info-toggle'),
         infoPanel: document.getElementById('info-panel'),
         infoClose: document.getElementById('info-close'),
-        yearTabs: document.querySelectorAll('.year-tab'),
+        yearTabsScroll: document.getElementById('year-tabs-scroll'),
         loadingOverlay: document.getElementById('loading-overlay'),
         tutorialToggle: document.getElementById('tutorial-toggle'),
         speedSelect: document.getElementById('speed-select')
     };
+
+    // ====== YEAR TABS ======
+    // Archive start year (keep in sync with scripts/fetch_archive_data.py)
+    const ARCHIVE_START_YEAR = 2011;
+
+    // Build the tabs at runtime so a new year never needs a manual HTML edit
+    function buildYearTabs() {
+        const tabs = [
+            { year: '1month', label: 'Last Month' },
+            { year: 'latest', label: 'Last Year' }
+        ];
+        for (let y = new Date().getFullYear(); y >= ARCHIVE_START_YEAR; y--) {
+            tabs.push({ year: String(y), label: String(y) });
+        }
+
+        tabs.forEach(({ year, label }) => {
+            const btn = document.createElement('button');
+            btn.className = year === state.currentYear ? 'year-tab active' : 'year-tab';
+            btn.dataset.year = year;
+            btn.textContent = label;
+            els.yearTabsScroll.appendChild(btn);
+        });
+    }
+
+    // Right after a new year starts, its archive file may not exist yet - drop that tab
+    function dropUnavailableYearTab() {
+        const year = String(new Date().getFullYear());
+        const tab = els.yearTabsScroll.querySelector(`.year-tab[data-year="${year}"]`);
+        if (!tab) return;
+
+        fetch(getDataUrl(year), { method: 'HEAD' })
+            .then(res => {
+                if (!res.ok) tab.remove();
+            })
+            .catch(() => tab.remove());
+    }
+
+    buildYearTabs();
+    dropUnavailableYearTab();
 
     // Info Panel Toggle
     els.infoToggle.addEventListener('click', () => {
@@ -55,14 +94,28 @@ document.addEventListener('DOMContentLoaded', () => {
         attributionControl: false
     }).setView([20, 0], 2);
 
-    // Dark Tiles for global view (CartoDB Dark Matter)
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-        attribution: '&copy; OpenStreetMap &copy; CARTO',
-        subdomains: 'abcd',
-        maxZoom: 19
+    // --- Base Map Layer (Esri World Dark Gray) ---
+    // CARTO now requires an API key for anonymous use and bakes an
+    // "API KEY REQUIRED" watermark into the tiles, so switch to Esri's
+    // key-free Dark Gray Canvas for the dark, global-coverage basemap.
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+        attribution: '&copy; <a href="https://www.esri.com/" target="_blank">Esri</a>, HERE, Garmin, &copy; OpenStreetMap contributors',
+        maxZoom: 18,
+        maxNativeZoom: 16, // upscale past z16 instead of going blank
+        zIndex: 1
+    }).addTo(map);
+
+    // --- Label Layer (Esri) ---
+    // Place labels, which CARTO baked into its tiles, as a separate overlay
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}', {
+        maxZoom: 18,
+        maxNativeZoom: 16,
+        zIndex: 2
     }).addTo(map);
 
     L.control.zoom({ position: 'topright' }).addTo(map);
+    // Show the tile credits required by Esri's terms of use
+    L.control.attribution({ position: 'bottomleft', prefix: false }).addTo(map);
 
     // Active marker layers
     const activeLayers = new Set();
@@ -146,12 +199,13 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function handleYearTabClick(e) {
-        const tab = e.target;
-        const year = tab.dataset.year;
+        const tab = e.target.closest('.year-tab');
+        if (!tab) return;
 
+        const year = tab.dataset.year;
         if (state.currentYear === year) return;
 
-        els.yearTabs.forEach(t => t.classList.remove('active'));
+        els.yearTabsScroll.querySelectorAll('.year-tab').forEach(t => t.classList.remove('active'));
         tab.classList.add('active');
 
         loadYear(year);
@@ -234,9 +288,8 @@ document.addEventListener('DOMContentLoaded', () => {
             els.playPauseBtn.addEventListener('click', togglePlay);
             els.slider.addEventListener('input', handleSliderChange);
 
-            els.yearTabs.forEach(tab => {
-                tab.addEventListener('click', handleYearTabClick);
-            });
+            // Year tab listener (tabs are generated dynamically, so delegate from the parent)
+            els.yearTabsScroll.addEventListener('click', handleYearTabClick);
 
             if (els.speedSelect) {
                 els.speedSelect.addEventListener('change', (e) => {
