@@ -1,14 +1,574 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1789702338000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-09-18T03%3A32%3A16&endtime=2026-09-18T03%3A32%3A16&minmagnitude=4.5&orderby=time",
+    "generated": 1789788554000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-09-19T03%3A29%3A12&endtime=2026-09-19T03%3A29%3A12&minmagnitude=4.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.7.0",
-    "count": 7824
+    "count": 7755
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.5,
+        "place": "Kermadec Islands region",
+        "time": 1789773508306,
+        "updated": 1789787710116,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tigd",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tigd&format=geojson",
+        "felt": 0,
+        "cdi": 1,
+        "mmi": 0,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 465,
+        "net": "us",
+        "code": "7000tigd",
+        "ids": ",us7000tigd,",
+        "sources": ",us,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "nst": 43,
+        "dmin": 1.513,
+        "rms": 1.12,
+        "gap": 76,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.5 - Kermadec Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -177.2286,
+          -27.8581,
+          94.054
+        ]
+      },
+      "id": "us7000tigd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "112 km ESE of Ust’-Kamchatsk Staryy, Russia",
+        "time": 1789758997535,
+        "updated": 1789767701040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiem",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tiem&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000tiem",
+        "ids": ",us7000tiem,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 132,
+        "dmin": 4.561,
+        "rms": 0.64,
+        "gap": 120,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 112 km ESE of Ust’-Kamchatsk Staryy, Russia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          164.062,
+          55.7503,
+          30.943
+        ]
+      },
+      "id": "us7000tiem"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "23 km SW of Sipí, Colombia",
+        "time": 1789756882677,
+        "updated": 1789763342040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tie4",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tie4&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000tie4",
+        "ids": ",us7000tie4,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 64,
+        "dmin": 2.098,
+        "rms": 0.86,
+        "gap": 89,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 23 km SW of Sipí, Colombia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.7978,
+          4.5042,
+          72.587
+        ]
+      },
+      "id": "us7000tie4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "28 km NE of Villa Presidente Frei, Chile",
+        "time": 1789750327958,
+        "updated": 1789784471780,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tid4",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tid4&format=geojson",
+        "felt": 29,
+        "cdi": 3.8,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 427,
+        "net": "us",
+        "code": "7000tid4",
+        "ids": ",us7000tid4,",
+        "sources": ",us,",
+        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "nst": 82,
+        "dmin": 0.193,
+        "rms": 0.96,
+        "gap": 38,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.2 - 28 km NE of Villa Presidente Frei, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.3344,
+          -33.3109,
+          100.009
+        ]
+      },
+      "id": "us7000tid4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.2,
+        "place": "189 km SSW of Pelabuhanratu, Indonesia",
+        "time": 1789742177895,
+        "updated": 1789743345040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tib8",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tib8&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 416,
+        "net": "us",
+        "code": "7000tib8",
+        "ids": ",us7000tib8,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 55,
+        "dmin": 1.87,
+        "rms": 1.09,
+        "gap": 69,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.2 - 189 km SSW of Pelabuhanratu, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9112,
+          -8.5809,
+          10
+        ]
+      },
+      "id": "us7000tib8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "104 km NNW of Sola, Vanuatu",
+        "time": 1789739876067,
+        "updated": 1789747172040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tib5",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tib5&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000tib5",
+        "ids": ",us7000tib5,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 49,
+        "dmin": 7.899,
+        "rms": 0.64,
+        "gap": 86,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 104 km NNW of Sola, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.0585,
+          -13.0681,
+          191.321
+        ]
+      },
+      "id": "us7000tib5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "5 km SW of Guánica, Puerto Rico",
+        "time": 1789737575140,
+        "updated": 1789778178757,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026261000",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr2026261000&format=geojson",
+        "felt": 84,
+        "cdi": 5.9,
+        "mmi": 4.436,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 404,
+        "net": "pr",
+        "code": "2026261000",
+        "ids": ",pt26261050,us7000tiar,pr2026261000,",
+        "sources": ",pt,us,pr,",
+        "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 23,
+        "dmin": 0.0754,
+        "rms": 0.13,
+        "gap": 191,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.8 - 5 km SW of Guánica, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.9455,
+          17.9391,
+          7
+        ]
+      },
+      "id": "pr2026261000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "125 km SSW of La Esperanza (El Zapotal), Mexico",
+        "time": 1789737169370,
+        "updated": 1789745635040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiaq",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tiaq&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000tiaq",
+        "ids": ",us7000tiaq,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 35,
+        "dmin": 2.333,
+        "rms": 0.72,
+        "gap": 193,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 125 km SSW of La Esperanza (El Zapotal), Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.5556,
+          14.3814,
+          10
+        ]
+      },
+      "id": "us7000tiaq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "34 km NNE of Ruteng, Indonesia",
+        "time": 1789734056630,
+        "updated": 1789735509040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti9c",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000ti9c&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000ti9c",
+        "ids": ",us7000ti9c,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 3.385,
+        "rms": 0.99,
+        "gap": 114,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 34 km NNE of Ruteng, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.5723,
+          -8.3213,
+          10
+        ]
+      },
+      "id": "us7000ti9c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "204 km N of Daocheng, China",
+        "time": 1789733388959,
+        "updated": 1789734465040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti9a",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000ti9a&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000ti9a",
+        "ids": ",us7000ti9a,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 45,
+        "dmin": 5.987,
+        "rms": 0.7,
+        "gap": 125,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 204 km N of Daocheng, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.922,
+          30.8534,
+          10
+        ]
+      },
+      "id": "us7000ti9a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "Izu Islands, Japan region",
+        "time": 1789720745285,
+        "updated": 1789737493040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti8j",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000ti8j&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000ti8j",
+        "ids": ",us7000ti8j,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 43,
+        "dmin": 4.654,
+        "rms": 0.6,
+        "gap": 136,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.3623,
+          32.3435,
+          35
+        ]
+      },
+      "id": "us7000ti8j"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "Izu Islands, Japan region",
+        "time": 1789715968254,
+        "updated": 1789717282040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti89",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000ti89&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "7000ti89",
+        "ids": ",us7000ti89,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 40,
+        "dmin": 4.853,
+        "rms": 0.85,
+        "gap": 132,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.0 - Izu Islands, Japan region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.5763,
+          32.243,
+          35.294
+        ]
+      },
+      "id": "us7000ti89"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "Fiji region",
+        "time": 1789713749274,
+        "updated": 1789714728040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti83",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000ti83&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000ti83",
+        "ids": ",us7000ti83,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 46,
+        "dmin": 4.832,
+        "rms": 0.65,
+        "gap": 77,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - Fiji region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.3724,
+          -21.9479,
+          548.378
+        ]
+      },
+      "id": "us7000ti83"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "40 km SSW of Sipí, Colombia",
+        "time": 1789712223598,
+        "updated": 1789727870853,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti7x",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000ti7x&format=geojson",
+        "felt": 7,
+        "cdi": 3.1,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 342,
+        "net": "us",
+        "code": "7000ti7x",
+        "ids": ",us7000ti7x,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 50,
+        "dmin": 2.243,
+        "rms": 1.05,
+        "gap": 99,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 40 km SSW of Sipí, Colombia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.7931,
+          4.3224,
+          68.374
+        ]
+      },
+      "id": "us7000ti7x"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -95,17 +655,17 @@
         "mag": 4.7,
         "place": "24 km SW of Sipí, Colombia",
         "time": 1789679425572,
-        "updated": 1789689537546,
+        "updated": 1789713299836,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti5y",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000ti5y&format=geojson",
-        "felt": 2,
-        "cdi": 2.7,
+        "felt": 4,
+        "cdi": 3.1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 340,
+        "sig": 341,
         "net": "us",
         "code": "7000ti5y",
         "ids": ",us7000ti5y,",
@@ -128,6 +688,46 @@
         ]
       },
       "id": "us7000ti5y"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "223 km W of Tual, Indonesia",
+        "time": 1789676626165,
+        "updated": 1789754069040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti5v",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000ti5v&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000ti5v",
+        "ids": ",us7000ti5v,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 50,
+        "dmin": 7.123,
+        "rms": 0.62,
+        "gap": 71,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 223 km W of Tual, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.7378,
+          -5.6852,
+          73.566
+        ]
+      },
+      "id": "us7000ti5v"
     },
     {
       "type": "Feature",
@@ -212,16 +812,56 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.6,
+        "place": "24 km W of Osorno, Chile",
+        "time": 1789660278436,
+        "updated": 1789743512179,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti3n",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000ti3n&format=geojson",
+        "felt": 1,
+        "cdi": 2.2,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000ti3n",
+        "ids": ",us7000ti3n,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 27,
+        "dmin": 0.67,
+        "rms": 0.95,
+        "gap": 141,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 24 km W of Osorno, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4257,
+          -40.5514,
+          61.766
+        ]
+      },
+      "id": "us7000ti3n"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 6.5,
-        "place": "165 km W of Nikolski, Alaska",
-        "time": 1789654793164,
-        "updated": 1789698605440,
+        "place": "169 km W of Nikolski, Alaska",
+        "time": 1789654792210,
+        "updated": 1789741794553,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti1p",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000ti1p&format=geojson",
         "felt": 8,
         "cdi": 3.4,
-        "mmi": 4.786,
+        "mmi": 4.983,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 1,
@@ -231,20 +871,20 @@
         "ids": ",attliih5,aka2026slmipb,us7000ti1p,usauto7000ti1p,",
         "sources": ",at,ak,us,usauto,",
         "types": ",dyfi,event-sequence,ground-failure,impact-link,internal-moment-tensor,losspager,moment-tensor,oaf,origin,phase-data,shakemap,",
-        "nst": 146,
-        "dmin": 0.78,
-        "rms": 0.89,
+        "nst": 147,
+        "dmin": 0.82,
+        "rms": 1.15,
         "gap": 29,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 6.5 - 165 km W of Nikolski, Alaska"
+        "title": "M 6.5 - 169 km W of Nikolski, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -171.2949,
-          52.7648,
-          111.666
+          -171.3756,
+          52.8594,
+          98
         ]
       },
       "id": "us7000ti1p"
@@ -612,10 +1252,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.9,
-        "place": "191 km ESE of Kimbe, Papua New Guinea",
-        "time": 1789590084970,
-        "updated": 1789591050040,
+        "mag": 5.1,
+        "place": "190 km ESE of Kimbe, Papua New Guinea",
+        "time": 1789590084473,
+        "updated": 1789765881040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thxg",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000thxg&format=geojson",
@@ -625,25 +1265,25 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 369,
+        "sig": 400,
         "net": "us",
         "code": "7000thxg",
         "ids": ",us7000thxg,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 1.942,
-        "rms": 1.26,
-        "gap": 128,
+        "nst": 104,
+        "dmin": 1.864,
+        "rms": 0.69,
+        "gap": 51,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 191 km ESE of Kimbe, Papua New Guinea"
+        "title": "M 5.1 - 190 km ESE of Kimbe, Papua New Guinea"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.7775,
-          -6.1072,
+          151.7908,
+          -6.0303,
           10
         ]
       },
@@ -652,10 +1292,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5,
-        "place": "29 km WSW of Sipí, Colombia",
-        "time": 1789589572070,
-        "updated": 1789616325180,
+        "mag": 4.9,
+        "place": "24 km WSW of Sipí, Colombia",
+        "time": 1789589572374,
+        "updated": 1789759985396,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thxc",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000thxc&format=geojson",
@@ -665,26 +1305,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 385,
+        "sig": 370,
         "net": "us",
         "code": "7000thxc",
         "ids": ",us7000thxc,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 62,
-        "dmin": 2.131,
-        "rms": 1.01,
-        "gap": 102,
+        "nst": 153,
+        "dmin": 2.088,
+        "rms": 0.5,
+        "gap": 67,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - 29 km WSW of Sipí, Colombia"
+        "title": "M 4.9 - 24 km WSW of Sipí, Colombia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -76.8772,
-          4.5241,
-          59.026
+          -76.8399,
+          4.5496,
+          66.069
         ]
       },
       "id": "us7000thxc"
@@ -773,16 +1413,16 @@
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "77 km SSW of San Jose Village, Northern Mariana Islands",
-        "time": 1789582000886,
-        "updated": 1789669015048,
+        "place": "80 km SSW of San Jose Village, Northern Mariana Islands",
+        "time": 1789582000400,
+        "updated": 1789759409902,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thwt",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000thwt&format=geojson",
         "felt": 10,
         "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
+        "mmi": 3.532,
+        "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
         "sig": 403,
@@ -790,21 +1430,21 @@
         "code": "7000thwt",
         "ids": ",us7000thwt,",
         "sources": ",us,",
-        "types": ",dyfi,event-sequence,oaf,origin,phase-data,",
-        "nst": 199,
-        "dmin": 0.991,
-        "rms": 0.7,
+        "types": ",dyfi,event-sequence,losspager,oaf,origin,phase-data,shakemap,",
+        "nst": 200,
+        "dmin": 1.022,
+        "rms": 0.64,
         "gap": 20,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.1 - 77 km SSW of San Jose Village, Northern Mariana Islands"
+        "title": "M 5.1 - 80 km SSW of San Jose Village, Northern Mariana Islands"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          145.4729,
-          14.2866,
-          110.79
+          145.4199,
+          14.2719,
+          106.631
         ]
       },
       "id": "us7000thwt"
@@ -815,17 +1455,17 @@
         "mag": 5,
         "place": "5 km NE of Mitsukaidō, Japan",
         "time": 1789571258245,
-        "updated": 1789650779229,
+        "updated": 1789741673604,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thv6",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000thv6&format=geojson",
-        "felt": 66,
+        "felt": 71,
         "cdi": 3.8,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 410,
+        "sig": 412,
         "net": "us",
         "code": "7000thv6",
         "ids": ",us7000thv6,",
@@ -975,7 +1615,7 @@
         "mag": 5.1,
         "place": "172 km ESE of Saipan, Northern Mariana Islands",
         "time": 1789547820012,
-        "updated": 1789634824855,
+        "updated": 1789721223903,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thsx",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000thsx&format=geojson",
@@ -1933,6 +2573,46 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
+        "place": "159 km ESE of Kandrian, Papua New Guinea",
+        "time": 1789414133441,
+        "updated": 1789744812040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thg9",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000thg9&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000thg9",
+        "ids": ",us7000thg9,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 34,
+        "dmin": 3.071,
+        "rms": 0.99,
+        "gap": 153,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 159 km ESE of Kandrian, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.7817,
+          -6.9553,
+          10
+        ]
+      },
+      "id": "us7000thg9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
         "place": "106 km WSW of Alianza Cristiana, Peru",
         "time": 1789413409927,
         "updated": 1789414492040,
@@ -2815,17 +3495,17 @@
         "mag": 4.8,
         "place": "17 km WSW of Lixoúri, Greece",
         "time": 1789235505718,
-        "updated": 1789655736599,
+        "updated": 1789742647040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th16",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000th16&format=geojson",
-        "felt": 25,
+        "felt": 26,
         "cdi": 3.6,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 363,
+        "sig": 364,
         "net": "us",
         "code": "7000th16",
         "ids": ",us7000th16,",
@@ -3373,9 +4053,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "33 km SW of Sipí, Colombia",
-        "time": 1789144950894,
-        "updated": 1789187876867,
+        "place": "27 km SW of Sipí, Colombia",
+        "time": 1789144951376,
+        "updated": 1789766724094,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgpu",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tgpu&format=geojson",
@@ -3391,20 +4071,20 @@
         "ids": ",us7000tgpu,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 47,
-        "dmin": 2.187,
-        "rms": 1.1,
-        "gap": 91,
+        "nst": 49,
+        "dmin": 2.133,
+        "rms": 1.3,
+        "gap": 90,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 33 km SW of Sipí, Colombia"
+        "title": "M 4.7 - 27 km SW of Sipí, Colombia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -76.8325,
-          4.4193,
-          61.088
+          -76.8003,
+          4.4626,
+          68.328
         ]
       },
       "id": "us7000tgpu"
@@ -3414,8 +4094,8 @@
       "properties": {
         "mag": 4.9,
         "place": "south of the Kermadec Islands",
-        "time": 1789141475986,
-        "updated": 1789321972040,
+        "time": 1789141475533,
+        "updated": 1789765990040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgpd",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tgpd&format=geojson",
@@ -3432,8 +4112,8 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": 32,
-        "dmin": 3.457,
-        "rms": 1.17,
+        "dmin": 3.402,
+        "rms": 1.13,
         "gap": 80,
         "magType": "mb",
         "type": "earthquake",
@@ -3442,8 +4122,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -178.9346,
-          -32.6035,
+          -178.8259,
+          -32.5696,
           35
         ]
       },
@@ -3495,7 +4175,7 @@
         "mag": 5.3,
         "place": "151 km WSW of Adak, Alaska",
         "time": 1789123632613,
-        "updated": 1789681964681,
+        "updated": 1789729044845,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgky",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tgky&format=geojson",
@@ -3733,9 +4413,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "66 km WSW of Zhaotong, China",
-        "time": 1789059213992,
-        "updated": 1789345611518,
+        "place": "70 km WSW of Zhaotong, China",
+        "time": 1789059213841,
+        "updated": 1789763185577,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgel",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tgel&format=geojson",
@@ -3751,19 +4431,19 @@
         "ids": ",us7000tgel,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 44,
-        "dmin": 7.32,
-        "rms": 0.67,
+        "nst": 51,
+        "dmin": 7.301,
+        "rms": 0.49,
         "gap": 91,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 66 km WSW of Zhaotong, China"
+        "title": "M 4.7 - 70 km WSW of Zhaotong, China"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.0684,
-          27.1525,
+          103.0297,
+          27.1446,
           10
         ]
       },
@@ -3773,9 +4453,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.7,
-        "place": "272 km N of Puerto Ayora, Ecuador",
-        "time": 1789049753806,
-        "updated": 1789140736040,
+        "place": "263 km N of Puerto Ayora, Ecuador",
+        "time": 1789049753168,
+        "updated": 1789760817040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgkb",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tgkb&format=geojson",
@@ -3791,19 +4471,19 @@
         "ids": ",us7000tgkb,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 2.383,
-        "rms": 0.75,
-        "gap": 155,
+        "nst": 28,
+        "dmin": 2.305,
+        "rms": 0.93,
+        "gap": 156,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 272 km N of Puerto Ayora, Ecuador"
+        "title": "M 4.7 - 263 km N of Puerto Ayora, Ecuador"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.6073,
-          1.7027,
+          -90.6441,
+          1.6184,
           10
         ]
       },
@@ -3812,10 +4492,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.7,
+        "place": "168 km SSW of Merizo Village, Guam",
+        "time": 1789047305103,
+        "updated": 1789758804656,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thvq",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000thvq&format=geojson",
+        "felt": 1,
+        "cdi": 2.7,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000thvq",
+        "ids": ",us7000thvq,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 23,
+        "dmin": 1.885,
+        "rms": 1.21,
+        "gap": 111,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 168 km SSW of Merizo Village, Guam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.9047,
+          11.945,
+          10
+        ]
+      },
+      "id": "us7000thvq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.5,
-        "place": "84 km SW of Puerto Madero, Mexico",
-        "time": 1789046943015,
-        "updated": 1789049557040,
+        "place": "86 km SW of Puerto Madero, Mexico",
+        "time": 1789046943836,
+        "updated": 1789756843040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgb4",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tgb4&format=geojson",
@@ -3831,19 +4551,19 @@
         "ids": ",us7000tgb4,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 2.287,
-        "rms": 1.27,
+        "nst": 35,
+        "dmin": 2.258,
+        "rms": 0.92,
         "gap": 210,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 84 km SW of Puerto Madero, Mexico"
+        "title": "M 4.5 - 86 km SW of Puerto Madero, Mexico"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -92.8815,
-          14.0976,
+          -92.9951,
+          14.1688,
           10
         ]
       },
@@ -3855,7 +4575,7 @@
         "mag": 5.1,
         "place": "163 km SW of Merizo Village, Guam",
         "time": 1789046895938,
-        "updated": 1789677296371,
+        "updated": 1789738701637,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgb6",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tgb6&format=geojson",
@@ -5415,7 +6135,7 @@
         "mag": 5.3,
         "place": "off the coast of Oregon",
         "time": 1788744624930,
-        "updated": 1789695632268,
+        "updated": 1789782036511,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tesi",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tesi&format=geojson",
@@ -8374,26 +9094,26 @@
       "properties": {
         "mag": 6.2,
         "place": "South Sandwich Islands region",
-        "time": 1788392817617,
-        "updated": 1788479692041,
+        "time": 1788392816213,
+        "updated": 1789706040228,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdrv",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tdrv&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.79,
+        "felt": 2,
+        "cdi": 2,
+        "mmi": 3.924,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 591,
+        "sig": 592,
         "net": "us",
         "code": "7000tdrv",
         "ids": ",us7000tdrv,usauto7000tdrv,",
         "sources": ",us,usauto,",
-        "types": ",ground-failure,internal-moment-tensor,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 64,
-        "dmin": 5.273,
-        "rms": 1.15,
+        "types": ",dyfi,ground-failure,internal-moment-tensor,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 72,
+        "dmin": 5.264,
+        "rms": 1.26,
         "gap": 46,
         "magType": "mww",
         "type": "earthquake",
@@ -8402,9 +9122,9 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -27.9085,
-          -56.2062,
-          125.905
+          -27.8507,
+          -56.0727,
+          111
         ]
       },
       "id": "us7000tdrv"
@@ -9048,6 +9768,46 @@
         ]
       },
       "id": "us7000tdk1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "213 km ENE of Georgetown, Saint Helena",
+        "time": 1788323174074,
+        "updated": 1789704071040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdjv",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tdjv&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000tdjv",
+        "ids": ",us7000tdjv,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 1.873,
+        "rms": 1.18,
+        "gap": 91,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 213 km ENE of Georgetown, Saint Helena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.6721,
+          -7.0855,
+          10
+        ]
+      },
+      "id": "us7000tdjv"
     },
     {
       "type": "Feature",
@@ -13293,55 +14053,55 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "147 km E of Sola, Vanuatu",
-        "time": 1787773808291,
-        "updated": 1787802260514,
+        "place": "South Indian Ocean",
+        "time": 1787775247773,
+        "updated": 1789755202040,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tc21",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tc21&format=geojson",
-        "felt": 1,
-        "cdi": 2,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdma",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tdma&format=geojson",
+        "felt": null,
+        "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
         "sig": 312,
         "net": "us",
-        "code": "7000tc21",
-        "ids": ",us7000tc21,",
+        "code": "7000tdma",
+        "ids": ",us7000tdma,",
         "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 16,
-        "dmin": 7.917,
-        "rms": 0.98,
-        "gap": 279,
+        "types": ",origin,phase-data,",
+        "nst": 9,
+        "dmin": 53.002,
+        "rms": 0.54,
+        "gap": 205,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 147 km E of Sola, Vanuatu"
+        "title": "M 4.5 - South Indian Ocean"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          168.9143,
-          -13.9457,
+          72.8436,
+          -30.1391,
           10
         ]
       },
-      "id": "us7000tc21"
+      "id": "us7000tdma"
     },
     {
       "type": "Feature",
       "properties": {
         "mag": 5.6,
-        "place": "209 km ESE of Ōfunato, Japan",
-        "time": 1787772102872,
-        "updated": 1787859118869,
+        "place": "206 km ESE of Ōfunato, Japan",
+        "time": 1787772102986,
+        "updated": 1789751745967,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tc18",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tc18&format=geojson",
         "felt": 1,
         "cdi": 2,
-        "mmi": 3.059,
+        "mmi": 0,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -13351,20 +14111,20 @@
         "ids": ",us7000tc18,",
         "sources": ",us,",
         "types": ",dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 258,
-        "dmin": 3.377,
-        "rms": 0.77,
+        "nst": 234,
+        "dmin": 3.362,
+        "rms": 0.66,
         "gap": 62,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.6 - 209 km ESE of Ōfunato, Japan"
+        "title": "M 5.6 - 206 km ESE of Ōfunato, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.8447,
-          38.1821,
-          16.05
+          143.7989,
+          38.1728,
+          17.09
         ]
       },
       "id": "us7000tc18"
@@ -13372,10 +14132,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.7,
-        "place": "34 km NNE of Ruteng, Indonesia",
-        "time": 1787769298482,
-        "updated": 1787777478040,
+        "mag": 4.5,
+        "place": "36 km NNE of Ruteng, Indonesia",
+        "time": 1787769298524,
+        "updated": 1789747106040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tc0p",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tc0p&format=geojson",
@@ -13385,25 +14145,25 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 340,
+        "sig": 312,
         "net": "us",
         "code": "7000tc0p",
         "ids": ",us7000tc0p,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 3.407,
-        "rms": 0.63,
+        "nst": 35,
+        "dmin": 3.401,
+        "rms": 0.59,
         "gap": 77,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 34 km NNE of Ruteng, Indonesia"
+        "title": "M 4.5 - 36 km NNE of Ruteng, Indonesia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.6143,
-          -8.3333,
+          120.6242,
+          -8.3246,
           10
         ]
       },
@@ -13413,9 +14173,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "42 km NE of Ruteng, Indonesia",
-        "time": 1787768593728,
-        "updated": 1787770687040,
+        "place": "31 km NE of Ruteng, Indonesia",
+        "time": 1787768593367,
+        "updated": 1789746396040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tc0k",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tc0k&format=geojson",
@@ -13431,19 +14191,19 @@
         "ids": ",us7000tc0k,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 55,
-        "dmin": 3.407,
-        "rms": 0.58,
-        "gap": 49,
+        "nst": 78,
+        "dmin": 3.45,
+        "rms": 0.68,
+        "gap": 47,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 42 km NE of Ruteng, Indonesia"
+        "title": "M 4.9 - 31 km NE of Ruteng, Indonesia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          120.6979,
-          -8.3107,
+          120.6226,
+          -8.376,
           10
         ]
       },
@@ -22975,7 +23735,7 @@
         "mag": 5.6,
         "place": "145 km SSE of Teluk Dalam, Indonesia",
         "time": 1787032940555,
-        "updated": 1789664694040,
+        "updated": 1789748886040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlkt",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tlkt&format=geojson",
@@ -25172,46 +25932,6 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.8,
-        "place": "49 km NW of Valparaíso, Chile",
-        "time": 1786897972657,
-        "updated": 1789663789040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015e8r",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usd0015e8r&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "d0015e8r",
-        "ids": ",usd0015e8r,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 36,
-        "dmin": 0.429,
-        "rms": 0.73,
-        "gap": 139,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 49 km NW of Valparaíso, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -72.0102,
-          -32.7212,
-          15.565
-        ]
-      },
-      "id": "usd0015e8r"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 5.3,
         "place": "106 km SW of Puerto Madero, Mexico",
         "time": 1786895567714,
@@ -25655,7 +26375,7 @@
         "mag": 5.3,
         "place": "75 km NNE of Ruteng, Indonesia",
         "time": 1786875276311,
-        "updated": 1788774294040,
+        "updated": 1789750248040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd0015e7j",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usd0015e7j&format=geojson",
@@ -25670,7 +26390,7 @@
         "code": "d0015e7j",
         "ids": ",usd0015e7j,",
         "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 97,
         "dmin": 3.033,
         "rms": 0.66,
@@ -26133,15 +26853,15 @@
       "type": "Feature",
       "properties": {
         "mag": 6.1,
-        "place": "55 km NNE of Port-Olry, Vanuatu",
-        "time": 1786850423928,
-        "updated": 1788583211313,
+        "place": "63 km NNE of Port-Olry, Vanuatu",
+        "time": 1786850419914,
+        "updated": 1789771823477,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl4w",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tl4w&format=geojson",
         "felt": 1,
         "cdi": 3.4,
-        "mmi": 3.919,
+        "mmi": 4.139,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -26152,19 +26872,19 @@
         "sources": ",us,usauto,at,",
         "types": ",dyfi,ground-failure,internal-moment-tensor,internal-origin,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 93,
-        "dmin": 6.586,
-        "rms": 0.8,
+        "dmin": 6.651,
+        "rms": 1.01,
         "gap": 53,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 6.1 - 55 km NNE of Port-Olry, Vanuatu"
+        "title": "M 6.1 - 63 km NNE of Port-Olry, Vanuatu"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          167.2418,
-          -14.5653,
-          186.573
+          167.2517,
+          -14.4979,
+          146
         ]
       },
       "id": "us6000tl4w"
@@ -26215,7 +26935,7 @@
         "mag": 5.4,
         "place": "23 km NE of Colonia, Micronesia",
         "time": 1786834376226,
-        "updated": 1788646646661,
+        "updated": 1789750091040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl43",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tl43&format=geojson",
@@ -26295,7 +27015,7 @@
         "mag": 5.6,
         "place": "Volcano Islands, Japan region",
         "time": 1786822351970,
-        "updated": 1788107465890,
+        "updated": 1789749907040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tl36",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tl36&format=geojson",
@@ -27573,9 +28293,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "77 km NW of Ende, Indonesia",
-        "time": 1786767428845,
-        "updated": 1788571977040,
+        "place": "76 km NW of Ende, Indonesia",
+        "time": 1786767429103,
+        "updated": 1789780689040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm56",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tm56&format=geojson",
@@ -27592,18 +28312,18 @@
         "sources": ",us,",
         "types": ",origin,phase-data,",
         "nst": 15,
-        "dmin": 3.318,
-        "rms": 1.3,
+        "dmin": 3.344,
+        "rms": 0.91,
         "gap": 138,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 77 km NW of Ende, Indonesia"
+        "title": "M 4.5 - 76 km NW of Ende, Indonesia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          121.2569,
-          -8.2728,
+          121.2005,
+          -8.3297,
           10
         ]
       },
@@ -27688,46 +28408,6 @@
         ]
       },
       "id": "us6000tm52"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "22 km SW of Sarangani, Philippines",
-        "time": 1786762667336,
-        "updated": 1788559182040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm4y",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tm4y&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000tm4y",
-        "ids": ",us6000tm4y,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 23,
-        "dmin": 1.811,
-        "rms": 1.35,
-        "gap": 177,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 22 km SW of Sarangani, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          125.3107,
-          5.2669,
-          10
-        ]
-      },
-      "id": "us6000tm4y"
     },
     {
       "type": "Feature",
@@ -30293,9 +30973,9 @@
       "type": "Feature",
       "properties": {
         "mag": 5.1,
-        "place": "54 km NNW of Barishal, Pakistan",
-        "time": 1786581318995,
-        "updated": 1788557351076,
+        "place": "58 km NNW of Barishal, Pakistan",
+        "time": 1786581319456,
+        "updated": 1789768140040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkci",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tkci&format=geojson",
@@ -30312,19 +30992,19 @@
         "sources": ",us,usauto,",
         "types": ",dyfi,impact-text,internal-moment-tensor,origin,phase-data,",
         "nst": 88,
-        "dmin": 2.177,
-        "rms": 0.82,
+        "dmin": 2.146,
+        "rms": 0.96,
         "gap": 29,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.1 - 54 km NNW of Barishal, Pakistan"
+        "title": "M 5.1 - 58 km NNW of Barishal, Pakistan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          74.3988,
-          36.7533,
-          61.667
+          74.3773,
+          36.7791,
+          66.268
         ]
       },
       "id": "us6000tkci"
@@ -30373,15 +31053,15 @@
       "type": "Feature",
       "properties": {
         "mag": 5.5,
-        "place": "48 km SSW of Intipucá, El Salvador",
-        "time": 1786581005853,
-        "updated": 1789662352040,
+        "place": "50 km SSW of Intipucá, El Salvador",
+        "time": 1786581005782,
+        "updated": 1789768021163,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkcb",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tkcb&format=geojson",
         "felt": 15,
         "cdi": 3.4,
-        "mmi": 4.454,
+        "mmi": 4.465,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -30392,19 +31072,19 @@
         "sources": ",us,usauto,",
         "types": ",dyfi,internal-moment-tensor,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 64,
-        "dmin": 0.716,
-        "rms": 0.99,
+        "dmin": 0.729,
+        "rms": 0.95,
         "gap": 136,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.5 - 48 km SSW of Intipucá, El Salvador"
+        "title": "M 5.5 - 50 km SSW of Intipucá, El Salvador"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -88.156,
-          12.7675,
-          72.744
+          -88.1649,
+          12.752,
+          71.903
         ]
       },
       "id": "us6000tkcb"
@@ -32135,13 +32815,13 @@
         "mag": 7.4,
         "place": "2 km SE of San José del Palmar, Colombia",
         "time": 1786365268009,
-        "updated": 1789617063698,
+        "updated": 1789760983889,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjl2",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tjl2&format=geojson",
-        "felt": 1247,
+        "felt": 1248,
         "cdi": 9.1,
-        "mmi": 8.462,
+        "mmi": 8.202,
         "alert": "red",
         "status": "reviewed",
         "tsunami": 0,
@@ -33213,9 +33893,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.6,
-        "place": "98 km S of Sarangani, Philippines",
-        "time": 1786269871071,
-        "updated": 1788277368040,
+        "place": "82 km S of Sarangani, Philippines",
+        "time": 1786269870273,
+        "updated": 1789732432040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tje3",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tje3&format=geojson",
@@ -33231,19 +33911,19 @@
         "ids": ",us6000tje3,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 2.54,
-        "rms": 0.63,
+        "nst": 39,
+        "dmin": 2.396,
+        "rms": 0.69,
         "gap": 106,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 98 km S of Sarangani, Philippines"
+        "title": "M 4.6 - 82 km S of Sarangani, Philippines"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          125.366,
-          4.5221,
+          125.4493,
+          4.6616,
           10
         ]
       },
@@ -59852,6 +60532,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "32 km SE of Kalbay, Philippines",
+        "time": 1784097337209,
+        "updated": 1789711704040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t27c",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t27c&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000t27c",
+        "ids": ",us7000t27c,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 13,
+        "dmin": 1.521,
+        "rms": 0.34,
+        "gap": 135,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 32 km SE of Kalbay, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.7329,
+          5.5466,
+          10
+        ]
+      },
+      "id": "us7000t27c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.6,
         "place": "44 km E of Union, Philippines",
         "time": 1784091625432,
@@ -60652,39 +61372,79 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5.6,
-        "place": "5 km SSW of Checca, Peru",
-        "time": 1784017263668,
-        "updated": 1785831797967,
+        "mag": 4.6,
+        "place": "255 km S of ‘Ohonua, Tonga",
+        "time": 1784017544092,
+        "updated": 1789712902040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1yj",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t1yj&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000t1yj",
+        "ids": ",us7000t1yj,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 6.276,
+        "rms": 0.74,
+        "gap": 97,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 255 km S of ‘Ohonua, Tonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -174.7335,
+          -23.6375,
+          10
+        ]
+      },
+      "id": "us7000t1yj"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.4,
+        "place": "2 km WSW of Checca, Peru",
+        "time": 1784017266600,
+        "updated": 1789712034487,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t0a3",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t0a3&format=geojson",
         "felt": 1,
         "cdi": 2.9,
-        "mmi": 3.934,
+        "mmi": 3.817,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 483,
+        "sig": 449,
         "net": "us",
         "code": "7000t0a3",
         "ids": ",us7000t0a3,usauto7000t0a3,",
         "sources": ",us,usauto,",
         "types": ",dyfi,internal-moment-tensor,losspager,origin,phase-data,shakemap,",
         "nst": 151,
-        "dmin": 3.628,
-        "rms": 1.05,
-        "gap": 50,
-        "magType": "mb",
+        "dmin": 4.004,
+        "rms": 1.32,
+        "gap": 49,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.6 - 5 km SSW of Checca, Peru"
+        "title": "M 5.4 - 2 km WSW of Checca, Peru"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.4191,
-          -14.516,
-          110.662
+          -71.4182,
+          -14.4797,
+          138.226
         ]
       },
       "id": "us7000t0a3"
@@ -60692,10 +61452,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5,
-        "place": "50 km E of Noda, Japan",
-        "time": 1784016451196,
-        "updated": 1787590573040,
+        "mag": 4.8,
+        "place": "50 km ENE of Noda, Japan",
+        "time": 1784016451469,
+        "updated": 1789711732040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t09z",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t09z&format=geojson",
@@ -60705,26 +61465,26 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 385,
+        "sig": 355,
         "net": "us",
         "code": "7000t09z",
         "ids": ",us7000t09z,",
         "sources": ",us,",
         "types": ",dyfi,moment-tensor,origin,phase-data,",
         "nst": 110,
-        "dmin": 1.182,
-        "rms": 0.74,
+        "dmin": 1.158,
+        "rms": 0.81,
         "gap": 124,
-        "magType": "mb",
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - 50 km E of Noda, Japan"
+        "title": "M 4.8 - 50 km ENE of Noda, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          142.4027,
-          40.1915,
-          56.541
+          142.3905,
+          40.2245,
+          58.85
         ]
       },
       "id": "us7000t09z"
@@ -76735,17 +77495,17 @@
         "mag": 7.5,
         "place": "20 km W of Catia La Mar, Venezuela",
         "time": 1782338704053,
-        "updated": 1789579524912,
+        "updated": 1789739629140,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7zp",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000t7zp&format=geojson",
-        "felt": 969,
+        "felt": 971,
         "cdi": 8.9,
         "mmi": 9.056,
         "alert": "red",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 2862,
+        "sig": 2864,
         "net": "us",
         "code": "6000t7zp",
         "ids": ",us6000t7zp,",
@@ -107055,7 +107815,7 @@
         "mag": 5.6,
         "place": "172 km ENE of Atka, Alaska",
         "time": 1779452174327,
-        "updated": 1789129579886,
+        "updated": 1789734378267,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000szgm",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000szgm&format=geojson",
@@ -174775,7 +175535,7 @@
         "mag": 5,
         "place": "89 km SSW of Atka, Alaska",
         "time": 1772169472119,
-        "updated": 1789104485740,
+        "updated": 1789709280230,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s0nl",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000s0nl&format=geojson",
@@ -200615,7 +201375,7 @@
         "mag": 5.1,
         "place": "295 km ESE of Attu Station, Alaska",
         "time": 1769156741443,
-        "updated": 1789115749679,
+        "updated": 1789720545564,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rrjh",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000rrjh&format=geojson",
@@ -206775,7 +207535,7 @@
         "mag": 6,
         "place": "off the coast of Oregon",
         "time": 1768533953034,
-        "updated": 1789097759797,
+        "updated": 1789702555511,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rq0d",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000rq0d&format=geojson",
@@ -276015,7 +276775,7 @@
         "mag": 5.1,
         "place": "49 km S of Akutan, Alaska",
         "time": 1760716129564,
-        "updated": 1789142341599,
+        "updated": 1789747138306,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rhss",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rhss&format=geojson",
@@ -284655,7 +285415,7 @@
         "mag": 5.1,
         "place": "234 km NNE of Fais, Micronesia",
         "time": 1760096880739,
-        "updated": 1789127894728,
+        "updated": 1789732693641,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rg47",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rg47&format=geojson",
@@ -285135,7 +285895,7 @@
         "mag": 5.4,
         "place": "223 km NNE of Fais, Micronesia",
         "time": 1760089420712,
-        "updated": 1789120422968,
+        "updated": 1789725232267,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rg29",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rg29&format=geojson",
@@ -299535,7 +300295,7 @@
         "mag": 5.9,
         "place": "239 km W of Bandon, Oregon",
         "time": 1758869128067,
-        "updated": 1789109739798,
+        "updated": 1789714532599,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rd1w",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rd1w&format=geojson",
@@ -309448,3526 +310208,6 @@
         ]
       },
       "id": "us6000rgds"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "114 km ESE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758251513562,
-        "updated": 1765036821040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx6w",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx6w&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000qx6w",
-        "ids": ",us7000qx6w,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 63,
-        "dmin": 1.012,
-        "rms": 0.84,
-        "gap": 132,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 114 km ESE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.2672,
-          52.7716,
-          35
-        ]
-      },
-      "id": "us7000qx6w"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "Kermadec Islands region",
-        "time": 1758248398490,
-        "updated": 1765036821040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx6j",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx6j&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000qx6j",
-        "ids": ",us7000qx6j,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 20,
-        "dmin": 6.756,
-        "rms": 1.11,
-        "gap": 178,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - Kermadec Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -179.303,
-          -31.086,
-          261.252
-        ]
-      },
-      "id": "us7000qx6j"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "133 km ESE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758246593392,
-        "updated": 1765036821040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx6g",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx6g&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000qx6g",
-        "ids": ",us7000qx6g,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 131,
-        "dmin": 1.178,
-        "rms": 0.79,
-        "gap": 94,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 133 km ESE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.5298,
-          52.7248,
-          35
-        ]
-      },
-      "id": "us7000qx6g"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "18 km WSW of Jipijapa, Ecuador",
-        "time": 1758246590251,
-        "updated": 1765036821040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx6e",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx6e&format=geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000qx6e",
-        "ids": ",us7000qx6e,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 30,
-        "dmin": 1.365,
-        "rms": 1.16,
-        "gap": 164,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 18 km WSW of Jipijapa, Ecuador"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.7338,
-          -1.4,
-          39.893
-        ]
-      },
-      "id": "us7000qx6e"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "169 km ESE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758246298098,
-        "updated": 1765036821040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx6f",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx6f&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000qx6f",
-        "ids": ",us7000qx6f,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 52,
-        "dmin": 1.51,
-        "rms": 0.93,
-        "gap": 120,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 169 km ESE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          161.1082,
-          52.7752,
-          10
-        ]
-      },
-      "id": "us7000qx6f"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "137 km E of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758245729968,
-        "updated": 1765036812040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rgad",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rgad&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000rgad",
-        "ids": ",us6000rgad,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 1.225,
-        "rms": 0.57,
-        "gap": 205,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 137 km E of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.6757,
-          52.9721,
-          35
-        ]
-      },
-      "id": "us6000rgad"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "82 km ENE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758244687374,
-        "updated": 1765036812040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rgb0",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rgb0&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000rgb0",
-        "ids": ",us6000rgb0,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": 0.737,
-        "rms": 0.97,
-        "gap": 116,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 82 km ENE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          159.8177,
-          53.2429,
-          51.794
-        ]
-      },
-      "id": "us6000rgb0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "145 km E of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758244322623,
-        "updated": 1765036821040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx60",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx60&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000qx60",
-        "ids": ",us7000qx60,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 72,
-        "dmin": 1.309,
-        "rms": 0.79,
-        "gap": 95,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 145 km E of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.7704,
-          53.3119,
-          35
-        ]
-      },
-      "id": "us7000qx60"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "153 km E of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758243209170,
-        "updated": 1765036812040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rgaw",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rgaw&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000rgaw",
-        "ids": ",us6000rgaw,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 1.371,
-        "rms": 0.76,
-        "gap": 137,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 153 km E of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.9178,
-          52.9957,
-          31.774
-        ]
-      },
-      "id": "us6000rgaw"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.4,
-        "place": "165 km ESE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758242909540,
-        "updated": 1765036821040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx5t",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx5t&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.583,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 449,
-        "net": "us",
-        "code": "7000qx5t",
-        "ids": ",us7000qx5t,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 99,
-        "dmin": 1.46,
-        "rms": 1.35,
-        "gap": 109,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.4 - 165 km ESE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.8899,
-          52.4951,
-          10
-        ]
-      },
-      "id": "us7000qx5t"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "152 km E of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758241943864,
-        "updated": 1765036821040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx5r",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx5r&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000qx5r",
-        "ids": ",us7000qx5r,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 86,
-        "dmin": 1.358,
-        "rms": 1.1,
-        "gap": 119,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 152 km E of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.8942,
-          52.9662,
-          17.693
-        ]
-      },
-      "id": "us7000qx5r"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "82 km ESE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758241516667,
-        "updated": 1765036821040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx5q",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx5q&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000qx5q",
-        "ids": ",us7000qx5q,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 94,
-        "dmin": 0.721,
-        "rms": 0.76,
-        "gap": 74,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 82 km ESE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          159.8201,
-          52.8863,
-          64.213
-        ]
-      },
-      "id": "us7000qx5q"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.4,
-        "place": "170 km E of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758241356086,
-        "updated": 1765036821040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx5p",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx5p&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.745,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 449,
-        "net": "us",
-        "code": "7000qx5p",
-        "ids": ",us7000qx5p,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 105,
-        "dmin": 1.517,
-        "rms": 1.2,
-        "gap": 119,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.4 - 170 km E of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          161.1417,
-          52.8545,
-          10
-        ]
-      },
-      "id": "us7000qx5p"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "160 km SE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758241204693,
-        "updated": 1765036812040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rgaj",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rgaj&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000rgaj",
-        "ids": ",us6000rgaj,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 30,
-        "dmin": 1.406,
-        "rms": 1.16,
-        "gap": 137,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 160 km SE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.2987,
-          52.0431,
-          10
-        ]
-      },
-      "id": "us6000rgaj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "171 km ESE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758241014659,
-        "updated": 1765036821040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx5n",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx5n&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000qx5n",
-        "ids": ",us7000qx5n,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 71,
-        "dmin": 1.525,
-        "rms": 0.91,
-        "gap": 120,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 171 km ESE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          161.1113,
-          52.7083,
-          19.308
-        ]
-      },
-      "id": "us7000qx5n"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "Easter Island region",
-        "time": 1758239724175,
-        "updated": 1765036822040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx8l",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx8l&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000qx8l",
-        "ids": ",us7000qx8l,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 3.625,
-        "rms": 0.99,
-        "gap": 160,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - Easter Island region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -112.0681,
-          -24.456,
-          10
-        ]
-      },
-      "id": "us7000qx8l"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "153 km ESE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758238906674,
-        "updated": 1765036811040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rg94",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rg94&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000rg94",
-        "ids": ",us6000rg94,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 18,
-        "dmin": 1.355,
-        "rms": 0.5,
-        "gap": 152,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 153 km ESE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.693,
-          52.4826,
-          10.064
-        ]
-      },
-      "id": "us6000rg94"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "154 km ESE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758238846174,
-        "updated": 1765036821040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx5i",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx5i&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000qx5i",
-        "ids": ",us7000qx5i,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 77,
-        "dmin": 1.37,
-        "rms": 0.85,
-        "gap": 121,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 154 km ESE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.8157,
-          52.6351,
-          10
-        ]
-      },
-      "id": "us7000qx5i"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "156 km E of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758238064520,
-        "updated": 1765036821040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx5h",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx5h&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000qx5h",
-        "ids": ",us7000qx5h,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 88,
-        "dmin": 1.393,
-        "rms": 0.94,
-        "gap": 128,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 156 km E of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.9304,
-          52.8339,
-          10
-        ]
-      },
-      "id": "us7000qx5h"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "153 km ESE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758237299697,
-        "updated": 1765036821040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx5f",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx5f&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "7000qx5f",
-        "ids": ",at00t2t4ks,us7000qx5f,",
-        "sources": ",at,us,",
-        "types": ",internal-origin,origin,phase-data,",
-        "nst": 94,
-        "dmin": 1.352,
-        "rms": 1.02,
-        "gap": 129,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.2 - 153 km ESE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.7241,
-          52.5331,
-          20.89
-        ]
-      },
-      "id": "us7000qx5f"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "95 km ESE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758237008638,
-        "updated": 1765036821040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx5e",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx5e&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000qx5e",
-        "ids": ",us7000qx5e,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 84,
-        "dmin": 0.839,
-        "rms": 0.8,
-        "gap": 127,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 95 km ESE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.0032,
-          52.8408,
-          46.784
-        ]
-      },
-      "id": "us7000qx5e"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "142 km ESE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758236381003,
-        "updated": 1765036821040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx5d",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx5d&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000qx5d",
-        "ids": ",us7000qx5d,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 55,
-        "dmin": 1.25,
-        "rms": 1.22,
-        "gap": 122,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 142 km ESE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.3972,
-          52.3669,
-          28.123
-        ]
-      },
-      "id": "us7000qx5d"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "24 km SSE of Nabire, Indonesia",
-        "time": 1758236021772,
-        "updated": 1765036821040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx58",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx58&format=geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000qx58",
-        "ids": ",us7000qx58,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 46,
-        "dmin": 1.313,
-        "rms": 0.83,
-        "gap": 32,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 24 km SSE of Nabire, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.5487,
-          -3.5765,
-          10
-        ]
-      },
-      "id": "us7000qx58"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "143 km ENE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758235837278,
-        "updated": 1765036821040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx57",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx57&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000qx57",
-        "ids": ",us7000qx57,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 74,
-        "dmin": 1.293,
-        "rms": 0.8,
-        "gap": 154,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 143 km ENE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.7094,
-          53.3934,
-          35
-        ]
-      },
-      "id": "us7000qx57"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "57 km E of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758235546369,
-        "updated": 1765036821040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx56",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx56&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000qx56",
-        "ids": ",us7000qx56,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 74,
-        "dmin": 0.508,
-        "rms": 0.93,
-        "gap": 152,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 57 km E of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          159.4891,
-          53.0652,
-          91.441
-        ]
-      },
-      "id": "us7000qx56"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.5,
-        "place": "151 km E of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758235030562,
-        "updated": 1765036821040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx52",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx52&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 4.05,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 465,
-        "net": "us",
-        "code": "7000qx52",
-        "ids": ",us7000qx52,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 111,
-        "dmin": 1.35,
-        "rms": 0.86,
-        "gap": 105,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.5 - 151 km E of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.8847,
-          53.0067,
-          35
-        ]
-      },
-      "id": "us7000qx52"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "139 km ESE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758234872481,
-        "updated": 1765036821040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx54",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx54&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000qx54",
-        "ids": ",us7000qx54,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 66,
-        "dmin": 1.224,
-        "rms": 0.97,
-        "gap": 149,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 139 km ESE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.5109,
-          52.5535,
-          31.366
-        ]
-      },
-      "id": "us7000qx54"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "147 km E of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758233827822,
-        "updated": 1765036821040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx50",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx50&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000qx50",
-        "ids": ",us7000qx50,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 81,
-        "dmin": 1.312,
-        "rms": 0.67,
-        "gap": 129,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 147 km E of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.8224,
-          53.0361,
-          31.363
-        ]
-      },
-      "id": "us7000qx50"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "148 km E of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758233419821,
-        "updated": 1765036821040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx4y",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx4y&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000qx4y",
-        "ids": ",us7000qx4y,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 84,
-        "dmin": 1.319,
-        "rms": 1.01,
-        "gap": 114,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 148 km E of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.8329,
-          52.9932,
-          35
-        ]
-      },
-      "id": "us7000qx4y"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "155 km ESE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758233286146,
-        "updated": 1765036821040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx4w",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx4w&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000qx4w",
-        "ids": ",us7000qx4w,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 120,
-        "dmin": 1.376,
-        "rms": 1.01,
-        "gap": 119,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 155 km ESE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.8821,
-          52.7692,
-          10
-        ]
-      },
-      "id": "us7000qx4w"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "158 km E of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758231731627,
-        "updated": 1765036811040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rg9b",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rg9b&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000rg9b",
-        "ids": ",us6000rg9b,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 27,
-        "dmin": 1.418,
-        "rms": 0.88,
-        "gap": 186,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 158 km E of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.9982,
-          53.0548,
-          35
-        ]
-      },
-      "id": "us6000rg9b"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "159 km E of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758231666764,
-        "updated": 1765036822040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx8m",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx8m&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "7000qx8m",
-        "ids": ",us7000qx8m,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 59,
-        "dmin": 1.422,
-        "rms": 1.08,
-        "gap": 145,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 159 km E of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          161.0013,
-          52.9813,
-          10
-        ]
-      },
-      "id": "us7000qx8m"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.7,
-        "place": "140 km E of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758231475577,
-        "updated": 1765036821040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx4q",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx4q&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 4.035,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 500,
-        "net": "us",
-        "code": "7000qx4q",
-        "ids": ",us7000qx4q,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 88,
-        "dmin": 1.246,
-        "rms": 0.77,
-        "gap": 147,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.7 - 140 km E of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.7052,
-          52.9373,
-          47.898
-        ]
-      },
-      "id": "us7000qx4q"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "164 km ESE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758231401130,
-        "updated": 1765036820040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx4p",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx4p&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.524,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "7000qx4p",
-        "ids": ",us7000qx4p,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 110,
-        "dmin": 1.447,
-        "rms": 1.06,
-        "gap": 105,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.2 - 164 km ESE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.7563,
-          52.3527,
-          10
-        ]
-      },
-      "id": "us7000qx4p"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "122 km E of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758230965770,
-        "updated": 1765036820040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx4n",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx4n&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000qx4n",
-        "ids": ",us7000qx4n,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 1.085,
-        "rms": 0.72,
-        "gap": 224,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 122 km E of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.4457,
-          53.0036,
-          58.963
-        ]
-      },
-      "id": "us7000qx4n"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "6 km E of Hualien City, Taiwan",
-        "time": 1758230500510,
-        "updated": 1765036820040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx4l",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx4l&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000qx4l",
-        "ids": ",us7000qx4l,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 47,
-        "dmin": 0.205,
-        "rms": 0.6,
-        "gap": 80,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 6 km E of Hualien City, Taiwan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.671,
-          23.9796,
-          19.975
-        ]
-      },
-      "id": "us7000qx4l"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "40 km SSW of Kirakira, Solomon Islands",
-        "time": 1758230242850,
-        "updated": 1765036811040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rg88",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rg88&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000rg88",
-        "ids": ",us6000rg88,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 2.279,
-        "rms": 0.65,
-        "gap": 138,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 40 km SSW of Kirakira, Solomon Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          161.8095,
-          -10.8013,
-          35
-        ]
-      },
-      "id": "us6000rg88"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "155 km ENE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758230074777,
-        "updated": 1765036820040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx4h",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx4h&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000qx4h",
-        "ids": ",us7000qx4h,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 54,
-        "dmin": 1.396,
-        "rms": 0.84,
-        "gap": 84,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 155 km ENE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.8714,
-          53.4274,
-          31.291
-        ]
-      },
-      "id": "us7000qx4h"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "142 km SE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758229386805,
-        "updated": 1765036820040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx4e",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx4e&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000qx4e",
-        "ids": ",us7000qx4e,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 60,
-        "dmin": 1.248,
-        "rms": 1.17,
-        "gap": 137,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 142 km SE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.1743,
-          52.1919,
-          34
-        ]
-      },
-      "id": "us7000qx4e"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "136 km ESE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758229142759,
-        "updated": 1765036820040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx4c",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx4c&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000qx4c",
-        "ids": ",us7000qx4c,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 72,
-        "dmin": 1.212,
-        "rms": 0.73,
-        "gap": 134,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 136 km ESE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.6277,
-          52.8343,
-          35
-        ]
-      },
-      "id": "us7000qx4c"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "153 km ESE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758228924322,
-        "updated": 1765036811040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rg9t",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rg9t&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000rg9t",
-        "ids": ",us6000rg9t,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 28,
-        "dmin": 1.355,
-        "rms": 0.91,
-        "gap": 137,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 153 km ESE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.7114,
-          52.5074,
-          10
-        ]
-      },
-      "id": "us6000rg9t"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "149 km E of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758228805537,
-        "updated": 1765036811040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rg8z",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rg8z&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "6000rg8z",
-        "ids": ",us6000rg8z,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 76,
-        "dmin": 1.328,
-        "rms": 0.73,
-        "gap": 122,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.2 - 149 km E of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.8301,
-          52.8721,
-          10
-        ]
-      },
-      "id": "us6000rg8z"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "174 km E of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758228763913,
-        "updated": 1765036820040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx42",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx42&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 432,
-        "net": "us",
-        "code": "7000qx42",
-        "ids": ",us7000qx42,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 100,
-        "dmin": 1.554,
-        "rms": 0.8,
-        "gap": 131,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.3 - 174 km E of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          161.1886,
-          52.7989,
-          10
-        ]
-      },
-      "id": "us7000qx42"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "163 km E of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758228655643,
-        "updated": 1765036811040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rg87",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rg87&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000rg87",
-        "ids": ",us6000rg87,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 55,
-        "dmin": 1.457,
-        "rms": 0.69,
-        "gap": 134,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 163 km E of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          161.048,
-          52.8926,
-          10
-        ]
-      },
-      "id": "us6000rg87"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "189 km SE of Vilyuchinsk, Russia",
-        "time": 1758228547782,
-        "updated": 1765036811040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rg9s",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rg9s&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000rg9s",
-        "ids": ",us6000rg9s,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 42,
-        "dmin": 1.679,
-        "rms": 0.61,
-        "gap": 126,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 189 km SE of Vilyuchinsk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.3373,
-          51.7035,
-          10
-        ]
-      },
-      "id": "us6000rg9s"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "166 km SE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758228538204,
-        "updated": 1765036820040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx41",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx41&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000qx41",
-        "ids": ",us7000qx41,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 94,
-        "dmin": 1.463,
-        "rms": 0.76,
-        "gap": 134,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 166 km SE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.5376,
-          52.1232,
-          10
-        ]
-      },
-      "id": "us7000qx41"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "128 km ESE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758228208235,
-        "updated": 1765036820040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx3z",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx3z&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000qx3z",
-        "ids": ",us7000qx3z,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 99,
-        "dmin": 1.13,
-        "rms": 0.75,
-        "gap": 127,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 128 km ESE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.3815,
-          52.6078,
-          38.482
-        ]
-      },
-      "id": "us7000qx3z"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "138 km E of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758227449233,
-        "updated": 1765036820040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx3x",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx3x&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000qx3x",
-        "ids": ",us7000qx3x,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 62,
-        "dmin": 1.24,
-        "rms": 0.96,
-        "gap": 134,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 138 km E of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.6744,
-          53.2472,
-          35
-        ]
-      },
-      "id": "us7000qx3x"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "129 km E of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758226861717,
-        "updated": 1765036811040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rg9q",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rg9q&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000rg9q",
-        "ids": ",us6000rg9q,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 31,
-        "dmin": 1.157,
-        "rms": 0.72,
-        "gap": 134,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 129 km E of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.549,
-          53.1908,
-          32.869
-        ]
-      },
-      "id": "us6000rg9q"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "151 km E of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758226766289,
-        "updated": 1765036811040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rg9p",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rg9p&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000rg9p",
-        "ids": ",us6000rg9p,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 1.345,
-        "rms": 0.46,
-        "gap": 134,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 151 km E of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.8619,
-          52.8862,
-          10
-        ]
-      },
-      "id": "us6000rg9p"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.5,
-        "place": "144 km E of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758226664835,
-        "updated": 1765036820040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx3d",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx3d&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 4.071,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 465,
-        "net": "us",
-        "code": "7000qx3d",
-        "ids": ",us7000qx3d,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 123,
-        "dmin": 1.28,
-        "rms": 0.68,
-        "gap": 76,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.5 - 144 km E of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.7605,
-          52.9284,
-          35.714
-        ]
-      },
-      "id": "us7000qx3d"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "140 km ESE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758226320776,
-        "updated": 1765036820040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx3c",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx3c&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000qx3c",
-        "ids": ",us7000qx3c,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 93,
-        "dmin": 1.241,
-        "rms": 0.72,
-        "gap": 133,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 140 km ESE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.5637,
-          52.5866,
-          31.742
-        ]
-      },
-      "id": "us7000qx3c"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "161 km ESE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758225963763,
-        "updated": 1765036822040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx8p",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx8p&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "7000qx8p",
-        "ids": ",us7000qx8p,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 78,
-        "dmin": 1.425,
-        "rms": 0.99,
-        "gap": 134,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 161 km ESE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.7468,
-          52.3906,
-          10
-        ]
-      },
-      "id": "us7000qx8p"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "182 km SE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758225856816,
-        "updated": 1765036811040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rg9n",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rg9n&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000rg9n",
-        "ids": ",us6000rg9n,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 34,
-        "dmin": 1.601,
-        "rms": 0.63,
-        "gap": 137,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 182 km SE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.4306,
-          51.8525,
-          10
-        ]
-      },
-      "id": "us6000rg9n"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.6,
-        "place": "156 km ESE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758225782493,
-        "updated": 1765036820040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx33",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx33&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.595,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 482,
-        "net": "us",
-        "code": "7000qx33",
-        "ids": ",us7000qx33,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 109,
-        "dmin": 1.383,
-        "rms": 0.95,
-        "gap": 102,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.6 - 156 km ESE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.6915,
-          52.4163,
-          10
-        ]
-      },
-      "id": "us7000qx33"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "144 km E of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758225734743,
-        "updated": 1765036820040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx39",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx39&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000qx39",
-        "ids": ",us7000qx39,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 63,
-        "dmin": 1.289,
-        "rms": 0.68,
-        "gap": 134,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 144 km E of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.7846,
-          53.0277,
-          35
-        ]
-      },
-      "id": "us7000qx39"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "132 km SE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758225566361,
-        "updated": 1765036811040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rg7z",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rg7z&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000rg7z",
-        "ids": ",us6000rg7z,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 46,
-        "dmin": 1.157,
-        "rms": 0.63,
-        "gap": 134,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 132 km SE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.15,
-          52.3144,
-          31.091
-        ]
-      },
-      "id": "us6000rg7z"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "144 km E of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758225341938,
-        "updated": 1765036820040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx3a",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx3a&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000qx3a",
-        "ids": ",us7000qx3a,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 66,
-        "dmin": 1.279,
-        "rms": 0.72,
-        "gap": 160,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 144 km E of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.7388,
-          52.8301,
-          34.384
-        ]
-      },
-      "id": "us7000qx3a"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.4,
-        "place": "38 km WNW of Bacnotan, Philippines",
-        "time": 1758225130415,
-        "updated": 1765036820040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx2y",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx2y&format=geojson",
-        "felt": 15,
-        "cdi": 4.8,
-        "mmi": 4.42,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 456,
-        "net": "us",
-        "code": "7000qx2y",
-        "ids": ",us7000qx2y,",
-        "sources": ",us,",
-        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
-        "nst": 87,
-        "dmin": 6.005,
-        "rms": 0.85,
-        "gap": 46,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.4 - 38 km WNW of Bacnotan, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.0268,
-          16.8635,
-          35
-        ]
-      },
-      "id": "us7000qx2y"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "111 km ENE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758224283114,
-        "updated": 1765036820040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx2w",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx2w&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000qx2w",
-        "ids": ",us7000qx2w,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 105,
-        "dmin": 1.009,
-        "rms": 0.55,
-        "gap": 126,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 111 km ENE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.1176,
-          53.5129,
-          66.432
-        ]
-      },
-      "id": "us7000qx2w"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "128 km NW of Tobelo, Indonesia",
-        "time": 1758224122098,
-        "updated": 1765036810040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rg7u",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rg7u&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000rg7u",
-        "ids": ",us6000rg7u,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 51,
-        "dmin": 1.842,
-        "rms": 0.88,
-        "gap": 74,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 128 km NW of Tobelo, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          127.2715,
-          2.624,
-          49.74
-        ]
-      },
-      "id": "us6000rg7u"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.5,
-        "place": "160 km ESE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758223597834,
-        "updated": 1765036820040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx2s",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx2s&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.852,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 465,
-        "net": "us",
-        "code": "7000qx2s",
-        "ids": ",us7000qx2s,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 119,
-        "dmin": 1.427,
-        "rms": 0.69,
-        "gap": 92,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.5 - 160 km ESE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.965,
-          52.7596,
-          10
-        ]
-      },
-      "id": "us7000qx2s"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "148 km ESE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758223574122,
-        "updated": 1765036814040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rgrm",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rgrm&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000rgrm",
-        "ids": ",us6000rgrm,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 1.313,
-        "rms": 0.81,
-        "gap": 119,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 148 km ESE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.7219,
-          52.6444,
-          10
-        ]
-      },
-      "id": "us6000rgrm"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "151 km E of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758223215085,
-        "updated": 1765036811040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rg95",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rg95&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000rg95",
-        "ids": ",us6000rg95,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 25,
-        "dmin": 1.347,
-        "rms": 1.14,
-        "gap": 143,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 151 km E of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.8574,
-          52.8522,
-          10
-        ]
-      },
-      "id": "us6000rg95"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.4,
-        "place": "146 km E of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758223163947,
-        "updated": 1765036820040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx2r",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx2r&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 4.001,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 449,
-        "net": "us",
-        "code": "7000qx2r",
-        "ids": ",us7000qx2r,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 190,
-        "dmin": 1.301,
-        "rms": 0.61,
-        "gap": 119,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.4 - 146 km E of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.7987,
-          52.9469,
-          32.356
-        ]
-      },
-      "id": "us7000qx2r"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "Scotia Sea",
-        "time": 1758223095928,
-        "updated": 1765036811040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rg8u",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rg8u&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000rg8u",
-        "ids": ",us6000rg8u,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 17,
-        "dmin": 6.685,
-        "rms": 0.35,
-        "gap": 70,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - Scotia Sea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -31.3399,
-          -60.346,
-          10
-        ]
-      },
-      "id": "us6000rg8u"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "113 km E of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758222709523,
-        "updated": 1765036823040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qxah",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qxah&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "7000qxah",
-        "ids": ",us7000qxah,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 63,
-        "dmin": 1.014,
-        "rms": 0.63,
-        "gap": 126,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - 113 km E of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.3259,
-          53.0995,
-          32.405
-        ]
-      },
-      "id": "us7000qxah"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "154 km E of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758222648133,
-        "updated": 1765036822040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx8n",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx8n&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 432,
-        "net": "us",
-        "code": "7000qx8n",
-        "ids": ",us7000qx8n,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 1.379,
-        "rms": 0.63,
-        "gap": 118,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.3 - 154 km E of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.9277,
-          52.953,
-          10
-        ]
-      },
-      "id": "us7000qx8n"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.8,
-        "place": "144 km E of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758222499904,
-        "updated": 1765036820040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx2q",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx2q&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 4.17,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 518,
-        "net": "us",
-        "code": "7000qx2q",
-        "ids": ",us7000qx2q,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 115,
-        "dmin": 1.284,
-        "rms": 0.61,
-        "gap": 80,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.8 - 144 km E of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.7735,
-          52.9863,
-          10
-        ]
-      },
-      "id": "us7000qx2q"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.4,
-        "place": "Scotia Sea",
-        "time": 1758222467518,
-        "updated": 1765036820040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx2n",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx2n&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 0,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 449,
-        "net": "us",
-        "code": "7000qx2n",
-        "ids": ",us7000qx2n,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 93,
-        "dmin": 6.708,
-        "rms": 0.38,
-        "gap": 55,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.4 - Scotia Sea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -31.5333,
-          -60.4185,
-          10
-        ]
-      },
-      "id": "us7000qx2n"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.2,
-        "place": "156 km ESE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758222366348,
-        "updated": 1765036810040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rg7q",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rg7q&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 416,
-        "net": "us",
-        "code": "6000rg7q",
-        "ids": ",us6000rg7q,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 1.387,
-        "rms": 0.92,
-        "gap": 136,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.2 - 156 km ESE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.8695,
-          52.688,
-          24.19
-        ]
-      },
-      "id": "us6000rg7q"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 7.8,
-        "place": "140 km E of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1758221894939,
-        "updated": 1765039290345,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx2g",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx2g&format=geojson",
-        "felt": 26,
-        "cdi": 8,
-        "mmi": 8.302,
-        "alert": "orange",
-        "status": "reviewed",
-        "tsunami": 1,
-        "sig": 1021,
-        "net": "us",
-        "code": "7000qx2g",
-        "ids": ",at00t2ssp5,us7000qx2g,pt25261001,usauto7000qx2g,",
-        "sources": ",at,us,pt,usauto,",
-        "types": ",dyfi,finite-fault,general-text,ground-failure,impact-link,impact-text,internal-moment-tensor,internal-origin,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 212,
-        "dmin": 1.255,
-        "rms": 1.07,
-        "gap": 76,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 7.8 - 140 km E of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.7206,
-          53.1426,
-          27
-        ]
-      },
-      "id": "us7000qx2g"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "174 km SSE of Vilyuchinsk, Russia",
-        "time": 1758221557875,
-        "updated": 1765036820040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx2j",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx2j&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000qx2j",
-        "ids": ",us7000qx2j,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": 1.576,
-        "rms": 0.99,
-        "gap": 164,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 174 km SSE of Vilyuchinsk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          159.8177,
-          51.6219,
-          10
-        ]
-      },
-      "id": "us7000qx2j"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "41 km SSE of Hasaki, Japan",
-        "time": 1758220761040,
-        "updated": 1765036820040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx2f",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx2f&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000qx2f",
-        "ids": ",us7000qx2f,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 47,
-        "dmin": 2.511,
-        "rms": 0.82,
-        "gap": 137,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 41 km SSE of Hasaki, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.059,
-          35.4105,
-          34.941
-        ]
-      },
-      "id": "us7000qx2f"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 6,
-        "place": "26 km S of Nabire, Indonesia",
-        "time": 1758219589220,
-        "updated": 1765036820040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx1z",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx1z&format=geojson",
-        "felt": 6,
-        "cdi": 6.5,
-        "mmi": 6.812,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 558,
-        "net": "us",
-        "code": "7000qx1z",
-        "ids": ",us7000qx1z,usauto7000qx1z,pt25261000,",
-        "sources": ",us,usauto,pt,",
-        "types": ",dyfi,ground-failure,impact-text,internal-moment-tensor,internal-origin,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 96,
-        "dmin": 1.262,
-        "rms": 0.95,
-        "gap": 36,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 6.0 - 26 km S of Nabire, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.4658,
-          -3.5961,
-          28
-        ]
-      },
-      "id": "us7000qx1z"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "46 km W of Mendoza, Argentina",
-        "time": 1758218600816,
-        "updated": 1765036820040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx1v",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx1v&format=geojson",
-        "felt": 3,
-        "cdi": 3.1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000qx1v",
-        "ids": ",us7000qx1v,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 51,
-        "dmin": 0.873,
-        "rms": 0.76,
-        "gap": 40,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 46 km W of Mendoza, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -69.3216,
-          -32.8568,
-          121.245
-        ]
-      },
-      "id": "us7000qx1v"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "94 km SSW of Severo-Kuril’sk, Russia",
-        "time": 1758217237528,
-        "updated": 1765036819040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx1s",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx1s&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000qx1s",
-        "ids": ",us7000qx1s,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 67,
-        "dmin": 3.473,
-        "rms": 0.45,
-        "gap": 135,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 94 km SSW of Severo-Kuril’sk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          155.7493,
-          49.8601,
-          73.855
-        ]
-      },
-      "id": "us7000qx1s"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "136 km NW of Ternate, Indonesia",
-        "time": 1758215327760,
-        "updated": 1765036819040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx1j",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qx1j&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000qx1j",
-        "ids": ",us7000qx1j,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 46,
-        "dmin": 1.23,
-        "rms": 0.71,
-        "gap": 92,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 136 km NW of Ternate, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.5186,
-          1.6693,
-          40.741
-        ]
-      },
-      "id": "us7000qx1j"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "52 km E of Santa Maria, Philippines",
-        "time": 1758209104596,
-        "updated": 1765036819040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qwza",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qwza&format=geojson",
-        "felt": 1,
-        "cdi": 0,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000qwza",
-        "ids": ",us7000qwza,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 34,
-        "dmin": 1.651,
-        "rms": 0.7,
-        "gap": 152,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 52 km E of Santa Maria, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.9205,
-          8.0552,
-          49.894
-        ]
-      },
-      "id": "us7000qwza"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "197 km SSW of Muncar, Indonesia",
-        "time": 1758207572806,
-        "updated": 1765036819040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qwz0",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qwz0&format=geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000qwz0",
-        "ids": ",us7000qwz0,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 34,
-        "dmin": 1.707,
-        "rms": 1.06,
-        "gap": 117,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 197 km SSW of Muncar, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          113.9017,
-          -10.1696,
-          10
-        ]
-      },
-      "id": "us7000qwz0"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "184 km SSE of Vilyuchinsk, Russia",
-        "time": 1758201050220,
-        "updated": 1765036819040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qwyl",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qwyl&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000qwyl",
-        "ids": ",us7000qwyl,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 35,
-        "dmin": 1.676,
-        "rms": 0.78,
-        "gap": 134,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 184 km SSE of Vilyuchinsk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          159.7227,
-          51.485,
-          35
-        ]
-      },
-      "id": "us7000qwyl"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "131 km NW of Ternate, Indonesia",
-        "time": 1758199735449,
-        "updated": 1765036819040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qwxs",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qwxs&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "7000qwxs",
-        "ids": ",us7000qwxs,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 65,
-        "dmin": 1.186,
-        "rms": 1.06,
-        "gap": 105,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 131 km NW of Ternate, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.5285,
-          1.6163,
-          32.622
-        ]
-      },
-      "id": "us7000qwxs"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "285 km ENE of Port Blair, India",
-        "time": 1758199312979,
-        "updated": 1765036819040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qwyi",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qwyi&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000qwyi",
-        "ids": ",us7000qwyi,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 46,
-        "dmin": 4.391,
-        "rms": 0.84,
-        "gap": 69,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 285 km ENE of Port Blair, India"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          95.3077,
-          12.2024,
-          10
-        ]
-      },
-      "id": "us7000qwyi"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.3,
-        "place": "Pacific-Antarctic Ridge",
-        "time": 1758183541931,
-        "updated": 1765036819040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qwwc",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qwwc&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 432,
-        "net": "us",
-        "code": "7000qwwc",
-        "ids": ",usauto7000qwwc,us7000qwwc,",
-        "sources": ",usauto,us,",
-        "types": ",internal-moment-tensor,origin,phase-data,",
-        "nst": 39,
-        "dmin": 31.367,
-        "rms": 0.48,
-        "gap": 63,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.3 - Pacific-Antarctic Ridge"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -129.7063,
-          -55.0778,
-          10
-        ]
-      },
-      "id": "us7000qwwc"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "Maug Islands region, Northern Mariana Islands",
-        "time": 1758181310036,
-        "updated": 1765036810040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rg7b",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rg7b&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000rg7b",
-        "ids": ",us6000rg7b,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 69,
-        "dmin": 3.977,
-        "rms": 0.69,
-        "gap": 122,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - Maug Islands region, Northern Mariana Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          145.578,
-          19.2351,
-          165.243
-        ]
-      },
-      "id": "us6000rg7b"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "282 km E of Vao, New Caledonia",
-        "time": 1758177688147,
-        "updated": 1765036819040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qwvz",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qwvz&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000qwvz",
-        "ids": ",us7000qwvz,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 24,
-        "dmin": 2.596,
-        "rms": 0.51,
-        "gap": 162,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 282 km E of Vao, New Caledonia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          170.2002,
-          -23.1555,
-          10
-        ]
-      },
-      "id": "us7000qwvz"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "171 km S of La Libertad, El Salvador",
-        "time": 1758172508370,
-        "updated": 1765036819040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qwvk",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qwvk&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "7000qwvk",
-        "ids": ",us7000qwvk,",
-        "sources": ",us,",
-        "types": ",moment-tensor,origin,phase-data,",
-        "nst": 112,
-        "dmin": 1.809,
-        "rms": 0.98,
-        "gap": 158,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 4.8 - 171 km S of La Libertad, El Salvador"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.3483,
-          11.938,
-          10
-        ]
-      },
-      "id": "us7000qwvk"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "276 km ESE of Sarangani, Philippines",
-        "time": 1758167253242,
-        "updated": 1765036819040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qwva",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000qwva&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "7000qwva",
-        "ids": ",us7000qwva,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 93,
-        "dmin": 2.245,
-        "rms": 0.76,
-        "gap": 86,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 4.7 - 276 km ESE of Sarangani, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          127.6824,
-          4.2665,
-          129.988
-        ]
-      },
-      "id": "us7000qwva"
     }
   ],
   "bbox": [
