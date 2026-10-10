@@ -1,34 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SEISMIC WORLD - Global Earthquake Visualization | Real-time Seismic Data</title>
+    <title>SEISMIC WORLD - 世界の地震可視化マップ | Global Earthquake Visualization</title>
 
     <!-- SEO Meta Tags -->
     <meta name="description"
-        content="Visualize earthquakes happening around the world in real-time. View past year's earthquake data with animations, color-coded by magnitude. Powered by official USGS data.">
+        content="世界中で発生した地震（M4.5以上）を地図上にアニメーションで可視化。2011年以降の年別アーカイブや過去1年・1か月のデータをマグニチュード別に色分けして表示。USGS公式データを使用。Visualize global earthquakes in real-time with USGS data.">
     <meta name="keywords"
-        content="earthquake, global, seismic map, visualization, USGS, earthquake data, real-time, magnitude, world">
+        content="地震, 世界, 地震マップ, 地震可視化, 世界の地震, 地震データ, マグニチュード, USGS, earthquake, global, seismic map, visualization, world">
     <meta name="author" content="SEISMIC WORLD">
     <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://prime-plasma-world-1yze.vercel.app/">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="SEISMIC WORLD - Global Earthquake Visualization">
+    <meta property="og:url" content="https://prime-plasma-world-1yze.vercel.app/">
+    <meta property="og:title" content="SEISMIC WORLD - 世界の地震可視化マップ">
     <meta property="og:description"
-        content="Visualize earthquakes happening around the world in real-time. Animated earthquake data with magnitude color-coding.">
-    <meta property="og:image" content="images/og-image.png">
-    <meta property="og:locale" content="en_US">
+        content="世界中で発生した地震を地図上にアニメーションで可視化。マグニチュード別に色分けして表示します。">
+    <meta property="og:image" content="https://prime-plasma-world-1yze.vercel.app/images/og-image.png">
+    <meta property="og:locale" content="ja_JP">
+    <meta property="og:locale:alternate" content="en_US">
     <meta property="og:site_name" content="SEISMIC WORLD">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="SEISMIC WORLD - Global Earthquake Visualization">
+    <meta name="twitter:url" content="https://prime-plasma-world-1yze.vercel.app/">
+    <meta name="twitter:title" content="SEISMIC WORLD - 世界の地震可視化マップ">
     <meta name="twitter:description"
-        content="Visualize earthquakes happening around the world in real-time with animated data.">
-    <meta name="twitter:image" content="images/og-image.png">
+        content="世界中で発生した地震を地図上にアニメーションで可視化。">
+    <meta name="twitter:image" content="https://prime-plasma-world-1yze.vercel.app/images/og-image.png">
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml"
@@ -46,8 +50,10 @@
         "@context": "https://schema.org",
         "@type": "WebApplication",
         "name": "SEISMIC WORLD",
-        "alternateName": "Global Earthquake Visualization Map",
-        "description": "An interactive map application that visualizes earthquakes happening around the world in real-time",
+        "alternateName": "世界の地震可視化マップ",
+        "description": "世界中で発生した地震をリアルタイムで可視化するインタラクティブな地図アプリケーション",
+        "url": "https://prime-plasma-world-1yze.vercel.app/",
+        "inLanguage": "ja",
         "applicationCategory": "UtilitiesApplication",
         "operatingSystem": "Web Browser",
         "offers": {
@@ -59,7 +65,7 @@
             "@type": "Organization",
             "name": "SEISMIC WORLD"
         },
-        "keywords": "earthquake, global, seismic map, real-time, USGS"
+        "keywords": "地震, 世界, 地震マップ, 地震可視化, earthquake, global, seismic map, USGS"
     }
     </script>
 
@@ -154,6 +160,14 @@
                         Minimum Magnitude: M4.5+<br>
                         Update: Daily</p>
                     <p>Map Tiles: <a href="https://www.esri.com/" target="_blank">Esri</a></p>
+                </div>
+
+                <div class="info-section">
+                    <h4>関連サイト / Related</h4>
+                    <p><a href="https://enepen.vercel.app/" target="_blank" rel="noopener">enepen</a>
+                        : エネルギー・金融・データ可視化のツール集<br>
+                        <a href="https://prime-plasma.vercel.app/" target="_blank" rel="noopener">SEISMIC JP</a>
+                        : 日本の地震可視化マップ</p>
                 </div>
 
                 <button id="info-close" class="info-close-btn-bottom">Close</button>
