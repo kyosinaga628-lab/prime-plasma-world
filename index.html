@@ -8,7 +8,7 @@
 
     <!-- SEO Meta Tags -->
     <meta name="description"
-        content="世界中で発生した地震（M4.5以上）を地図上にアニメーションで可視化。2011年以降の年別アーカイブや過去1年・1か月のデータをマグニチュード別に色分けして表示。USGS公式データを使用。Visualize global earthquakes in real-time with USGS data.">
+        content="世界中で発生した地震（M4.5以上）を地図上にアニメーションで可視化。2011年以降の年別アーカイブや過去1年・1か月のデータをマグニチュード別に色分けして表示。USGS公式データを使用。Animated map of global earthquakes using daily-updated USGS data.">
     <meta name="keywords"
         content="地震, 世界, 地震マップ, 地震可視化, 世界の地震, 地震データ, マグニチュード, USGS, earthquake, global, seismic map, visualization, world">
     <meta name="author" content="SEISMIC WORLD">
@@ -22,6 +22,9 @@
     <meta property="og:description"
         content="世界中で発生した地震を地図上にアニメーションで可視化。マグニチュード別に色分けして表示します。">
     <meta property="og:image" content="https://prime-plasma-world-1yze.vercel.app/images/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="SEISMIC WORLD - 世界の地震可視化マップ">
     <meta property="og:locale" content="ja_JP">
     <meta property="og:locale:alternate" content="en_US">
     <meta property="og:site_name" content="SEISMIC WORLD">
@@ -51,7 +54,7 @@
         "@type": "WebApplication",
         "name": "SEISMIC WORLD",
         "alternateName": "世界の地震可視化マップ",
-        "description": "世界中で発生した地震をリアルタイムで可視化するインタラクティブな地図アプリケーション",
+        "description": "世界中で発生した地震を地図上でアニメーション表示するインタラクティブな地図アプリケーション",
         "url": "https://prime-plasma-world-1yze.vercel.app/",
         "inLanguage": "ja",
         "applicationCategory": "UtilitiesApplication",
@@ -155,11 +158,11 @@
 
                 <div class="info-section">
                     <h4>Data Source</h4>
-                    <p><a href="https://earthquake.usgs.gov/" target="_blank">USGS Earthquake Hazards Program</a><br>
+                    <p><a href="https://earthquake.usgs.gov/" target="_blank" rel="noopener">USGS Earthquake Hazards Program</a><br>
                         Coverage: Worldwide<br>
                         Minimum Magnitude: M4.5+<br>
                         Update: Daily</p>
-                    <p>Map Tiles: <a href="https://www.esri.com/" target="_blank">Esri</a></p>
+                    <p>Map Tiles: <a href="https://www.esri.com/" target="_blank" rel="noopener">Esri</a></p>
                 </div>
 
                 <div class="info-section">
@@ -192,14 +195,14 @@
             </div>
 
             <div class="timeline-container">
-                <button id="play-pause-btn" class="control-btn play">
+                <button id="play-pause-btn" class="control-btn play" aria-label="再生 / 一時停止" title="再生 / 一時停止">
                     <svg viewBox="0 0 24 24" width="24" height="24">
                         <path id="play-icon" d="M8 5v14l11-7z" fill="currentColor" />
                         <path id="pause-icon" d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" fill="currentColor"
                             style="display:none" />
                     </svg>
                 </button>
-                <input type="range" id="timeline-slider" min="0" max="100" value="0" step="0.1">
+                <input type="range" id="timeline-slider" aria-label="タイムライン" min="0" max="100" value="0" step="0.1">
                 <select id="speed-select" class="speed-select" title="Playback Speed">
                     <option value="0.1">0.1x</option>
                     <option value="0.5">0.5x</option>
