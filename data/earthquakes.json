@@ -1,31 +1,471 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1795068864000,
-    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-11-19T06%3A14%3A22&endtime=2026-11-19T06%3A14%3A22&minmagnitude=4.5&orderby=time",
+    "generated": 1795154349000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-11-20T05%3A59%3A07&endtime=2026-11-20T05%3A59%3A07&minmagnitude=4.5&orderby=time",
     "title": "USGS Earthquakes",
     "status": 200,
     "api": "2.8.4",
-    "count": 7822
+    "count": 7826
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "54 km W of Madang, Papua New Guinea",
+        "time": 1795151865106,
+        "updated": 1795152699040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc6c",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000uc6c&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000uc6c",
+        "ids": ",us6000uc6c,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 21,
+        "dmin": 3.772,
+        "rms": 0.97,
+        "gap": 110,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 54 km W of Madang, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2974,
+          -5.219,
+          97.583
+        ]
+      },
+      "id": "us6000uc6c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.8,
+        "place": "24 km ESE of Calingasta, Argentina",
+        "time": 1795143438070,
+        "updated": 1795146066388,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc5s",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000uc5s&format=geojson",
+        "felt": 3,
+        "cdi": 3.4,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 355,
+        "net": "us",
+        "code": "6000uc5s",
+        "ids": ",us6000uc5s,",
+        "sources": ",us,",
+        "types": ",dyfi,origin,phase-data,",
+        "nst": 59,
+        "dmin": 0.457,
+        "rms": 0.9,
+        "gap": 56,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - 24 km ESE of Calingasta, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.1883,
+          -31.4302,
+          113.86
+        ]
+      },
+      "id": "us6000uc5s"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.6,
+        "place": "southeast of the Loyalty Islands",
+        "time": 1795135754102,
+        "updated": 1795143440241,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc4v",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000uc4v&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 0,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 482,
+        "net": "us",
+        "code": "6000uc4v",
+        "ids": ",us6000uc4v,",
+        "sources": ",us,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 103,
+        "dmin": 4.042,
+        "rms": 1.05,
+        "gap": 27,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.6 - southeast of the Loyalty Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.2326,
+          -24.6996,
+          10
+        ]
+      },
+      "id": "us6000uc4v"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "236 km W of Tual, Indonesia",
+        "time": 1795124973219,
+        "updated": 1795140139040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc3v",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000uc3v&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "6000uc3v",
+        "ids": ",us6000uc3v,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 47,
+        "dmin": 6.791,
+        "rms": 0.69,
+        "gap": 100,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 236 km W of Tual, Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.6505,
+          -6.0263,
+          124.788
+        ]
+      },
+      "id": "us6000uc3v"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.3,
+        "place": "South Georgia Island region",
+        "time": 1795118869383,
+        "updated": 1795119743040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc2q",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000uc2q&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 432,
+        "net": "us",
+        "code": "6000uc2q",
+        "ids": ",us6000uc2q,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 64,
+        "dmin": 1.877,
+        "rms": 0.43,
+        "gap": 63,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.3 - South Georgia Island region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -33.5069,
+          -55.0035,
+          10
+        ]
+      },
+      "id": "us6000uc2q"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "central East Pacific Rise",
+        "time": 1795118829754,
+        "updated": 1795120029040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc2t",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000uc2t&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000uc2t",
+        "ids": ",us6000uc2t,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 82,
+        "dmin": 31.2,
+        "rms": 0.5,
+        "gap": 165,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - central East Pacific Rise"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.9127,
+          -9.1894,
+          10
+        ]
+      },
+      "id": "us6000uc2t"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "13 km WNW of Xichang, China",
+        "time": 1795113679631,
+        "updated": 1795121368040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc26",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000uc26&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000uc26",
+        "ids": ",us6000uc26,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 90,
+        "dmin": 6.846,
+        "rms": 0.88,
+        "gap": 49,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 13 km WNW of Xichang, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1326,
+          27.9346,
+          10
+        ]
+      },
+      "id": "us6000uc26"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "99 km WSW of Illapel, Chile",
+        "time": 1795111786530,
+        "updated": 1795113746040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc1x",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000uc1x&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 400,
+        "net": "us",
+        "code": "6000uc1x",
+        "ids": ",us6000uc1x,",
+        "sources": ",us,",
+        "types": ",moment-tensor,origin,phase-data,",
+        "nst": 49,
+        "dmin": 1.047,
+        "rms": 1.03,
+        "gap": 95,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.1 - 99 km WSW of Illapel, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.1843,
+          -31.8465,
+          10
+        ]
+      },
+      "id": "us6000uc1x"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "65 km SSW of Atka, Alaska",
+        "time": 1795093522466,
+        "updated": 1795127363459,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ubzm",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000ubzm&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 3.123,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "6000ubzm",
+        "ids": ",aka2026wxtfwn,us6000ubzm,",
+        "sources": ",ak,us,",
+        "types": ",origin,phase-data,shakemap,",
+        "nst": 61,
+        "dmin": 0.596,
+        "rms": 0.76,
+        "gap": 145,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 65 km SSW of Atka, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -174.66,
+          51.6797,
+          46.052
+        ]
+      },
+      "id": "us6000ubzm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5,
+        "place": "31 km WSW of Rabaul, Papua New Guinea",
+        "time": 1795085587767,
+        "updated": 1795086470040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ubz1",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000ubz1&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 385,
+        "net": "us",
+        "code": "6000ubz1",
+        "ids": ",us6000ubz1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 57,
+        "dmin": 0.285,
+        "rms": 0.71,
+        "gap": 48,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.0 - 31 km WSW of Rabaul, Papua New Guinea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.8945,
+          -4.2965,
+          194.803
+        ]
+      },
+      "id": "us6000ubz1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "92 km W of San Juan, Peru",
+        "time": 1795079293359,
+        "updated": 1795085931040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ubyt",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000ubyt&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "6000ubyt",
+        "ids": ",us6000ubyt,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 37,
+        "dmin": 3.468,
+        "rms": 1.23,
+        "gap": 160,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 92 km W of San Juan, Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.0248,
+          -15.3841,
+          10
+        ]
+      },
+      "id": "us6000ubyt"
+    },
     {
       "type": "Feature",
       "properties": {
         "mag": 4.8,
         "place": "23 km SSE of Guayaquil, Ecuador",
         "time": 1795067366623,
-        "updated": 1795068828759,
+        "updated": 1795091180997,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uby4",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000uby4&format=geojson",
-        "felt": 4,
+        "felt": 15,
         "cdi": 4.3,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 356,
+        "sig": 361,
         "net": "us",
         "code": "6000uby4",
         "ids": ",us6000uby4,",
@@ -215,7 +655,7 @@
         "mag": 5.2,
         "place": "169 km S of Attu Station, Alaska",
         "time": 1795037327088,
-        "updated": 1795061384373,
+        "updated": 1795128529825,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ubw3",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000ubw3&format=geojson",
@@ -292,10 +732,50 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 6.1,
+        "mag": 5.2,
         "place": "Pacific-Antarctic Ridge",
-        "time": 1795029263713,
-        "updated": 1795036780040,
+        "time": 1795029675136,
+        "updated": 1795108979040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc01",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000uc01&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 416,
+        "net": "us",
+        "code": "6000uc01",
+        "ids": ",us6000uc01,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 54,
+        "dmin": 25.275,
+        "rms": 0.84,
+        "gap": 62,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 5.2 - Pacific-Antarctic Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.5262,
+          -57.9547,
+          10
+        ]
+      },
+      "id": "us6000uc01"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6,
+        "place": "Pacific-Antarctic Ridge",
+        "time": 1795029263203,
+        "updated": 1795116191741,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz37",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tz37&format=geojson",
@@ -305,25 +785,25 @@
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 572,
+        "sig": 554,
         "net": "us",
         "code": "7000tz37",
         "ids": ",us7000tz37,",
         "sources": ",us,",
         "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 105,
-        "dmin": 23.288,
-        "rms": 0.81,
-        "gap": 86,
+        "nst": 144,
+        "dmin": 23.132,
+        "rms": 0.77,
+        "gap": 31,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 6.1 - Pacific-Antarctic Ridge"
+        "title": "M 6.0 - Pacific-Antarctic Ridge"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -146.746,
-          -57.7514,
+          -146.8744,
+          -57.5192,
           10
         ]
       },
@@ -333,9 +813,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "23 km SSW of Ollagüe, Chile",
-        "time": 1795027613317,
-        "updated": 1795029145040,
+        "place": "20 km SSW of Ollagüe, Chile",
+        "time": 1795027613085,
+        "updated": 1795112255040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz33",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tz33&format=geojson",
@@ -351,20 +831,20 @@
         "ids": ",us7000tz33,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 52,
-        "dmin": 0.899,
-        "rms": 1.01,
-        "gap": 58,
+        "nst": 53,
+        "dmin": 0.959,
+        "rms": 0.76,
+        "gap": 61,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 23 km SSW of Ollagüe, Chile"
+        "title": "M 4.5 - 20 km SSW of Ollagüe, Chile"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -68.368,
-          -21.411,
-          133.871
+          -68.2976,
+          -21.41,
+          129.419
         ]
       },
       "id": "us7000tz33"
@@ -372,10 +852,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5,
-        "place": "46 km NNE of Kilimatinde, Tanzania",
-        "time": 1795025280785,
-        "updated": 1795052741089,
+        "mag": 4.8,
+        "place": "46 km SE of Ikungi, Tanzania",
+        "time": 1795025281097,
+        "updated": 1795110206596,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz2w",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tz2w&format=geojson",
@@ -385,25 +865,25 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 386,
+        "sig": 355,
         "net": "us",
         "code": "7000tz2w",
         "ids": ",us7000tz2w,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
         "nst": 105,
-        "dmin": 4.251,
-        "rms": 0.81,
-        "gap": 31,
-        "magType": "mb",
+        "dmin": 4.234,
+        "rms": 0.89,
+        "gap": 28,
+        "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.0 - 46 km NNE of Kilimatinde, Tanzania"
+        "title": "M 4.8 - 46 km SE of Ikungi, Tanzania"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.1065,
-          -5.4599,
+          35.082,
+          -5.4134,
           10
         ]
       },
@@ -413,37 +893,37 @@
       "type": "Feature",
       "properties": {
         "mag": 5.3,
-        "place": "4 km NNW of Tsunagi, Japan",
-        "time": 1795022543454,
-        "updated": 1795042214416,
+        "place": "7 km N of Tsunagi, Japan",
+        "time": 1795022543552,
+        "updated": 1795112104210,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz1n",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tz1n&format=geojson",
-        "felt": 5,
-        "cdi": 3.1,
+        "felt": 8,
+        "cdi": 5,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 434,
+        "sig": 436,
         "net": "us",
         "code": "7000tz1n",
         "ids": ",us7000tz1n,",
         "sources": ",us,",
         "types": ",dyfi,moment-tensor,origin,phase-data,",
-        "nst": 148,
-        "dmin": 0.766,
-        "rms": 0.56,
+        "nst": 157,
+        "dmin": 0.796,
+        "rms": 0.6,
         "gap": 74,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.3 - 4 km NNW of Tsunagi, Japan"
+        "title": "M 5.3 - 7 km N of Tsunagi, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          130.4609,
-          32.2779,
+          130.4701,
+          32.3069,
           10
         ]
       },
@@ -455,12 +935,12 @@
         "mag": 5.3,
         "place": "149 km SSW of Merizo Village, Guam",
         "time": 1795018011220,
-        "updated": 1795061820891,
+        "updated": 1795105014564,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz1a",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tz1a&format=geojson",
-        "felt": null,
-        "cdi": null,
+        "felt": 0,
+        "cdi": 1,
         "mmi": null,
         "alert": null,
         "status": "reviewed",
@@ -470,7 +950,7 @@
         "code": "7000tz1a",
         "ids": ",us7000tz1a,",
         "sources": ",us,",
-        "types": ",event-sequence,oaf,origin,phase-data,",
+        "types": ",dyfi,event-sequence,oaf,origin,phase-data,",
         "nst": 111,
         "dmin": 3.579,
         "rms": 0.65,
@@ -575,7 +1055,7 @@
         "mag": 5.9,
         "place": "85 km WNW of San Juan, Peru",
         "time": 1794982062780,
-        "updated": 1795068717523,
+        "updated": 1795068963133,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyy8",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tyy8&format=geojson",
@@ -855,7 +1335,7 @@
         "mag": 5.8,
         "place": "150 km SW of Merizo Village, Guam",
         "time": 1794968576671,
-        "updated": 1795055585521,
+        "updated": 1795141982544,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tywi",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tywi&format=geojson",
@@ -893,9 +1373,9 @@
       "type": "Feature",
       "properties": {
         "mag": 5.3,
-        "place": "16 km ESE of Comandău, Romania",
-        "time": 1794962936089,
-        "updated": 1795043038357,
+        "place": "17 km ESE of Comandău, Romania",
+        "time": 1794962936305,
+        "updated": 1795136758594,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyw8",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tyw8&format=geojson",
@@ -910,21 +1390,21 @@
         "code": "7000tyw8",
         "ids": ",us7000tyw8,",
         "sources": ",us,",
-        "types": ",dyfi,moment-tensor,origin,phase-data,",
+        "types": ",dyfi,impact-text,moment-tensor,origin,phase-data,",
         "nst": 96,
-        "dmin": 2.14,
-        "rms": 0.61,
+        "dmin": 2.144,
+        "rms": 0.58,
         "gap": 39,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.3 - 16 km ESE of Comandău, Romania"
+        "title": "M 5.3 - 17 km ESE of Comandău, Romania"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.452,
-          45.6863,
-          130.266
+          26.4521,
+          45.6816,
+          132.362
         ]
       },
       "id": "us7000tyw8"
@@ -1573,15 +2053,15 @@
       "type": "Feature",
       "properties": {
         "mag": 6.6,
-        "place": "148 km WSW of Tual, Indonesia",
-        "time": 1794863480376,
-        "updated": 1794962274689,
+        "place": "149 km WSW of Tual, Indonesia",
+        "time": 1794863480488,
+        "updated": 1795135509997,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tymu",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tymu&format=geojson",
         "felt": 10,
         "cdi": 3.4,
-        "mmi": 5.288,
+        "mmi": 5.171,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -1590,20 +2070,20 @@
         "code": "7000tymu",
         "ids": ",us7000tymu,usauto7000tymu,attom5iv,",
         "sources": ",us,usauto,at,",
-        "types": ",dyfi,ground-failure,internal-moment-tensor,internal-origin,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "types": ",dyfi,ground-failure,impact-text,internal-moment-tensor,internal-origin,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 133,
-        "dmin": 6.749,
-        "rms": 0.63,
+        "dmin": 6.788,
+        "rms": 0.64,
         "gap": 21,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 6.6 - 148 km WSW of Tual, Indonesia"
+        "title": "M 6.6 - 149 km WSW of Tual, Indonesia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          131.4868,
-          -6.0602,
+          131.4593,
+          -6.0208,
           68
         ]
       },
@@ -4295,7 +4775,7 @@
         "mag": 4.5,
         "place": "off the coast of Oregon",
         "time": 1794471448440,
-        "updated": 1794990462576,
+        "updated": 1795076851705,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txrk",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000txrk&format=geojson",
@@ -4493,9 +4973,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "116 km E of Georgetown, Saint Helena",
-        "time": 1794434622425,
-        "updated": 1794446688040,
+        "place": "97 km E of Georgetown, Saint Helena",
+        "time": 1794434621753,
+        "updated": 1795131376040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txpa",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000txpa&format=geojson",
@@ -4511,19 +4991,19 @@
         "ids": ",us7000txpa,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 47,
-        "dmin": 16.85,
-        "rms": 0.9,
-        "gap": 50,
+        "nst": 62,
+        "dmin": 0.824,
+        "rms": 0.73,
+        "gap": 45,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 116 km E of Georgetown, Saint Helena"
+        "title": "M 4.9 - 97 km E of Georgetown, Saint Helena"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -13.3536,
-          -7.9928,
+          -13.5344,
+          -8.0337,
           10
         ]
       },
@@ -5213,9 +5693,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.5,
-        "place": "16 km SSE of Gaoyou, China",
-        "time": 1794348910243,
-        "updated": 1794445499040,
+        "place": "20 km SE of Gaoyou, China",
+        "time": 1794348910031,
+        "updated": 1795129707040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txf9",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000txf9&format=geojson",
@@ -5231,19 +5711,19 @@
         "ids": ",us7000txf9,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 39,
-        "dmin": 7.463,
-        "rms": 0.29,
-        "gap": 104,
+        "nst": 48,
+        "dmin": 7.439,
+        "rms": 0.49,
+        "gap": 78,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 16 km SSE of Gaoyou, China"
+        "title": "M 4.5 - 20 km SE of Gaoyou, China"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          119.5153,
-          32.6589,
+          119.5624,
+          32.639,
           10
         ]
       },
@@ -5252,10 +5732,10 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.5,
-        "place": "61 km ENE of Blangpidie, Indonesia",
-        "time": 1794348547218,
-        "updated": 1794654668117,
+        "mag": 4.6,
+        "place": "63 km ENE of Blangpidie, Indonesia",
+        "time": 1794348546672,
+        "updated": 1795129507495,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txf8",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000txf8&format=geojson",
@@ -5265,29 +5745,69 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 312,
+        "sig": 326,
         "net": "us",
         "code": "7000txf8",
         "ids": ",us7000txf8,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 39,
-        "dmin": 3.551,
-        "rms": 0.7,
+        "nst": 46,
+        "dmin": 2.05,
+        "rms": 0.65,
         "gap": 66,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.5 - 61 km ENE of Blangpidie, Indonesia"
+        "title": "M 4.6 - 63 km ENE of Blangpidie, Indonesia"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          97.359,
-          3.9179,
+          97.3387,
+          4.0067,
           10
         ]
       },
       "id": "us7000txf8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
+        "place": "south of the Kermadec Islands",
+        "time": 1794346708014,
+        "updated": 1795128072040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz2n",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tz2n&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000tz2n",
+        "ids": ",us7000tz2n,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 5.112,
+        "rms": 0.82,
+        "gap": 149,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - south of the Kermadec Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.4211,
+          -33.193,
+          10
+        ]
+      },
+      "id": "us7000tz2n"
     },
     {
       "type": "Feature",
@@ -8372,10 +8892,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "34 km SSW of Masjed Soleymān, Iran",
+        "time": 1793905141960,
+        "updated": 1795104336040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twb9",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000twb9&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000twb9",
+        "ids": ",us7000twb9,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 57,
+        "dmin": 4.419,
+        "rms": 0.59,
+        "gap": 67,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 34 km SSW of Masjed Soleymān, Iran"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.196,
+          31.6395,
+          10
+        ]
+      },
+      "id": "us7000twb9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.6,
-        "place": "36 km E of Watari, Japan",
-        "time": 1793901943367,
-        "updated": 1793964413398,
+        "place": "46 km ENE of Sōma, Japan",
+        "time": 1793901943170,
+        "updated": 1795102663129,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twaq",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000twaq&format=geojson",
@@ -8391,20 +8951,20 @@
         "ids": ",us7000twaq,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 99,
-        "dmin": 2.796,
-        "rms": 0.68,
+        "nst": 104,
+        "dmin": 2.835,
+        "rms": 0.84,
         "gap": 91,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.6 - 36 km E of Watari, Japan"
+        "title": "M 4.6 - 46 km ENE of Sōma, Japan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.2636,
-          37.9934,
-          87.44
+          141.4153,
+          37.9642,
+          85.796
         ]
       },
       "id": "us7000twaq"
@@ -8494,8 +9054,8 @@
       "properties": {
         "mag": 6.1,
         "place": "Fiji region",
-        "time": 1793899305362,
-        "updated": 1795026951022,
+        "time": 1793899305397,
+        "updated": 1795120735533,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw8r",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tw8r&format=geojson",
@@ -8512,8 +9072,8 @@
         "sources": ",us,usauto,",
         "types": ",dyfi,ground-failure,internal-moment-tensor,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 160,
-        "dmin": 4.614,
-        "rms": 0.63,
+        "dmin": 4.59,
+        "rms": 0.68,
         "gap": 33,
         "magType": "mww",
         "type": "earthquake",
@@ -8522,8 +9082,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -178.6713,
-          -21.1889,
+          -178.6552,
+          -21.1407,
           535
         ]
       },
@@ -9255,7 +9815,7 @@
         "mag": 4.8869503562808,
         "place": "9 km N of Delta, B.C., MX",
         "time": 1793730451190,
-        "updated": 1794940660941,
+        "updated": 1795113455686,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41572064",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41572064&format=geojson",
@@ -10452,86 +11012,6 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 4.5,
-        "place": "64 km SE of Yilan, Taiwan",
-        "time": 1793586188566,
-        "updated": 1793610107735,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tutf",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tutf&format=geojson",
-        "felt": 0,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000tutf",
-        "ids": ",us7000tutf,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 46,
-        "dmin": 0.552,
-        "rms": 0.62,
-        "gap": 84,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 64 km SE of Yilan, Taiwan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          122.1775,
-          24.322,
-          55.087
-        ]
-      },
-      "id": "us7000tutf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "288 km SSE of Muroto-misakicho, Japan",
-        "time": 1793584495186,
-        "updated": 1793585553040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuta",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tuta&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "7000tuta",
-        "ids": ",us7000tuta,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 80,
-        "dmin": 3.092,
-        "rms": 0.66,
-        "gap": 84,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 288 km SSE of Muroto-misakicho, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.1987,
-          30.8406,
-          510.072
-        ]
-      },
-      "id": "us7000tuta"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mag": 4.6,
         "place": "207 km NW of Port-Olry, Vanuatu",
         "time": 1793582693403,
@@ -10574,8 +11054,8 @@
       "properties": {
         "mag": 5.1,
         "place": "Kermadec Islands region",
-        "time": 1793582296369,
-        "updated": 1793583368040,
+        "time": 1793582296433,
+        "updated": 1795152638040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tut4",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tut4&format=geojson",
@@ -10591,10 +11071,10 @@
         "ids": ",us7000tut4,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 1.981,
-        "rms": 1.15,
-        "gap": 130,
+        "nst": 27,
+        "dmin": 2.008,
+        "rms": 1.07,
+        "gap": 181,
         "magType": "mb",
         "type": "earthquake",
         "title": "M 5.1 - Kermadec Islands region"
@@ -10602,8 +11082,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -177.7236,
-          -31.2244,
+          -177.7768,
+          -31.2558,
           10
         ]
       },
@@ -11573,9 +12053,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "199 km NW of Port-Olry, Vanuatu",
-        "time": 1793491075354,
-        "updated": 1793492226040,
+        "place": "197 km NW of Port-Olry, Vanuatu",
+        "time": 1793491075250,
+        "updated": 1795151531040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tule",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tule&format=geojson",
@@ -11591,19 +12071,19 @@
         "ids": ",us7000tule,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 33,
-        "dmin": 6.768,
-        "rms": 0.71,
-        "gap": 110,
+        "nst": 36,
+        "dmin": 6.766,
+        "rms": 0.86,
+        "gap": 59,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.8 - 199 km NW of Port-Olry, Vanuatu"
+        "title": "M 4.8 - 197 km NW of Port-Olry, Vanuatu"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          165.6627,
-          -13.8748,
+          165.6803,
+          -13.8793,
           10
         ]
       },
@@ -13773,9 +14253,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.9,
-        "place": "117 km E of Port-Olry, Vanuatu",
-        "time": 1793235456802,
-        "updated": 1793236391040,
+        "place": "119 km E of Port-Olry, Vanuatu",
+        "time": 1793235456699,
+        "updated": 1795136732040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttvn",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000ttvn&format=geojson",
@@ -13791,19 +14271,19 @@
         "ids": ",us7000ttvn,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 6.622,
+        "nst": 35,
+        "dmin": 6.643,
         "rms": 0.74,
         "gap": 109,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.9 - 117 km E of Port-Olry, Vanuatu"
+        "title": "M 4.9 - 119 km E of Port-Olry, Vanuatu"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          168.1637,
-          -15.0234,
+          168.1824,
+          -15.0076,
           10
         ]
       },
@@ -13813,15 +14293,15 @@
       "type": "Feature",
       "properties": {
         "mag": 5.4,
-        "place": "109 km ENE of Luganville, Vanuatu",
-        "time": 1793232500933,
-        "updated": 1793319367470,
+        "place": "118 km ENE of Luganville, Vanuatu",
+        "time": 1793232500270,
+        "updated": 1795131861334,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttvf",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000ttvf&format=geojson",
         "felt": 1,
         "cdi": 4.6,
-        "mmi": 6.302,
+        "mmi": 6.553,
         "alert": "green",
         "status": "reviewed",
         "tsunami": 0,
@@ -13831,19 +14311,19 @@
         "ids": ",us7000ttvf,",
         "sources": ",us,",
         "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 45,
-        "dmin": 6.507,
-        "rms": 1.07,
-        "gap": 56,
+        "nst": 69,
+        "dmin": 6.558,
+        "rms": 1.09,
+        "gap": 102,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.4 - 109 km ENE of Luganville, Vanuatu"
+        "title": "M 5.4 - 118 km ENE of Luganville, Vanuatu"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          168.0994,
-          -15.1213,
+          168.1757,
+          -15.1067,
           10
         ]
       },
@@ -14372,10 +14852,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "South Sandwich Islands region",
+        "time": 1793191839915,
+        "updated": 1795094606040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twkf",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000twkf&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000twkf",
+        "ids": ",us7000twkf,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 16,
+        "dmin": 5.881,
+        "rms": 0.48,
+        "gap": 125,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - South Sandwich Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -26.5424,
+          -55.5928,
+          10
+        ]
+      },
+      "id": "us7000twkf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5,
         "place": "Reykjanes Ridge",
-        "time": 1793191628927,
-        "updated": 1793192532040,
+        "time": 1793191628722,
+        "updated": 1795090071040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttnz",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000ttnz&format=geojson",
@@ -14391,10 +14911,10 @@
         "ids": ",us7000ttnz,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 87,
-        "dmin": 7.248,
-        "rms": 0.87,
-        "gap": 89,
+        "nst": 168,
+        "dmin": 7.306,
+        "rms": 0.54,
+        "gap": 49,
         "magType": "mb",
         "type": "earthquake",
         "title": "M 5.0 - Reykjanes Ridge"
@@ -14402,8 +14922,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -32.3348,
-          58.2153,
+          -32.1579,
+          58.2619,
           10
         ]
       },
@@ -14494,8 +15014,8 @@
       "properties": {
         "mag": 5,
         "place": "Reykjanes Ridge",
-        "time": 1793188577454,
-        "updated": 1793189647040,
+        "time": 1793188577152,
+        "updated": 1795090980040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttnk",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000ttnk&format=geojson",
@@ -14511,10 +15031,10 @@
         "ids": ",us7000ttnk,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 54,
-        "dmin": 7.223,
-        "rms": 0.51,
-        "gap": 94,
+        "nst": 86,
+        "dmin": 7.213,
+        "rms": 0.35,
+        "gap": 39,
         "magType": "mb",
         "type": "earthquake",
         "title": "M 5.0 - Reykjanes Ridge"
@@ -14522,8 +15042,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -32.2398,
-          58.3556,
+          -32.3069,
+          58.3131,
           10
         ]
       },
@@ -14532,10 +15052,90 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "Reykjanes Ridge",
+        "time": 1793188364532,
+        "updated": 1795095691040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twk1",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000twk1&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000twk1",
+        "ids": ",us7000twk1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 26,
+        "dmin": 8.185,
+        "rms": 0.5,
+        "gap": 129,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Reykjanes Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -32.0074,
+          58.3512,
+          10
+        ]
+      },
+      "id": "us7000twk1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "Reykjanes Ridge",
+        "time": 1793187660782,
+        "updated": 1795095119040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twk0",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000twk0&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000twk0",
+        "ids": ",us7000twk0,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 47,
+        "dmin": 8.419,
+        "rms": 0.51,
+        "gap": 109,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - Reykjanes Ridge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -32.2251,
+          58.1473,
+          10
+        ]
+      },
+      "id": "us7000twk0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.5,
         "place": "Reykjanes Ridge",
-        "time": 1793187469980,
-        "updated": 1793274145159,
+        "time": 1793187469920,
+        "updated": 1795093402487,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttnc",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000ttnc&format=geojson",
@@ -14551,10 +15151,10 @@
         "ids": ",us7000ttnc,attnm8b7,",
         "sources": ",us,at,",
         "types": ",dyfi,internal-origin,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 111,
+        "nst": 260,
         "dmin": 7.39,
-        "rms": 0.57,
-        "gap": 31,
+        "rms": 0.42,
+        "gap": 18,
         "magType": "mww",
         "type": "earthquake",
         "title": "M 5.5 - Reykjanes Ridge"
@@ -14562,8 +15162,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -32.1508,
-          58.1005,
+          -32.1673,
+          58.0843,
           10
         ]
       },
@@ -15773,9 +16373,9 @@
       "type": "Feature",
       "properties": {
         "mag": 5.2,
-        "place": "191 km NW of Port-Olry, Vanuatu",
-        "time": 1793098235418,
-        "updated": 1793099351040,
+        "place": "198 km NW of Port-Olry, Vanuatu",
+        "time": 1793098235195,
+        "updated": 1795095481040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttfk",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000ttfk&format=geojson",
@@ -15791,19 +16391,19 @@
         "ids": ",us7000ttfk,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 51,
-        "dmin": 6.636,
-        "rms": 0.79,
-        "gap": 98,
+        "nst": 107,
+        "dmin": 6.712,
+        "rms": 0.41,
+        "gap": 31,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.2 - 191 km NW of Port-Olry, Vanuatu"
+        "title": "M 5.2 - 198 km NW of Port-Olry, Vanuatu"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          165.6479,
-          -14.0067,
+          165.6348,
+          -13.9257,
           10
         ]
       },
@@ -15812,10 +16412,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.6,
+        "place": "236 km W of Sola, Vanuatu",
+        "time": 1793095709534,
+        "updated": 1795106203040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw9g",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tw9g&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000tw9g",
+        "ids": ",us7000tw9g,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 25,
+        "dmin": 6.755,
+        "rms": 0.44,
+        "gap": 156,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 236 km W of Sola, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          165.383,
+          -13.6236,
+          10
+        ]
+      },
+      "id": "us7000tw9g"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5,
-        "place": "184 km NW of Port-Olry, Vanuatu",
-        "time": 1793095591916,
-        "updated": 1793098239040,
+        "place": "178 km NW of Port-Olry, Vanuatu",
+        "time": 1793095591822,
+        "updated": 1795094228040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttfj",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000ttfj&format=geojson",
@@ -15831,19 +16471,19 @@
         "ids": ",us7000ttfj,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 6.725,
-        "rms": 0.75,
-        "gap": 113,
+        "nst": 49,
+        "dmin": 6.683,
+        "rms": 0.47,
+        "gap": 112,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - 184 km NW of Port-Olry, Vanuatu"
+        "title": "M 5.0 - 178 km NW of Port-Olry, Vanuatu"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          165.7876,
-          -13.9437,
+          165.8166,
+          -13.9928,
           10
         ]
       },
@@ -15852,10 +16492,130 @@
     {
       "type": "Feature",
       "properties": {
-        "mag": 5,
+        "mag": 4.7,
+        "place": "201 km NW of Port-Olry, Vanuatu",
+        "time": 1793094467874,
+        "updated": 1795104742040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw9e",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tw9e&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000tw9e",
+        "ids": ",us7000tw9e,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 39,
+        "dmin": 6.708,
+        "rms": 0.62,
+        "gap": 113,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 201 km NW of Port-Olry, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          165.5934,
+          -13.9223,
+          10
+        ]
+      },
+      "id": "us7000tw9e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.6,
         "place": "206 km NW of Port-Olry, Vanuatu",
-        "time": 1793092855730,
-        "updated": 1793093996040,
+        "time": 1793094013308,
+        "updated": 1795112083040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twae",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000twae&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 326,
+        "net": "us",
+        "code": "7000twae",
+        "ids": ",us7000twae,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 19,
+        "dmin": 6.7,
+        "rms": 0.58,
+        "gap": 147,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.6 - 206 km NW of Port-Olry, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          165.5439,
+          -13.9218,
+          10
+        ]
+      },
+      "id": "us7000twae"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "Mariana Islands region",
+        "time": 1793093245874,
+        "updated": 1795102421040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw9b",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tw9b&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000tw9b",
+        "ids": ",us7000tw9b,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 31,
+        "dmin": 12.79,
+        "rms": 0.62,
+        "gap": 101,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - Mariana Islands region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.8325,
+          20.4091,
+          10
+        ]
+      },
+      "id": "us7000tw9b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "208 km NW of Port-Olry, Vanuatu",
+        "time": 1793092854633,
+        "updated": 1795093837040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttfe",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000ttfe&format=geojson",
@@ -15865,25 +16625,25 @@
         "alert": null,
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 385,
+        "sig": 400,
         "net": "us",
         "code": "7000ttfe",
         "ids": ",us7000ttfe,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 48,
-        "dmin": 7.058,
-        "rms": 0.84,
-        "gap": 106,
+        "nst": 86,
+        "dmin": 6.777,
+        "rms": 0.47,
+        "gap": 54,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - 206 km NW of Port-Olry, Vanuatu"
+        "title": "M 5.1 - 208 km NW of Port-Olry, Vanuatu"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          165.5556,
-          -13.9006,
+          165.5806,
+          -13.8493,
           10
         ]
       },
@@ -15893,9 +16653,9 @@
       "type": "Feature",
       "properties": {
         "mag": 5,
-        "place": "95 km NNE of Hihifo, Tonga",
-        "time": 1793092065122,
-        "updated": 1793147750511,
+        "place": "86 km NNE of Hihifo, Tonga",
+        "time": 1793092065037,
+        "updated": 1795076987354,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttfc",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000ttfc&format=geojson",
@@ -15911,19 +16671,19 @@
         "ids": ",us7000ttfc,",
         "sources": ",us,",
         "types": ",dyfi,origin,phase-data,",
-        "nst": 40,
-        "dmin": 2.016,
-        "rms": 0.78,
+        "nst": 74,
+        "dmin": 2.092,
+        "rms": 0.55,
         "gap": 123,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 5.0 - 95 km NNE of Hihifo, Tonga"
+        "title": "M 5.0 - 86 km NNE of Hihifo, Tonga"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -173.4094,
-          -15.1739,
+          -173.4394,
+          -15.2566,
           10
         ]
       },
@@ -16928,6 +17688,46 @@
         ]
       },
       "id": "us6000u4yr"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "202 km NW of Port-Olry, Vanuatu",
+        "time": 1793004568654,
+        "updated": 1795092301040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw1n",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tw1n&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000tw1n",
+        "ids": ",us7000tw1n,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 24,
+        "dmin": 6.784,
+        "rms": 0.6,
+        "gap": 150,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 202 km NW of Port-Olry, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          165.6386,
+          -13.8534,
+          10
+        ]
+      },
+      "id": "us7000tw1n"
     },
     {
       "type": "Feature",
@@ -19533,9 +20333,9 @@
       "type": "Feature",
       "properties": {
         "mag": 4.8,
-        "place": "153 km NW of Port-Olry, Vanuatu",
-        "time": 1792860855523,
-        "updated": 1792862257040,
+        "place": "157 km NW of Port-Olry, Vanuatu",
+        "time": 1792860855404,
+        "updated": 1795126035040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4n8",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000u4n8&format=geojson",
@@ -19551,19 +20351,19 @@
         "ids": ",us6000u4n8,",
         "sources": ",us,",
         "types": ",moment-tensor,origin,phase-data,",
-        "nst": 65,
-        "dmin": 6.504,
-        "rms": 0.55,
+        "nst": 76,
+        "dmin": 6.508,
+        "rms": 0.54,
         "gap": 37,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 4.8 - 153 km NW of Port-Olry, Vanuatu"
+        "title": "M 4.8 - 157 km NW of Port-Olry, Vanuatu"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          165.9365,
-          -14.2056,
+          165.8988,
+          -14.1915,
           10
         ]
       },
@@ -19572,10 +20372,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "215 km WNW of Port-Olry, Vanuatu",
+        "time": 1792859286904,
+        "updated": 1795125052040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tv89",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tv89&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000tv89",
+        "ids": ",us7000tv89,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 33,
+        "dmin": 6.594,
+        "rms": 0.63,
+        "gap": 132,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 215 km WNW of Port-Olry, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          165.3761,
+          -14.0031,
+          10
+        ]
+      },
+      "id": "us7000tv89"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 4.7,
-        "place": "238 km WNW of Port-Olry, Vanuatu",
-        "time": 1792856747533,
-        "updated": 1792860411040,
+        "place": "235 km WNW of Port-Olry, Vanuatu",
+        "time": 1792856747135,
+        "updated": 1795120063040,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4my",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000u4my&format=geojson",
@@ -19591,19 +20431,19 @@
         "ids": ",us6000u4my,",
         "sources": ",us,",
         "types": ",origin,phase-data,",
-        "nst": 37,
-        "dmin": 6.627,
-        "rms": 0.9,
-        "gap": 113,
+        "nst": 41,
+        "dmin": 6.66,
+        "rms": 0.96,
+        "gap": 139,
         "magType": "mb",
         "type": "earthquake",
-        "title": "M 4.7 - 238 km WNW of Port-Olry, Vanuatu"
+        "title": "M 4.7 - 235 km WNW of Port-Olry, Vanuatu"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          165.1696,
-          -13.9412,
+          165.2244,
+          -13.9144,
           10
         ]
       },
@@ -19612,10 +20452,50 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.8,
+        "place": "Bouvet Island region",
+        "time": 1792855794783,
+        "updated": 1795118323040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tv84",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tv84&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 354,
+        "net": "us",
+        "code": "7000tv84",
+        "ids": ",us7000tv84,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 29,
+        "dmin": 23.709,
+        "rms": 0.64,
+        "gap": 56,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.8 - Bouvet Island region"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3523,
+          -54.0641,
+          10
+        ]
+      },
+      "id": "us7000tv84"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.9,
         "place": "Bouvet Island region",
-        "time": 1792855459358,
-        "updated": 1793208739227,
+        "time": 1792855459344,
+        "updated": 1795117595092,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4mn",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000u4mn&format=geojson",
@@ -19632,22 +20512,102 @@
         "sources": ",at,us,",
         "types": ",internal-origin,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": 179,
-        "dmin": 21.596,
-        "rms": 0.49,
+        "dmin": 21.622,
+        "rms": 0.54,
         "gap": 37,
-        "magType": "mwb",
+        "magType": "mww",
         "type": "earthquake",
         "title": "M 5.9 - Bouvet Island region"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.044,
-          -54.0337,
+          7.085,
+          -54.045,
           10
         ]
       },
       "id": "us6000u4mn"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.9,
+        "place": "168 km WNW of Port-Olry, Vanuatu",
+        "time": 1792855312725,
+        "updated": 1795113744040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tv82",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tv82&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 369,
+        "net": "us",
+        "code": "7000tv82",
+        "ids": ",us7000tv82,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 81,
+        "dmin": 6.337,
+        "rms": 0.8,
+        "gap": 106,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.9 - 168 km WNW of Port-Olry, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          165.6914,
+          -14.3217,
+          10
+        ]
+      },
+      "id": "us7000tv82"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.7,
+        "place": "226 km WNW of Port-Olry, Vanuatu",
+        "time": 1792855235715,
+        "updated": 1795109058040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tva2",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tva2&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 340,
+        "net": "us",
+        "code": "7000tva2",
+        "ids": ",us7000tva2,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 28,
+        "dmin": 6.517,
+        "rms": 0.75,
+        "gap": 114,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.7 - 226 km WNW of Port-Olry, Vanuatu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          165.2304,
+          -14.0599,
+          10
+        ]
+      },
+      "id": "us7000tva2"
     },
     {
       "type": "Feature",
@@ -22892,6 +23852,46 @@
     {
       "type": "Feature",
       "properties": {
+        "mag": 4.5,
+        "place": "49 km WNW of Malfa, Italy",
+        "time": 1792751150644,
+        "updated": 1795082838040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tua1",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tua1&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000tua1",
+        "ids": ",us7000tua1,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 57,
+        "dmin": 1.261,
+        "rms": 0.54,
+        "gap": 59,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 49 km WNW of Malfa, Italy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.303,
+          38.731,
+          10
+        ]
+      },
+      "id": "us7000tua1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mag": 5.7,
         "place": "62 km WNW of Leni, Italy",
         "time": 1792750756576,
@@ -22968,6 +23968,46 @@
         ]
       },
       "id": "us6000u4bg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.5,
+        "place": "92 km E of Aras-asan, Philippines",
+        "time": 1792747785117,
+        "updated": 1795085972040,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu9w",
+        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tu9w&format=geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 312,
+        "net": "us",
+        "code": "7000tu9w",
+        "ids": ",us7000tu9w,",
+        "sources": ",us,",
+        "types": ",origin,phase-data,",
+        "nst": 20,
+        "dmin": 2.428,
+        "rms": 0.46,
+        "gap": 141,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 4.5 - 92 km E of Aras-asan, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1525,
+          8.9449,
+          10
+        ]
+      },
+      "id": "us7000tu9w"
     },
     {
       "type": "Feature",
@@ -30735,7 +31775,7 @@
         "mag": 5.6,
         "place": "43 km NNW of Lake Minchumina, Alaska",
         "time": 1792062421800,
-        "updated": 1794482233407,
+        "updated": 1795087036271,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ukynnb",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=aka2026ukynnb&format=geojson",
@@ -39693,9 +40733,9 @@
       "type": "Feature",
       "properties": {
         "mag": 5.9,
-        "place": "west of Macquarie Island",
-        "time": 1791557382372,
-        "updated": 1792354934582,
+        "place": "Balleny Islands region",
+        "time": 1791557379525,
+        "updated": 1795125096354,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u164",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000u164&format=geojson",
@@ -39711,19 +40751,19 @@
         "ids": ",usauto6000u164,us6000u164,",
         "sources": ",usauto,us,",
         "types": ",internal-moment-tensor,losspager,moment-tensor,origin,phase-data,shakemap,",
-        "nst": 33,
-        "dmin": 16.217,
-        "rms": 1.14,
-        "gap": 76,
+        "nst": 39,
+        "dmin": 16.47,
+        "rms": 1.28,
+        "gap": 72,
         "magType": "mww",
         "type": "earthquake",
-        "title": "M 5.9 - west of Macquarie Island"
+        "title": "M 5.9 - Balleny Islands region"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          154.1387,
-          -60.8806,
+          154.4009,
+          -61.2792,
           10
         ]
       },
@@ -60055,7 +61095,7 @@
         "mag": 6.5,
         "place": "170 km W of Nikolski, Alaska",
         "time": 1789654792234,
-        "updated": 1794493805758,
+        "updated": 1795098601476,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti1p",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000ti1p&format=geojson",
@@ -65455,7 +66495,7 @@
         "mag": 5.1,
         "place": "163 km SW of Merizo Village, Guam",
         "time": 1789046895938,
-        "updated": 1794490709283,
+        "updated": 1795095503817,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgb6",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tgb6&format=geojson",
@@ -69935,7 +70975,7 @@
         "mag": 5.2,
         "place": "68 km SSW of Nikolski, Alaska",
         "time": 1788466945731,
-        "updated": 1794864188718,
+        "updated": 1795120355239,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgcm",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tgcm&format=geojson",
@@ -69975,7 +71015,7 @@
         "mag": 5.4,
         "place": "105 km SSW of Nikolski, Alaska",
         "time": 1788466874883,
-        "updated": 1794515485229,
+        "updated": 1795120277905,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te4b",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000te4b&format=geojson",
@@ -70615,7 +71655,7 @@
         "mag": 6.3,
         "place": "92 km SSW of Nikolski, Alaska",
         "time": 1788434241573,
-        "updated": 1794482852621,
+        "updated": 1795087654514,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdvt",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000tdvt&format=geojson",
@@ -99295,7 +100335,7 @@
         "mag": 4.9,
         "place": "126 km WSW of Port Orford, Oregon",
         "time": 1786010140859,
-        "updated": 1794477949787,
+        "updated": 1795082747789,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tij5",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000tij5&format=geojson",
@@ -113215,7 +114255,7 @@
         "mag": 5.1,
         "place": "93 km SSE of Adak, Alaska",
         "time": 1784854996130,
-        "updated": 1794532410121,
+        "updated": 1795137210147,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t2wx",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000t2wx&format=geojson",
@@ -113975,7 +115015,7 @@
         "mag": 5,
         "place": "38 km SSE of Spearman, Texas",
         "time": 1784802103909,
-        "updated": 1794479514211,
+        "updated": 1795084313948,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ojlaky",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026ojlaky&format=geojson",
@@ -123055,7 +124095,7 @@
         "mag": 5.2,
         "place": "122 km SE of McCarthy, Alaska",
         "time": 1784201841034,
-        "updated": 1794484043860,
+        "updated": 1795088848563,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026nyxoap",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=aka2026nyxoap&format=geojson",
@@ -146575,7 +147615,7 @@
         "mag": 5,
         "place": "212 km WSW of Adak, Alaska",
         "time": 1781791107164,
-        "updated": 1794492511609,
+        "updated": 1795097323548,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000subg",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000subg&format=geojson",
@@ -190135,7 +191175,7 @@
         "mag": 5,
         "place": "46 km N of Yigo Village, Guam",
         "time": 1776986552250,
-        "updated": 1794526362562,
+        "updated": 1795131162373,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ssgf",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000ssgf&format=geojson",
@@ -209935,7 +210975,7 @@
         "mag": 4.59,
         "place": "1 km SE of Boulder Creek, CA",
         "time": 1775119285520,
-        "updated": 1794473489003,
+        "updated": 1795078294506,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75337442",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75337442&format=geojson",
@@ -210255,7 +211295,7 @@
         "mag": 5.2,
         "place": "Pagan region, Northern Mariana Islands",
         "time": 1775110424700,
-        "updated": 1794464637483,
+        "updated": 1795069433711,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sly3",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sly3&format=geojson",
@@ -234095,7 +235135,7 @@
         "mag": 5.5,
         "place": "92 km S of Nikolski, Alaska",
         "time": 1772738707317,
-        "updated": 1794512113227,
+        "updated": 1795116912596,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s2bn",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000s2bn&format=geojson",
@@ -234295,7 +235335,7 @@
         "mag": 4.9,
         "place": "2026 Red River Parish, Louisiana Earthquake",
         "time": 1772710208102,
-        "updated": 1794483620175,
+        "updated": 1795088410318,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s27e",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000s27e&format=geojson",
@@ -239135,7 +240175,7 @@
         "mag": 5,
         "place": "89 km SSW of Atka, Alaska",
         "time": 1772169472119,
-        "updated": 1794547679602,
+        "updated": 1795152475683,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000s0nl",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000s0nl&format=geojson",
@@ -250495,7 +251535,7 @@
         "mag": 5.4,
         "place": "45 km NNW of Yigo Village, Guam",
         "time": 1770892215628,
-        "updated": 1794480026182,
+        "updated": 1795084829401,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000s8gh",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000s8gh&format=geojson",
@@ -254935,7 +255975,7 @@
         "mag": 4.68,
         "place": "107 km W of Petrolia, CA",
         "time": 1770295770330,
-        "updated": 1794488383220,
+        "updated": 1795093175568,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75308927",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75308927&format=geojson",
@@ -265255,7 +266295,7 @@
         "mag": 4.65,
         "place": "40 km S of Evanston, Wyoming",
         "time": 1769093360850,
-        "updated": 1794495564213,
+        "updated": 1795100374499,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80127891",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80127891&format=geojson",
@@ -271135,7 +272175,7 @@
         "mag": 6,
         "place": "off the coast of Oregon",
         "time": 1768533953034,
-        "updated": 1794540967103,
+        "updated": 1795145766353,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rq0d",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000rq0d&format=geojson",
@@ -271495,7 +272535,7 @@
         "mag": 5.9,
         "place": "280 km ESE of Attu Station, Alaska",
         "time": 1768467163219,
-        "updated": 1794474171862,
+        "updated": 1795078971878,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000rptl",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000rptl&format=geojson",
@@ -306495,7 +307535,7 @@
         "mag": 6,
         "place": "12 km WNW of Susitna, Alaska",
         "time": 1764263489059,
-        "updated": 1794504102372,
+        "updated": 1795108904087,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak2025xjbvhj",
         "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ak2025xjbvhj&format=geojson",
@@ -312008,886 +313048,6 @@
         ]
       },
       "id": "us6000rpaj"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "86 km NNW of Ternate, Indonesia",
-        "time": 1763612394661,
-        "updated": 1771603651040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rpa3",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rpa3&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": 3.688,
-        "alert": "green",
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000rpa3",
-        "ids": ",us6000rpa3,",
-        "sources": ",us,",
-        "types": ",losspager,origin,phase-data,shakemap,",
-        "nst": 70,
-        "dmin": 3.581,
-        "rms": 0.75,
-        "gap": 86,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - 86 km NNW of Ternate, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          127.1321,
-          1.5341,
-          132.062
-        ]
-      },
-      "id": "us6000rpa3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "54 km SSE of Champerico, Guatemala",
-        "time": 1763610278860,
-        "updated": 1771603651040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rpa2",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rpa2&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000rpa2",
-        "ids": ",us6000rpa2,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 54,
-        "dmin": 1.364,
-        "rms": 0.89,
-        "gap": 158,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 4.7 - 54 km SSE of Champerico, Guatemala"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -91.7786,
-          13.8189,
-          39.778
-        ]
-      },
-      "id": "us6000rpa2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "153 km E of Beauséjour, Guadeloupe",
-        "time": 1763607320690,
-        "updated": 1771603651040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rp9y",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rp9y&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000rp9y",
-        "ids": ",us6000rp9y,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 50,
-        "dmin": 1.36,
-        "rms": 0.76,
-        "gap": 150,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 153 km E of Beauséjour, Guadeloupe"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -59.6409,
-          16.3022,
-          10
-        ]
-      },
-      "id": "us6000rp9y"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5.1,
-        "place": "Kermadec Islands region",
-        "time": 1763600808241,
-        "updated": 1771603651040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rp9f",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rp9f&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 400,
-        "net": "us",
-        "code": "6000rp9f",
-        "ids": ",us6000rp9f,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 36,
-        "dmin": 6.486,
-        "rms": 0.87,
-        "gap": 93,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.1 - Kermadec Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.7869,
-          -31.52,
-          101.526
-        ]
-      },
-      "id": "us6000rp9f"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "184 km NNE of Palu, Indonesia",
-        "time": 1763597737122,
-        "updated": 1785428156357,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rp94",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rp94&format=geojson",
-        "felt": 1,
-        "cdi": 2,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 355,
-        "net": "us",
-        "code": "6000rp94",
-        "ids": ",us6000rp94,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 64,
-        "dmin": 0.543,
-        "rms": 0.47,
-        "gap": 96,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 184 km NNE of Palu, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          120.5447,
-          0.6186,
-          26.093
-        ]
-      },
-      "id": "us6000rp94"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.7,
-        "place": "63 km NE of Norsup, Vanuatu",
-        "time": 1763591955772,
-        "updated": 1771603651040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rp8s",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rp8s&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 340,
-        "net": "us",
-        "code": "6000rp8s",
-        "ids": ",us6000rp8s,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 40,
-        "dmin": 0.698,
-        "rms": 0.73,
-        "gap": 122,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.7 - 63 km NE of Norsup, Vanuatu"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          167.8704,
-          -15.7213,
-          197.755
-        ]
-      },
-      "id": "us6000rp8s"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "South Sandwich Islands region",
-        "time": 1763588723021,
-        "updated": 1771603651040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rp8k",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rp8k&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "6000rp8k",
-        "ids": ",us6000rp8k,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 74,
-        "dmin": 7.234,
-        "rms": 0.47,
-        "gap": 45,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 5.0 - South Sandwich Islands region"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -25.3104,
-          -57.9221,
-          46.851
-        ]
-      },
-      "id": "us6000rp8k"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "140 km WNW of Tobelo, Indonesia",
-        "time": 1763579167072,
-        "updated": 1771603650040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rp7g",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rp7g&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000rp7g",
-        "ids": ",us6000rp7g,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 55,
-        "dmin": 3.017,
-        "rms": 1.05,
-        "gap": 90,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - 140 km WNW of Tobelo, Indonesia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          126.7697,
-          1.9862,
-          35
-        ]
-      },
-      "id": "us6000rp7g"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "199 km WSW of Puerto, Chile",
-        "time": 1763577981332,
-        "updated": 1771603650040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rp79",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rp79&format=geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000rp79",
-        "ids": ",us6000rp79,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 36,
-        "dmin": 1.71,
-        "rms": 0.77,
-        "gap": 139,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 199 km WSW of Puerto, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.9799,
-          -20.7601,
-          10
-        ]
-      },
-      "id": "us6000rp79"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "87 km N of Turpan, China",
-        "time": 1763577939692,
-        "updated": 1771603650040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rp7a",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rp7a&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000rp7a",
-        "ids": ",us6000rp7a,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 58,
-        "dmin": 4.767,
-        "rms": 0.87,
-        "gap": 79,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 87 km N of Turpan, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          89.0912,
-          43.7287,
-          10
-        ]
-      },
-      "id": "us6000rp7a"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "75 km E of Suklayin, Philippines",
-        "time": 1763574237552,
-        "updated": 1771603656040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rssf",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rssf&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000rssf",
-        "ids": ",us6000rssf,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 38,
-        "dmin": 7.193,
-        "rms": 0.64,
-        "gap": 158,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 75 km E of Suklayin, Philippines"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          122.2526,
-          15.6726,
-          21.521
-        ]
-      },
-      "id": "us6000rssf"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "73 km SE of Katsuren-haebaru, Japan",
-        "time": 1763572624376,
-        "updated": 1771603656040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rsse",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rsse&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000rsse",
-        "ids": ",us6000rsse,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 21,
-        "dmin": 0.911,
-        "rms": 0.61,
-        "gap": 87,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 73 km SE of Katsuren-haebaru, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          128.4631,
-          25.9378,
-          10
-        ]
-      },
-      "id": "us6000rsse"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "southeast of the Loyalty Islands",
-        "time": 1763569378192,
-        "updated": 1771603650040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rp56",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rp56&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000rp56",
-        "ids": ",usauto6000rp56,us6000rp56,",
-        "sources": ",usauto,us,",
-        "types": ",internal-moment-tensor,origin,phase-data,",
-        "nst": 42,
-        "dmin": 3.767,
-        "rms": 0.69,
-        "gap": 132,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 4.9 - southeast of the Loyalty Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          171.5211,
-          -22.8019,
-          10
-        ]
-      },
-      "id": "us6000rp56"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "Kermadec Islands, New Zealand",
-        "time": 1763563229428,
-        "updated": 1771603650040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rp4q",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rp4q&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000rp4q",
-        "ids": ",us6000rp4q,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 7.916,
-        "rms": 0.76,
-        "gap": 135,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - Kermadec Islands, New Zealand"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -178.0292,
-          -30.2358,
-          90.423
-        ]
-      },
-      "id": "us6000rp4q"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.9,
-        "place": "164 km SE of Vilyuchinsk, Russia",
-        "time": 1763563196309,
-        "updated": 1771603650040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rp4n",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rp4n&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 369,
-        "net": "us",
-        "code": "6000rp4n",
-        "ids": ",us6000rp4n,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 212,
-        "dmin": 1.91,
-        "rms": 1.1,
-        "gap": 88,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.9 - 164 km SE of Vilyuchinsk, Russia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          160.0254,
-          51.8363,
-          27.55
-        ]
-      },
-      "id": "us6000rp4n"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "111 km NE of Alotau, Papua New Guinea",
-        "time": 1763560842568,
-        "updated": 1771603650040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rp4k",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rp4k&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000rp4k",
-        "ids": ",us6000rp4k,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 32,
-        "dmin": 4,
-        "rms": 0.42,
-        "gap": 106,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 111 km NE of Alotau, Papua New Guinea"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.2083,
-          -9.6292,
-          10
-        ]
-      },
-      "id": "us6000rp4k"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "25 km ENE of Hualien City, Taiwan",
-        "time": 1763555936216,
-        "updated": 1771603650040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rp4b",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rp4b&format=geojson",
-        "felt": 1,
-        "cdi": 2.7,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000rp4b",
-        "ids": ",us6000rp4b,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 31,
-        "dmin": 0.234,
-        "rms": 0.41,
-        "gap": 45,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 25 km ENE of Hualien City, Taiwan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.8314,
-          24.0837,
-          14.989
-        ]
-      },
-      "id": "us6000rp4b"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "26 km ENE of Hualien City, Taiwan",
-        "time": 1763555113395,
-        "updated": 1771603650040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rp49",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rp49&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 326,
-        "net": "us",
-        "code": "6000rp49",
-        "ids": ",us6000rp49,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 50,
-        "dmin": 0.259,
-        "rms": 0.4,
-        "gap": 51,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 26 km ENE of Hualien City, Taiwan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.8513,
-          24.0622,
-          13.298
-        ]
-      },
-      "id": "us6000rp49"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.8,
-        "place": "south of the Fiji Islands",
-        "time": 1763550417476,
-        "updated": 1771603650040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rp3z",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rp3z&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 354,
-        "net": "us",
-        "code": "6000rp3z",
-        "ids": ",us6000rp3z,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 29,
-        "dmin": 7.561,
-        "rms": 0.71,
-        "gap": 181,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.8 - south of the Fiji Islands"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -177.3339,
-          -23.988,
-          212.569
-        ]
-      },
-      "id": "us6000rp3z"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.5,
-        "place": "44 km NNE of Neiafu, Tonga",
-        "time": 1763542215905,
-        "updated": 1771603656040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rss3",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rss3&format=geojson",
-        "felt": null,
-        "cdi": null,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 312,
-        "net": "us",
-        "code": "6000rss3",
-        "ids": ",us6000rss3,",
-        "sources": ",us,",
-        "types": ",origin,phase-data,",
-        "nst": 22,
-        "dmin": 3.781,
-        "rms": 0.46,
-        "gap": 97,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.5 - 44 km NNE of Neiafu, Tonga"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -173.8274,
-          -18.278,
-          169.964
-        ]
-      },
-      "id": "us6000rss3"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 4.6,
-        "place": "3 km NW of Rancho Viejo, Mexico",
-        "time": 1763539989788,
-        "updated": 1771603650040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rp3p",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rp3p&format=geojson",
-        "felt": 3,
-        "cdi": 3.4,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 327,
-        "net": "us",
-        "code": "6000rp3p",
-        "ids": ",us6000rp3p,",
-        "sources": ",us,",
-        "types": ",dyfi,origin,phase-data,",
-        "nst": 92,
-        "dmin": 0.655,
-        "rms": 1.31,
-        "gap": 138,
-        "magType": "mb",
-        "type": "earthquake",
-        "title": "M 4.6 - 3 km NW of Rancho Viejo, Mexico"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.9939,
-          16.3594,
-          32.37
-        ]
-      },
-      "id": "us6000rp3p"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mag": 5,
-        "place": "150 km WSW of Lebu, Chile",
-        "time": 1763534340968,
-        "updated": 1771603650040,
-        "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rp3h",
-        "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000rp3h&format=geojson",
-        "felt": 1,
-        "cdi": 1,
-        "mmi": null,
-        "alert": null,
-        "status": "reviewed",
-        "tsunami": 0,
-        "sig": 385,
-        "net": "us",
-        "code": "6000rp3h",
-        "ids": ",us6000rp3h,usauto6000rp3h,",
-        "sources": ",us,usauto,",
-        "types": ",dyfi,internal-moment-tensor,moment-tensor,origin,phase-data,",
-        "nst": 75,
-        "dmin": 2.439,
-        "rms": 1.06,
-        "gap": 101,
-        "magType": "mww",
-        "type": "earthquake",
-        "title": "M 5.0 - 150 km WSW of Lebu, Chile"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.3162,
-          -37.9342,
-          10
-        ]
-      },
-      "id": "us6000rp3h"
     }
   ],
   "bbox": [
